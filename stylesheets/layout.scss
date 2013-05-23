@@ -64,7 +64,7 @@ section.oven-mitt, nav.oven-mitt {
 
 .floater {
 	position: absolute;
-	left: 5px;
+	right: 5px;
 	bottom: 5px;
 	z-index: 4;
 	
@@ -332,6 +332,15 @@ nav {
 	/* $background: lighten($maroon, 25%); */
 	color: $black;
 	background: $background;
+	
+	#hcard-Austin-Pray {
+		font-size: 21px;
+		line-height: 30px;
+		text-align: center;
+		.street-address, .postal-code, .country-name {
+			display: none;
+		}
+	}
 
 }
 

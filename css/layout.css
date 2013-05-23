@@ -155,12 +155,12 @@ hr {
 
 /* #Links
 ================================================== */
-a, a:visited {
+a, a:visited, a:focus {
   color: #13241e;
   text-decoration: underline;
   outline: 0; }
 
-a:hover, a:focus {
+a:hover {
   color: #366756; }
 
 p a, p a:visited {
@@ -813,7 +813,7 @@ section.oven-mitt, nav.oven-mitt {
 ================================================== */
 .floater {
   position: absolute;
-  left: 5px;
+  right: 5px;
   bottom: 5px;
   z-index: 4; }
 
@@ -981,6 +981,12 @@ nav {
   background: #cdf6a7; }
   #contact li {
     text-align: center; }
+  #contact #hcard-Austin-Pray {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center; }
+    #contact #hcard-Austin-Pray .street-address, #contact #hcard-Austin-Pray .postal-code, #contact #hcard-Austin-Pray .country-name {
+      display: none; }
 
 #blog {
   background: #f8f5ef;

@@ -155,12 +155,12 @@ hr {
 
 /* #Links
 ================================================== */
-a, a:visited {
+a, a:visited, a:focus {
   color: #13241e;
   text-decoration: underline;
   outline: 0; }
 
-a:hover, a:focus {
+a:hover {
   color: #366756; }
 
 p a, p a:visited {

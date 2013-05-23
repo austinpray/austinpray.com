@@ -311,23 +311,25 @@
                 <section class="sixteen columns">
                     <figure class="picto header-icon">m</figure>
 
-                    <h1>Contact Me</h1>
-                </section>
-            </div>
-
-            <div class="row">
-                <section class="sixteen columns">
-                    <h2 class="remove-bottom">Austin Pray</h2>
-
-                    <h3>Web Developer</h3>
-
-                    <ul>
-                        <li>austin@austinpray.com</li>
-
-                        <li>(903) 345-5550</li>
-
-                        <li>Dallas, Texas</li>
-                    </ul>
+                    <h1>Contact</h1>
+                    <div id="hcard-Austin-Pray" class="vcard">
+						<a class="url fn" href="http://austinpray.com">Austin Pray</a>
+						<div class="org">Corelaunch</div>
+						<a class="email" href="mailto:austin@austinpray.com">austin@austinpray.com</a>
+						
+						<div class="tel">(903) 345-5550</div>
+						
+						<div class="adr">
+						<div class="street-address">P.O. Box 701571</div>
+						<span class="locality">Dallas</span>
+						,
+						<span class="region">TX</span>
+						<span class="postal-code">75370</span>
+						
+						<span class="country-name">US</span>
+						
+					</div>
+				</div>
                 </section>
             </div>
         </article>

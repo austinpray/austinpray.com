@@ -118,8 +118,8 @@ $navy: #172bae;
 
 /* #Links
 ================================================== */
-	a, a:visited { color: $black; text-decoration: underline; outline: 0; }
-	a:hover, a:focus { color: lighten($black,20%); }
+	a, a:visited,a:focus { color: $black; text-decoration: underline; outline: 0; }
+	a:hover  { color: lighten($black,20%); }
 	p a, p a:visited { line-height: inherit; }
 
 
