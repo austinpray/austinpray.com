@@ -295,12 +295,13 @@ nav {
 	
 	.flat-button, .flat-button:visited {
 		font-size:21px;
-		color:$background;
+		border-color: white;
 		text-decoration: none;
 		
 	}
 	.flat-button:hover, .flat-button:focus {
-		color: $black;
+		color: $background;
+		background: white;
 	}
 }
 
@@ -317,7 +318,6 @@ nav {
 	background: $background;
 	.flat-button, .flat-button:visited {
 		font-size:21px;
-		color:$background;
 		text-decoration: none;
 		
 	}
@@ -356,13 +356,14 @@ nav {
 	
 	.flat-button, .flat-button:visited {
 		font-size:21px;
-		color:$background;
+		
 		text-decoration: none;
-		background: $black;
+		
 		
 	}
 	.flat-button:hover, .flat-button:focus {
-		color: lighten($black, 20%);
+		color: $background;
+		background: $black;
 	}
 	
 	
@@ -370,9 +371,7 @@ nav {
 
 .flat-button {
 	margin: 5px;
-	background: white;
-	-webkit-border-radius: 2px;
-    border-radius: 2px;
+	background: transparent;
     display: inline-block;
     padding: 8px;
     font-size: 17px;
@@ -381,6 +380,10 @@ nav {
     font-family: 'Open Sans', sans-serif;
     color: $black;
     font-weight: bold;
+    border: golden-ratio(21px,  -3) solid $black;
+    @include transition (all 0.1s ease-in-out);
+    
+    
     .picto {
 		font-family: 'modern_pictograms_proregular';
 	}
