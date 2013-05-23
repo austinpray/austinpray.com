@@ -1,0 +1,534 @@
+
+
+@import "base";
+@import "skeleton";
+@import 'bourbon/bourbon';
+
+/* Site styles CuSt0m Pr0C0D3d by Austin Pray */
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+
+
+/* #Site Styles
+================================================== */
+
+
+
+html, body {
+	color: $black;
+	font-family: 'Gentium Book Basic', serif;
+	
+	
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+
+.parallax-item{position:absolute;z-index:5;top:40px;left:400px;}
+
+
+section.oven-mitt, nav.oven-mitt {
+		padding: (4*(1.618em)) 0;
+		article {
+		
+	}
+	p.lead {
+		
+	}
+}
+
+.group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+/* #Page Styles
+================================================== */
+
+.floater {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	z-index: 4;
+	
+}
+
+.fnote {
+	
+	a {
+		text-decoration: none;
+		color: $grey;
+		color: rgba(255, 255, 255, .4);
+	}
+	font-size: 16px;
+	line-height: 1;
+}
+
+$parallax-h: 800px;
+.parallax {
+	margin: 0;
+    height: $parallax-h;
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+}
+
+.pLax {
+	color: white;
+    position: relative;
+    width: 100% !important;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    .container {
+	    position: relative;
+		
+		z-index: 4;
+    }
+}
+
+
+#header {
+	
+
+	min-height: 450px;
+	
+	background-color: $green;
+	
+	
+	header {
+		position: relative;
+		
+		z-index: 4;
+		
+		color: $dgreen;
+		padding: (4*(1.618em)) 0;
+		text-align: center;
+		text-transform: uppercase;
+		h1 {
+			
+		}
+	}
+	
+	.parallax {
+	background: url('http://cdn.austinpray.com/static/img/header_bg.jpg') 50% 0 no-repeat fixed;
+	background-position-y: -300px;
+	
+
+	}
+	
+}
+
+
+.picto {
+	font-family: 'modern_pictograms_proregular';
+}
+.features {
+	text-align: center;
+	.cate {
+	text-align: center;
+	font-size: 92px; line-height: 96px;
+	}
+}
+
+.big-icon {
+	font-size: 100px;
+	text-align: center;
+	line-height: 1;
+}
+
+
+
+#about {
+	.big-icon {
+		color: $grey;
+	}
+	blockquote {
+		text-align: center;
+	}
+}
+
+/* start all things menu bar */
+$temp-height: 104px;
+.sticky-wrapper {
+	height: $temp-height !important;
+}
+
+nav {
+	$menu-height: $temp-height;
+	height: $menu-height;
+	background: white;
+	
+	#logo {
+		-webkit-transition: all .223s ease-in-out;
+		-moz-transition: 	all .223s ease-in-out;
+		-ms-transition: 	all .223s ease-in-out;
+		-o-transition: 		all .223s ease-in-out;
+		transition: 		all .223s ease-in-out;
+		opacity: 0;
+	    
+	    visibility: hidden;
+	    position: absolute;
+	    
+	    left:0;
+	    
+		line-height: $menu-height;
+		font-size: 21px;
+		font-weight: bold;
+		font-family: 'Open Sans', sans-serif;
+	    
+    }
+    
+    #menu-button {
+	    display: none;
+    }
+	
+	&.stuck {
+	    position: fixed;
+	    top:0;
+	    width: 100%;
+	    z-index: 10;
+	    #logo {
+		    opacity: 1;
+		    visibility: visible;
+		    margin-left: 10px;
+	    }
+	}
+
+	#nav-menu {
+		
+		z-index: 10;
+		margin-bottom: 0;
+		
+		/*text properties*/
+		text-align: center;
+		line-height: $menu-height;
+		font-size: 21px;
+		li {
+			display: inline-block;
+			a {
+				text-decoration: none;
+				margin-right: 1em;
+				&:hover {
+					text-decoration: underline;
+				}
+				
+			}
+			&:last-child {
+				a {
+					margin-right: 0;
+				}
+			}
+		}
+		
+	}
+	
+	
+
+	
+}
+
+
+
+
+
+/* end all things menu bar */
+
+#work-amsust, #skills, #contact, #blog {
+	
+	img {
+		max-width: 100%;
+	}	
+	h1,h3,h2 {
+		text-align: center;
+		a {text-decoration: none;}
+	}
+}
+		
+		
+		
+		
+		
+
+#work-amsust {
+	li { text-align: center;}
+	$background: darken($vblue,20%);
+	
+
+	background: $background;
+	color: white;
+ 
+		
+	
+	.deets {
+		text-align: center;
+		h4 {
+			text-align: center;
+		}
+		
+	}
+	.lead {
+		color: white;
+	}
+	
+	a, a:visited { color: white; outline: 0; }
+	a:hover, a:focus { color: $black; }
+	
+	.flat-button, .flat-button:visited {
+		font-size:21px;
+		color:$background;
+		text-decoration: none;
+		
+	}
+	.flat-button:hover, .flat-button:focus {
+		color: $black;
+	}
+}
+
+.header-icon {
+	text-align: center;
+	font-size: 150px;
+}
+
+#skills {
+	li { text-align: center;}
+	$background: complement(darken($vblue,20%)); 
+	/* $background: lighten($maroon, 25%); */
+	color: white;
+	background: $background;
+	.flat-button, .flat-button:visited {
+		font-size:21px;
+		color:$background;
+		text-decoration: none;
+		
+	}
+	.flat-button:hover, .flat-button:focus {
+		color: $black;
+	}
+}
+
+#contact {
+	li { text-align: center;}
+	$background: mix(adjust-hue(complement(darken($vblue,20%)), 60),$manilla,50%); 
+	/* $background: lighten($maroon, 25%); */
+	color: $black;
+	background: $background;
+
+}
+
+#blog {
+	$background:$manilla;
+	background: $background;
+	text-align: center;
+	.lead {
+		
+		font-style: italic;
+	}
+	
+	
+	.flat-button, .flat-button:visited {
+		font-size:21px;
+		color:$background;
+		text-decoration: none;
+		background: $black;
+		
+	}
+	.flat-button:hover, .flat-button:focus {
+		color: lighten($black, 20%);
+	}
+	
+	
+}
+
+.flat-button {
+	margin: 5px;
+	background: white;
+	-webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: $black;
+    font-weight: bold;
+    .picto {
+		font-family: 'modern_pictograms_proregular';
+	}
+}
+
+
+footer#foot {
+	padding: (2*(1.618em)) 0;
+	
+	background: $grey;
+	
+	.parallax {
+	background: url('http://cdn.austinpray.com/static/img/cat_bg.jpg') 50% 0 no-repeat fixed;
+	
+	
+
+	}
+	
+	
+		text-align: center;
+	
+	
+	.copyright {
+		text-align: center;
+		small {
+			
+		}
+	}
+	
+	a,  {
+		
+		&:visited, &:link {
+			color: white;
+		}
+		&:hover, &:active {
+			color: lighten($black, 20%);
+		}
+	}
+	
+}
+
+
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+		body {
+			
+		}
+		
+		#header {
+			
+			hgroup {
+				
+				padding: (6*(1.618em)) 0;
+			}
+			
+		}
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		$menu-height:64px;
+		.sticky-wrapper {
+			height: $menu-height !important;
+		}
+		
+		nav {
+			$menu-height: 64px;
+			height: $menu-height;
+			background: white;
+			#logo {
+				
+				
+				line-height: $menu-height;
+			}
+			#menu-button {
+				display: inline-block;
+				float: right;
+				font-size: ($menu-height - 6);
+				line-height: $menu-height;
+				margin-right: 10px;
+				/* text properties */
+				text-decoration: none;
+				
+			}
+			#nav-menu {
+				position: relative;
+				background: white;
+				display:none;
+				
+				padding-bottom: 0.618em;
+				
+				/* text properties */
+				text-align: center;
+				font-size: 21px;
+				
+				li {
+					display: block;
+					
+					margin-right: 0;
+					a {
+						display: block;
+						padding: 0.618em 0;
+						margin-right: 0;
+					}
+				
+				}
+				
+			}
+		}
+		
+		
+		#header {
+			background-size: auto 150%;
+			hgroup {
+				padding: (5*(1.618em)) 0;
+			}
+		}
+		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		#header {
+			
+			hgroup {
+				padding: (3*(1.618em)) 0;
+			}
+		}
+		
+	}
+/* #Font-Face
+================================================== */
+@font-face {
+    font-family: 'modern_pictograms_proregular';
+    src: url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot');
+    src: url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.woff') format('woff'),
+         url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+

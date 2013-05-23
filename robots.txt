@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /austinpray.com_05-22-2013
