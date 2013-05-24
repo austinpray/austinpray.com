@@ -25,12 +25,12 @@
     <link rel="apple-touch-icon" href="http://cdn.austinpray.com/static/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="http://cdn.austinpray.com/static/img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="http://cdn.austinpray.com/static/img/apple-touch-icon-114x114.png">
-    <link rel="shortcut icon" href="http://cdn.austinpray.com/static/img/favicon.ico">
-    <!--[if lt IE 9]>
+    <link rel="shortcut icon" href="http://cdn.austinpray.com/static/img/favicon.ico"><!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-	<!-- Async ga.js below 
+    <!-- Async ga.js below 
     ================================================== -->
+
     <script type="text/javascript">
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -81,12 +81,12 @@
     </section>
 
     <nav id="nav">
-    	<div class="group">
-	        <div id="logo">
-	            AUSTIN PRAY
-	        </div>
-	        <a href="#" id="menu-button" class="picto">&#201;</a>
-    	</div>
+        <div class="group">
+            <div id="logo">
+                AUSTIN PRAY
+            </div><a href="#" id="menu-button" class="picto">&#201;</a>
+        </div>
+
         <ul id="nav-menu">
             <li><a href="#work-amsust">Work</a></li>
 
@@ -255,8 +255,6 @@
 
                         <li>Windows</li>
 
-                        
-
                         <li>XCode</li>
 
                         <li>Adobe Photoshop CS6</li>
@@ -280,88 +278,81 @@
         </article>
     </section>
 
-	<section class="oven-mitt" id="blog">
+    <section class="oven-mitt" id="blog">
         <article class="container">
             <div class="row">
                 <section class="ten offset-by-three columns">
                     <figure class="picto header-icon">e</figure>
 
                     <h1>Blog</h1>
+
                     <blockquote>
-                    <p class="lead">
-	                	Written for powerusers and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development. 
-                	</p>
-                    </blockquote>
-                    <a href="http://austinpray.me" class="flat-button" target="_blank">visit blog</a>
+                        <p class="lead">Written for powerusers and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development.</p>
+                    </blockquote><a href="http://austinpray.me" class="flat-button" target="_blank">visit blog</a>
                 </section>
             </div>
 
             <div class="row">
-                <section class="sixteen columns">
-                	
-                
-                </section>
+                <section class="sixteen columns"></section>
             </div>
         </article>
     </section>
 
-	<section class="oven-mitt" id="contact">
+    <section class="oven-mitt" id="contact">
         <article class="container">
             <div class="row">
                 <section class="sixteen columns">
                     <figure class="picto header-icon">m</figure>
 
                     <h1>Contact</h1>
+
                     <div id="hcard-Austin-Pray" class="vcard">
-						<a class="url fn" href="http://austinpray.com">Austin Pray</a>
-						<div class="org">Corelaunch</div>
-						<a class="email" href="mailto:austin@austinpray.com">austin@austinpray.com</a>
-						
-						<div class="tel">(903) 345-5550</div>
-						
-						<div class="adr">
-						<div class="street-address">P.O. Box 701571</div>
-						<span class="locality">Dallas</span>
-						,
-						<span class="region">TX</span>
-						<span class="postal-code">75370</span>
-						
-						<span class="country-name">US</span>
-						
-					</div>
-				</div>
+                        <a class="url fn" href="http://austinpray.com">Austin Pray</a>
+
+                        <div class="org">
+                            Corelaunch
+                        </div><a class="email" href="mailto:austin@austinpray.com">austin@austinpray.com</a>
+
+                        <div class="tel">
+                            (903) 345-5550
+                        </div>
+
+                        <div class="adr">
+                            <div class="street-address">
+                                P.O. Box 701571
+                            </div><span class="locality">Dallas</span> , <span class="region">TX</span> <span class="postal-code">75370</span> <span class="country-name">US</span>
+                        </div>
+                    </div>
                 </section>
             </div>
         </article>
     </section>
 
-    
+    <footer id="foot" class="pLax">
+        <article class="container">
+            <div class="row large-t">
+                <h2 class="add-bottom">At Large</h2>
 
-	<footer id="foot" class="pLax">
+                <section class="four columns"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
 
-		<article class="container">
-			<div class="row large-t">
-				<h2 class="add-bottom">At Large</h2>
-				<section class="four columns"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
-				<section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</section>
-				<section class="four columns"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</section>
-				<section class="four columns"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
-				<section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section>
-				<section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">+</span> Google+</a></section>
-				https://plus.google.com/u/0/105718352546208908373/
-			</div>
-			<section class="row copyright">
-				<small>Copyright 2013 Corelaunch : (903) 345-5550</small>
-			</section>
-		</article>
+                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
+
+                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
+
+                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
+
+                <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section>
+
+                <section class="four columns"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
+            </div>
+
+            <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550</small></section>
+        </article>
 
         <div class="floater fnote picto">
             <a href="http://instagram.com/p/ZT9Zgbt_63/" target="_blank">&#65;</a>
         </div>
-
-        
-    </footer>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript">
+    </footer><script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript">
 </script><!-- if you want to read the unminified javascript sourcecode visit http://austinpray.com/js/script.js --><script src="js/script-ck.js" type="text/javascript">
 </script><!-- End Document
 ==================================================
