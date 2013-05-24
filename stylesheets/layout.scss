@@ -131,7 +131,11 @@ $parallax-h: 800px;
 	
 	.parallax {
 	background: url('http://cdn.austinpray.com/static/img/header_bg.jpg') 50% 0 no-repeat fixed;
+<<<<<<< HEAD
 	background-position: 50% -300px;
+=======
+	background-position:50% -300px;
+>>>>>>> develop
 	
 
 	}
@@ -533,6 +537,21 @@ footer#foot {
 	}
 /* #Font-Face
 ================================================== */
+
+@font-face {
+    font-family: 'modern_pictograms_proregular';
+    src: url('modernpictogramspro_2-webfont.eot');
+    src: url('modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('modernpictogramspro_2-webfont.woff') format('woff'),
+         url('modernpictogramspro_2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+
+
+/*cdn
 @font-face {
     font-family: 'modern_pictograms_proregular';
     src: url('../css/modernpictogramspro_2-webfont.eot');
@@ -543,4 +562,5 @@ footer#foot {
     font-style: normal;
     
 }
+*/
 
