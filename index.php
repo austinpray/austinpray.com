@@ -347,6 +347,8 @@
 				<section class="four columns"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</section>
 				<section class="four columns"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
 				<section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section>
+				<section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">+</span> Google+</a></section>
+				https://plus.google.com/u/0/105718352546208908373/
 			</div>
 			<section class="row copyright">
 				<small>Copyright 2013 Corelaunch : (903) 345-5550</small>
