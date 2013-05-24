@@ -10,4 +10,3 @@ my personal website and portfolio
 
 ###Minor:
 * fix bottom parallax image problem
-* fix mobile menu color on active
