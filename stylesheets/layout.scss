@@ -393,7 +393,7 @@ nav {
 footer#foot {
 	padding: (2*(1.618em)) 0;
 	
-	background: $grey;
+	background: tint($grey, 20%);
 	
 	.parallax {
 	background: url('http://cdn.austinpray.com/static/img/cat_bg.jpg') 50% 0 no-repeat fixed;

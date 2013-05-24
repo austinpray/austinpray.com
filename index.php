@@ -357,7 +357,7 @@
             <a href="http://instagram.com/p/ZT9Zgbt_63/" target="_blank">&#65;</a>
         </div>
 
-        <div class="parallax" data-velocity="-0.3" data-fit="0"></div>
+        
     </footer>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript">
 </script><!-- if you want to read the unminified javascript sourcecode visit http://austinpray.com/js/script.js --><script src="js/script-ck.js" type="text/javascript">
