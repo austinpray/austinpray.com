@@ -17,7 +17,7 @@
     <meta name="author" content="Austin Pray">
     <meta name="apple-mobile-web-app-capable" content="yes"><!-- Mobile Metas
   ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- SASS + Webfontz
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><!-- SASS + Webfontz
   ================================================== -->
     <link rel="stylesheet" href="css/layout.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300' rel='stylesheet' type='text/css'><!-- Favicons

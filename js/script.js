@@ -1,15 +1,15 @@
 //precompiler imports jQuery.scrolly.js, waypoints.min.js, & plugins.js
 
+
 /*
 https://coderwall.com/p/ahazha
 Jack Hsu slightly modified by Austin Pray
 */
-$.fn.redraw = function(){
-  $(this).each(function(){
-    return this.offsetHeight;
-  });
+$.fn.redraw = function() {
+	$(this).each(function() {
+		return this.offsetHeight;
+	});
 };
-
 /*
 Author: Austin Pray
 sMenu object creates jQuery for menu
@@ -35,11 +35,6 @@ function slideMenu(btn, mnu) {
 		menu.slideToggle(100).redraw();
 	};
 }
-
-
-
-
-
 $(document).ready(function() {
 	$('.parallax').scrolly({
 		bgParallax: true
@@ -60,6 +55,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('#details-for-nerds').slideToggle(100);
 	});
+	FastClick.attach(document.body);
 });
 $(window).smartresize(function() {
 	var w = $(window).width();

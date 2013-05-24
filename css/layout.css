@@ -856,7 +856,7 @@ section.oven-mitt, nav.oven-mitt {
     text-transform: uppercase; }
   #header .parallax {
     background: url("http://cdn.austinpray.com/static/img/header_bg.jpg") 50% 0 no-repeat fixed;
-    background-position-y: -300px; }
+    background-position: 50% -300px; }
 
 .picto {
   font-family: 'modern_pictograms_proregular'; }
@@ -1087,7 +1087,20 @@ footer#foot {
 ================================================== */
 @font-face {
   font-family: 'modern_pictograms_proregular';
-  src: url("http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot");
-  src: url("http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot?#iefix") format("embedded-opentype"), url("http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.woff") format("woff"), url("http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.ttf") format("truetype");
+  src: url("modernpictogramspro_2-webfont.eot");
+  src: url("modernpictogramspro_2-webfont.eot?#iefix") format("embedded-opentype"), url("modernpictogramspro_2-webfont.woff") format("woff"), url("modernpictogramspro_2-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
+/*cdn
+@font-face {
+    font-family: 'modern_pictograms_proregular';
+    src: url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot');
+    src: url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.woff') format('woff'),
+         url('http://cdn.austinpray.com/static/fonts/modernpictogramspro_2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+*/
