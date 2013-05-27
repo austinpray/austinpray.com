@@ -12,8 +12,8 @@
   ================================================== -->
     <meta charset="utf-8">
 
-    <title>Austin Pray - Web Developer in Dallas, Texas</title>
-    <meta name="description" content="">
+    <title>Austin Pray - Web Developer</title>
+    <meta name="description" content="Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.">
     <meta name="author" content="Austin Pray">
     <meta name="apple-mobile-web-app-capable" content="yes"><!-- Mobile Metas
   ================================================== -->
