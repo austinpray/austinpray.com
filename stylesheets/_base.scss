@@ -1,3 +1,5 @@
+@import 'bourbon/bourbon';
+
 /*
 * Skeleton V1.2
 * Copyright 2011, Dave Gamache
@@ -27,7 +29,6 @@
 /* #Variables/COlors
 ================================================== */
 
-/* $black: #00031C; */
 
 $green: #b7d4b5;
 $grey:	#85878d;
@@ -44,6 +45,16 @@ $black: #13241E;
 
 
 $navy: #172bae;
+
+
+$degree: 90;
+
+$amsust-section:	#3498db;
+$skills-section:	complement($amsust-section);
+$blog-section: 		$manilla;
+/* $contact-section:	#1abc9c; */
+$contact-section:	#1abc9c;
+$footer-section: 	#34495e;
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -121,6 +132,13 @@ $navy: #172bae;
 	a, a:visited,a:focus { color: $black; text-decoration: underline; outline: 0; }
 	a:hover  { color: lighten($black,20%); }
 	p a, p a:visited { line-height: inherit; }
+
+
+@mixin white-links {
+	a, a:visited,a:focus { color: white; }
+	a:hover  { color: shade(white,20%); }
+	
+}
 
 
 /* #Lists

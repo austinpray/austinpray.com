@@ -2,9 +2,9 @@
 
 @import "base";
 @import "skeleton";
-@import 'bourbon/bourbon';
 
-/* Site styles CuSt0m Pr0C0D3d by Austin Pray */
+
+/* Site styles Austin Pray */
 
 /* Table of Content
 ==================================================
@@ -59,8 +59,34 @@ section.oven-mitt, nav.oven-mitt {
 		  clear: both;
 		}
 
-/* #Page Styles
-================================================== */
+
+.flat-button {
+	margin: 5px;
+	background: transparent;
+    display: inline-block;
+    padding: 8px;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: $black;
+    font-weight: bold;
+    border: golden-ratio(21px,  -3) solid $black;
+    @include transition (all 0.1s ease-in-out);
+    
+    .picto {
+		font-family: 'modern_pictograms_proregular';
+	}
+}
+
+@mixin flat-button($color, $background) {
+	
+	border-color:$color;
+	&, &:visited,&:focus { color: $color; }
+	&:hover  { color: $background; background: $color; }
+
+}
+
 
 .floater {
 	position: absolute;
@@ -80,6 +106,15 @@ section.oven-mitt, nav.oven-mitt {
 	font-size: 16px;
 	line-height: 1;
 }
+
+.picto {
+	font-family: 'modern_pictograms_proregular' !important;
+}
+
+/* #Page Styles
+================================================== */
+
+
 
 $parallax-h: 800px;
 .parallax {
@@ -139,9 +174,7 @@ $parallax-h: 800px;
 }
 
 
-.picto {
-	font-family: 'modern_pictograms_proregular';
-}
+
 .features {
 	text-align: center;
 	.cate {
@@ -167,6 +200,7 @@ $parallax-h: 800px;
 	}
 }
 
+
 /* start all things menu bar */
 $temp-height: 104px;
 .sticky-wrapper {
@@ -177,6 +211,12 @@ nav {
 	$menu-height: $temp-height;
 	height: $menu-height;
 	background: white;
+	
+	.group {
+		max-width: 960px;
+		position: relative;
+		margin: 0 auto;
+	}
 	
 	#logo {
 		-webkit-transition: all .223s ease-in-out;
@@ -253,8 +293,12 @@ nav {
 
 /* end all things menu bar */
 
-#work-amsust, #skills, #contact, #blog {
-	
+/* begin all things main body sections */
+
+
+
+.color-block-section {
+	@include white-links;
 	img {
 		max-width: 100%;
 	}	
@@ -264,14 +308,18 @@ nav {
 	}
 }
 		
+.header-icon {
+	text-align: center;
+	font-size: 150px;
+}
 		
 		
-		
+/* work section american success stories */		
 		
 
 #work-amsust {
 	li { text-align: center;}
-	$background: darken($vblue,20%);
+	$background: $amsust-section;
 	
 
 	background: $background;
@@ -290,25 +338,14 @@ nav {
 		color: white;
 	}
 	
-	a, a:visited { color: white; outline: 0; }
-	a:hover, a:focus { color: $black; }
+
 	
-	.flat-button, .flat-button:visited {
-		font-size:21px;
-		border-color: white;
-		text-decoration: none;
-		
-	}
-	.flat-button:hover, .flat-button:focus {
-		color: $background;
-		background: white;
+	.flat-button {
+		@include flat-button(white, $background);
 	}
 }
 
-.header-icon {
-	text-align: center;
-	font-size: 150px;
-}
+/* skills section */
 
 #skills {
 	li { text-align: center;}
@@ -326,11 +363,13 @@ nav {
 	}
 }
 
+/* contact section */
+
 #contact {
 	li { text-align: center;}
-	$background: mix(adjust-hue(complement(darken($vblue,20%)), 60),$manilla,50%); 
+	$background: $contact-section; 
 	/* $background: lighten($maroon, 25%); */
-	color: $black;
+	color: white;
 	background: $background;
 	
 	#hcard-Austin-Pray {
@@ -341,11 +380,15 @@ nav {
 			display: none;
 		}
 	}
+	
+	
 
 }
 
+/* blog section */
+
 #blog {
-	$background:$manilla;
+	$background:$blog-section;
 	background: $background;
 	text-align: center;
 	.lead {
@@ -354,47 +397,25 @@ nav {
 	}
 	
 	
-	.flat-button, .flat-button:visited {
-		font-size:21px;
-		
-		text-decoration: none;
-		
-		
-	}
-	.flat-button:hover, .flat-button:focus {
-		color: $background;
-		background: $black;
+	.flat-button {
+		@include flat-button($black, $background);
 	}
 	
 	
 }
 
-.flat-button {
-	margin: 5px;
-	background: transparent;
-    display: inline-block;
-    padding: 8px;
-    font-size: 17px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    color: $black;
-    font-weight: bold;
-    border: golden-ratio(21px,  -3) solid $black;
-    @include transition (all 0.1s ease-in-out);
-    
-    
-    .picto {
-		font-family: 'modern_pictograms_proregular';
-	}
-}
+
+
+
 
 
 footer#foot {
 	padding: (2*(1.618em)) 0;
+	$background: $footer-section;
+	background: $background;
+	$text-color: white;
 	
-	background: tint($grey, 20%);
-	
+	color:$text-color;
 	.parallax {
 	background: url('http://cdn.austinpray.com/static/img/cat_bg.jpg') 50% 0 no-repeat fixed;
 	
@@ -413,16 +434,7 @@ footer#foot {
 		}
 	}
 	
-	a,  {
 		
-		&:visited, &:link {
-			color: white;
-		}
-		&:hover, &:active {
-			color: lighten($black, 20%);
-		}
-	}
-	
 }
 
 

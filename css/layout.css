@@ -21,7 +21,7 @@
 	#Misc */
 /* #Variables/COlors
 ================================================== */
-/* $black: #00031C; */
+/* $contact-section:	#1abc9c; */
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -133,7 +133,7 @@ blockquote, blockquote p {
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
-  border-left: 1px solid #dddddd; }
+  border-left: 1px solid #ddd; }
 
 blockquote cite {
   display: block;
@@ -147,7 +147,7 @@ blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
   color: #555; }
 
 hr {
-  border: solid #dddddd;
+  border: solid #ddd;
   border-width: 1px 0 0;
   clear: both;
   margin: 10px 0 30px;
@@ -233,11 +233,11 @@ input[type="button"] {
   /* Opera11.10+ */
   background: #eeeeee -ms-linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
   /* IE10+ */
-  background: #eeeeee linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+  background: #eeeeee linear, top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%;
   /* W3C */
-  border: 1px solid #aaaaaa;
-  border-top: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
+  border: 1px solid #aaa;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -271,18 +271,18 @@ input[type="button"]:hover {
   /* Opera11.10+ */
   background: #dddddd -ms-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
   /* IE10+ */
-  background: #dddddd linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  background: #dddddd linear, top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%;
   /* W3C */
-  border: 1px solid #888888;
-  border-top: 1px solid #aaaaaa;
-  border-left: 1px solid #aaaaaa; }
+  border: 1px solid #888;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa; }
 
 .button:active,
 button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  border: 1px solid #666666;
+  border: 1px solid #666;
   background: #ccc;
   /* Old browsers */
   background: #cccccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
@@ -295,7 +295,7 @@ input[type="button"]:active {
   /* Opera11.10+ */
   background: #cccccc -ms-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
   /* IE10+ */
-  background: #cccccc linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%);
+  background: #cccccc linear, top, rgba(255, 255, 255, 0.35) 0%, rgba(10, 10, 10, 0.4) 100%;
   /* W3C */ }
 
 .button.full-width,
@@ -327,7 +327,7 @@ input[type="password"],
 input[type="email"],
 textarea,
 select {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   padding: 6px 4px;
   outline: none;
   -moz-border-radius: 2px;
@@ -349,7 +349,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 1px solid #aaaaaa;
+  border: 1px solid #aaa;
   color: #444;
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -773,7 +773,7 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0; }
 
-/* Site styles CuSt0m Pr0C0D3d by Austin Pray */
+/* Site styles Austin Pray */
 /* Table of Content
 ==================================================
 	#Site Styles
@@ -784,10 +784,10 @@ or wrap each row of columns in a <div class="row"> */
 ================================================== */
 html, body {
   color: #13241e;
-  font-family: "Gentium Book Basic", serif; }
+  font-family: 'Gentium Book Basic', serif; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 h1 {
   font-weight: 700; }
@@ -809,8 +809,24 @@ section.oven-mitt, nav.oven-mitt {
   display: table;
   clear: both; }
 
-/* #Page Styles
-================================================== */
+.flat-button {
+  margin: 5px;
+  background: transparent;
+  display: inline-block;
+  padding: 8px;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #13241e;
+  font-weight: bold;
+  border: 4.95774px solid #13241e;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; }
+  .flat-button .picto {
+    font-family: 'modern_pictograms_proregular'; }
+
 .floater {
   position: absolute;
   right: 5px;
@@ -825,6 +841,11 @@ section.oven-mitt, nav.oven-mitt {
     color: #85878d;
     color: rgba(255, 255, 255, 0.4); }
 
+.picto {
+  font-family: 'modern_pictograms_proregular' !important; }
+
+/* #Page Styles
+================================================== */
 .parallax {
   margin: 0;
   height: 800px;
@@ -858,9 +879,6 @@ section.oven-mitt, nav.oven-mitt {
     background: url("http://cdn.austinpray.com/static/img/header_bg.jpg") 50% 0 no-repeat fixed;
     background-position: 50% -300px; }
 
-.picto {
-  font-family: 'modern_pictograms_proregular'; }
-
 .features {
   text-align: center; }
   .features .cate {
@@ -885,12 +903,16 @@ section.oven-mitt, nav.oven-mitt {
 nav {
   height: 104px;
   background: white; }
+  nav .group {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto; }
   nav #logo {
-    -webkit-transition: all 0.223s ease-in-out;
-    -moz-transition: all 0.223s ease-in-out;
-    -ms-transition: all 0.223s ease-in-out;
-    -o-transition: all 0.223s ease-in-out;
-    transition: all 0.223s ease-in-out;
+    -webkit-transition: all .223s ease-in-out;
+    -moz-transition: all .223s ease-in-out;
+    -ms-transition: all .223s ease-in-out;
+    -o-transition: all .223s ease-in-out;
+    transition: all .223s ease-in-out;
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -898,7 +920,7 @@ nav {
     line-height: 104px;
     font-size: 21px;
     font-weight: bold;
-    font-family: "Open Sans", sans-serif; }
+    font-family: 'Open Sans', sans-serif; }
   nav #menu-button {
     display: none; }
   nav.stuck {
@@ -928,15 +950,25 @@ nav {
         margin-right: 0; }
 
 /* end all things menu bar */
-#work-amsust img, #skills img, #contact img, #blog img {
+/* begin all things main body sections */
+.color-block-section a, .color-block-section a:visited, .color-block-section a:focus {
+  color: white; }
+.color-block-section a:hover {
+  color: #cccccc; }
+.color-block-section img {
   max-width: 100%; }
-#work-amsust h1, #work-amsust h3, #work-amsust h2, #skills h1, #skills h3, #skills h2, #contact h1, #contact h3, #contact h2, #blog h1, #blog h3, #blog h2 {
+.color-block-section h1, .color-block-section h3, .color-block-section h2 {
   text-align: center; }
-  #work-amsust h1 a, #work-amsust h3 a, #work-amsust h2 a, #skills h1 a, #skills h3 a, #skills h2 a, #contact h1 a, #contact h3 a, #contact h2 a, #blog h1 a, #blog h3 a, #blog h2 a {
+  .color-block-section h1 a, .color-block-section h3 a, .color-block-section h2 a {
     text-decoration: none; }
 
+.header-icon {
+  text-align: center;
+  font-size: 150px; }
+
+/* work section american success stories */
 #work-amsust {
-  background: #5fa3f7;
+  background: #3498db;
   color: white; }
   #work-amsust li {
     text-align: center; }
@@ -946,23 +978,15 @@ nav {
       text-align: center; }
   #work-amsust .lead {
     color: white; }
-  #work-amsust a, #work-amsust a:visited {
-    color: white;
-    outline: 0; }
-  #work-amsust a:hover, #work-amsust a:focus {
-    color: #13241e; }
-  #work-amsust .flat-button, #work-amsust .flat-button:visited {
-    font-size: 21px;
-    border-color: white;
-    text-decoration: none; }
-  #work-amsust .flat-button:hover, #work-amsust .flat-button:focus {
-    color: #5fa3f7;
-    background: white; }
+  #work-amsust .flat-button {
+    border-color: white; }
+    #work-amsust .flat-button, #work-amsust .flat-button:visited, #work-amsust .flat-button:focus {
+      color: white; }
+    #work-amsust .flat-button:hover {
+      color: #3498db;
+      background: white; }
 
-.header-icon {
-  text-align: center;
-  font-size: 150px; }
-
+/* skills section */
 #skills {
   /* $background: lighten($maroon, 25%); */
   color: white;
@@ -975,10 +999,11 @@ nav {
   #skills .flat-button:hover, #skills .flat-button:focus {
     color: #13241e; }
 
+/* contact section */
 #contact {
   /* $background: lighten($maroon, 25%); */
-  color: #13241e;
-  background: #cdf6a7; }
+  color: white;
+  background: #1abc9c; }
   #contact li {
     text-align: center; }
   #contact #hcard-Austin-Pray {
@@ -988,50 +1013,29 @@ nav {
     #contact #hcard-Austin-Pray .street-address, #contact #hcard-Austin-Pray .postal-code, #contact #hcard-Austin-Pray .country-name {
       display: none; }
 
+/* blog section */
 #blog {
   background: #f8f5ef;
   text-align: center; }
   #blog .lead {
     font-style: italic; }
-  #blog .flat-button, #blog .flat-button:visited {
-    font-size: 21px;
-    text-decoration: none; }
-  #blog .flat-button:hover, #blog .flat-button:focus {
-    color: #f8f5ef;
-    background: #13241e; }
-
-.flat-button {
-  margin: 5px;
-  background: transparent;
-  display: inline-block;
-  padding: 8px;
-  font-size: 17px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: "Open Sans", sans-serif;
-  color: #13241e;
-  font-weight: bold;
-  border: 4.95774px solid #13241e;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out; }
-  .flat-button .picto {
-    font-family: 'modern_pictograms_proregular'; }
+  #blog .flat-button {
+    border-color: #13241e; }
+    #blog .flat-button, #blog .flat-button:visited, #blog .flat-button:focus {
+      color: #13241e; }
+    #blog .flat-button:hover {
+      color: #f8f5ef;
+      background: #13241e; }
 
 footer#foot {
   padding: 3.236em 0;
-  background: #9d9fa3;
+  background: #34495e;
+  color: white;
   text-align: center; }
   footer#foot .parallax {
     background: url("http://cdn.austinpray.com/static/img/cat_bg.jpg") 50% 0 no-repeat fixed; }
   footer#foot .copyright {
     text-align: center; }
-  footer#foot a:visited, footer#foot a:link {
-    color: white; }
-  footer#foot a:hover, footer#foot a:active {
-    color: #366756; }
 
 /* #Media Queries
 ================================================== */

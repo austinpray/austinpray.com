@@ -12,7 +12,7 @@
   ================================================== -->
     <meta charset="utf-8">
 
-    <title>Austin Pray - Web Developer</title>
+    <title>Austin Pray - Web Developer in Dallas, Texas</title>
     <meta name="description" content="">
     <meta name="author" content="Austin Pray">
     <meta name="apple-mobile-web-app-capable" content="yes"><!-- Mobile Metas
@@ -48,7 +48,7 @@
     ================================================== -->
     <!-- dat semantic markup -->
 
-    <section id="header" class="pLax">
+    <section id="header" class="pLax color-block-section">
         <header>
             <img src="http://cdn.austinpray.com/static/img/profile.png" width="150" height="150" alt="picture of austin pray in dapper custom suiting">
 
@@ -64,7 +64,7 @@
         <div class="parallax" data-velocity="-0.3" data-fit="-300"></div>
     </section>
 
-    <section id="about" class="oven-mitt">
+    <section id="about" class="oven-mitt color-block-section">
         <div class="container">
             <!--
 <figure id="profile" class="two columns offset-by-four picto big-icon">
@@ -98,13 +98,13 @@
         </ul>
     </nav>
 
-    <section id="work-amsust" class="oven-mitt">
+    <section id="work-amsust" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row">
                 <section class="sixteen columns">
                     <figure class="add-bottom"><img src="http://cdn.austinpray.com/static/img/work-amsust.png" alt="work-amsust" style="width:100%; max-width:600px; display:block; margin:0 auto;"></figure>
 
-                    <h1 class="remove-bottom"><a href="http://americansuccessnetwork.com" target="_blank">American Success Stories</a></h1>
+                    <h1 class="remove-bottom">American Success Stories</h1>
 
                     <h2 class="add-bottom">Responsive Website &amp; Conversion Tracking</h2>
 
@@ -208,7 +208,7 @@
         </article>
     </section>
 
-    <section class="oven-mitt" id="skills">
+    <section id="skills" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row">
                 <section class="sixteen columns">
@@ -278,7 +278,7 @@
         </article>
     </section>
 
-    <section class="oven-mitt" id="blog">
+    <section id="blog" class="oven-mitt">
         <article class="container">
             <div class="row">
                 <section class="ten offset-by-three columns">
@@ -298,7 +298,7 @@
         </article>
     </section>
 
-    <section class="oven-mitt" id="contact">
+    <section id="contact" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row">
                 <section class="sixteen columns">
@@ -328,7 +328,7 @@
         </article>
     </section>
 
-    <footer id="foot" class="pLax">
+    <footer id="foot" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row large-t">
                 <h2 class="add-bottom">At Large</h2>
@@ -348,10 +348,6 @@
 
             <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550</small></section>
         </article>
-
-        <div class="floater fnote picto">
-            <a href="http://instagram.com/p/ZT9Zgbt_63/" target="_blank">&#65;</a>
-        </div>
     </footer><script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript">
 </script><!-- if you want to read the unminified javascript sourcecode visit http://austinpray.com/js/script.js --><script src="js/script-ck.js" type="text/javascript">
 </script><!-- End Document
