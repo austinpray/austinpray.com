@@ -124,7 +124,7 @@
                         <section class="omega one-third column">
                             <figure class="picto cate">6</figure>
 
-                            <p class="lead">tracks prospect engagement and sales leads generated from Google adwords and email marketing</p>
+                            <p class="lead">tracks prospect engagement and sales leads generated from Google Adwords and email marketing</p>
                         </section>
                     </div>
                 </section>
@@ -265,7 +265,7 @@
                     <h2>Know-how</h2>
 
                     <ul>
-                        <li>Responsive Webites</li>
+                        <li>Responsive Websites</li>
 
                         <li>Mobile Optimization</li>
 
@@ -287,7 +287,7 @@
                     <h1>Blog</h1>
 
                     <blockquote>
-                        <p class="lead">Written for powerusers and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development.</p>
+                        <p class="lead">Written for power users and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development.</p>
                     </blockquote><a href="http://austinpray.me" class="flat-button" target="_blank">visit blog</a>
                 </section>
             </div>
