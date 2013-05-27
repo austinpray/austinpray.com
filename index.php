@@ -13,7 +13,7 @@
     <meta charset="utf-8">
 
     <title>Austin Pray - Web Developer</title>
-    <meta name="description" content="Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.">
+    <meta name="description" content="responsive website enthusiast, javascript connoisseur">
     <meta name="author" content="Austin Pray">
     <meta name="apple-mobile-web-app-capable" content="yes"><!-- Mobile Metas
   ================================================== -->
@@ -66,13 +66,13 @@
 
     <section id="about" class="oven-mitt color-block-section">
         <div class="container">
-			<div class="row">
-	            <article class="ten columns offset-by-three">
-	                <blockquote>
-	                    <p class="lead">Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.</p>
-	                </blockquote>
-	            </article>
-			</div>
+            <div class="row">
+                <article class="ten columns offset-by-three">
+                    <blockquote>
+                        <p class="lead">Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.</p>
+                    </blockquote>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -98,11 +98,12 @@
         <article class="container">
             <div class="row">
                 <section class="sixteen columns">
+                    <h1>Work</h1>
                     <figure class="add-bottom"><img src="http://cdn.austinpray.com/static/img/work-amsust.png" alt="work-amsust" style="width:100%; max-width:600px; display:block; margin:0 auto;"></figure>
 
-                    <h1 class="remove-bottom">American Success Stories</h1>
-
-                    <h2 class="add-bottom">Responsive Website &amp; Conversion Tracking</h2>
+                    
+					<h2>American Success Stories</h2>
+                    <h3 class="add-bottom">Responsive Website &amp; Conversion Tracking</h3>
 
                     <div class="row features">
                         <section class="alpha one-third column">
@@ -215,6 +216,21 @@
             </div>
 
             <div class="row">
+            
+            	<section class="four columns">
+                    <h2>Know-how</h2>
+
+                    <ul>
+                        <li>Responsive Websites</li>
+
+                        <li>Mobile Optimization</li>
+
+                        <li>User Interface Engineering</li>
+
+                        <li>Wordpress</li>
+                    </ul>
+                </section>
+            
                 <section class="four columns">
                     <h2>Front End</h2>
 
@@ -257,19 +273,7 @@
                     </ul>
                 </section>
 
-                <section class="four columns">
-                    <h2>Know-how</h2>
-
-                    <ul>
-                        <li>Responsive Websites</li>
-
-                        <li>Mobile Optimization</li>
-
-                        <li>User Interface Engineering</li>
-
-                        <li>Wordpress</li>
-                    </ul>
-                </section>
+                
             </div>
         </article>
     </section>

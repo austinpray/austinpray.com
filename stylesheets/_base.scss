@@ -42,7 +42,7 @@ $maroon: #4C1B0C;
 
 $black: #13241E;
 
-
+$silver: #bdc3c7;
 
 $navy: #172bae;
 
@@ -136,7 +136,7 @@ $footer-section: 	#34495e;
 
 @mixin white-links {
 	a, a:visited,a:focus { color: white; }
-	a:hover  { color: shade(white,20%); }
+	a:hover  { color: $silver; }
 	
 }
 
