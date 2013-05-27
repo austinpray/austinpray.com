@@ -66,17 +66,13 @@
 
     <section id="about" class="oven-mitt color-block-section">
         <div class="container">
-            <!--
-<figure id="profile" class="two columns offset-by-four picto big-icon">
-                &#102;
-            </figure>
--->
-
-            <article class="ten columns offset-by-three">
-                <blockquote>
-                    <p class="lead">Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.</p>
-                </blockquote>
-            </article>
+			<div class="row">
+	            <article class="ten columns offset-by-three">
+	                <blockquote>
+	                    <p class="lead">Hello there, I'm Austin Pray. I'm a web developer based out of Dallas, Texas. My favorite thing to do is to take ideas and turn them into living, breathing user experiences.</p>
+	                </blockquote>
+	            </article>
+			</div>
         </div>
     </section>
 

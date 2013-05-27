@@ -158,7 +158,10 @@ hr {
 a, a:visited, a:focus {
   color: #13241e;
   text-decoration: underline;
-  outline: 0; }
+  outline: 0;
+  -webkit-transition: color 0.1s ease-in-out;
+  -moz-transition: color 0.1s ease-in-out;
+  transition: color 0.1s ease-in-out; }
 
 a:hover {
   color: #366756; }
@@ -908,11 +911,16 @@ nav {
     position: relative;
     margin: 0 auto; }
   nav #logo {
+    		/*
     -webkit-transition: all .223s ease-in-out;
-    -moz-transition: all .223s ease-in-out;
-    -ms-transition: all .223s ease-in-out;
-    -o-transition: all .223s ease-in-out;
-    transition: all .223s ease-in-out;
+    		-moz-transition: 	all .223s ease-in-out;
+    		-ms-transition: 	all .223s ease-in-out;
+    		-o-transition: 		all .223s ease-in-out;
+    		transition: 		all .223s ease-in-out;
+    */
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     opacity: 0;
     visibility: hidden;
     position: absolute;
