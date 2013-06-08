@@ -225,7 +225,7 @@
 
                         <li>Mobile Optimization</li>
 
-                        <li>User Interface Engineering</li>
+                        <li>Web Applications</li>
 
                         <li>Wordpress</li>
                     </ul>
