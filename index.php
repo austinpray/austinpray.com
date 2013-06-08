@@ -12,8 +12,8 @@
   ================================================== -->
     <meta charset="utf-8">
 
-    <title>Austin Pray - Web Developer</title>
-    <meta name="description" content="responsive website enthusiast, javascript connoisseur">
+    <title>Austin Pray - Web Developer in Dallas, Texas</title>
+    <meta name="description" content="Responsive website enthusiast, javascript developer, fluent in HTML & CSS, I build cutting-edge websites.">
     <meta name="author" content="Austin Pray">
     <meta name="apple-mobile-web-app-capable" content="yes"><!-- Mobile Metas
   ================================================== -->
@@ -288,7 +288,7 @@
 
                     <blockquote>
                         <p class="lead">Written for power users and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development.</p>
-                    </blockquote><a href="http://austinpray.me" class="flat-button" target="_blank">visit blog</a>
+                    </blockquote><a href="http://austinpray.com/blog" class="flat-button" target="_blank">visit blog</a>
                 </section>
             </div>
 
