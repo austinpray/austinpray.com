@@ -49,12 +49,12 @@
     <!-- dat semantic markup -->
 
     <section id="header" class="pLax color-block-section">
-        <header>
+        <header class="container">
             <img src="http://cdn.austinpray.com/static/img/profile_1.png" width="150" height="150" alt="picture of austin pray in dapper custom suiting">
 
-            <h1 class="remove-bottom">Austin Pray</h1>
+            <h1 class="remove-bottom" id="name">Austin Pray</h1>
 
-            <h3>Web Developer</h3>
+            <h3 id="title">Web Developer</h3>
         </header>
 
         
