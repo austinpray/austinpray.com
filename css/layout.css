@@ -156,7 +156,7 @@ hr {
 /* #Links
 ================================================== */
 a, a:visited, a:focus {
-  color: #13241e;
+  color: #1b1a19;
   text-decoration: underline;
   outline: 0;
   -webkit-transition: color 0.1s ease-in-out;
@@ -164,7 +164,7 @@ a, a:visited, a:focus {
   transition: color 0.1s ease-in-out; }
 
 a:hover {
-  color: #366756; }
+  color: #504d4a; }
 
 p a, p a:visited {
   line-height: inherit; }
@@ -786,7 +786,7 @@ or wrap each row of columns in a <div class="row"> */
 /* #Site Styles
 ================================================== */
 html, body {
-  color: #13241e;
+  color: #1b1a19;
   font-family: 'Gentium Book Basic', serif; }
 
 h1, h2, h3, h4, h5 {
@@ -821,9 +821,9 @@ section.oven-mitt, nav.oven-mitt {
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  color: #13241e;
+  color: #1b1a19;
   font-weight: bold;
-  border: 4.95774px solid #13241e;
+  border: 4.95774px solid #1b1a19;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out; }
@@ -870,16 +870,16 @@ section.oven-mitt, nav.oven-mitt {
 
 #header {
   min-height: 450px;
-  background-color: #b7d4b5; }
+  background-color: #1b1a19; }
   #header header {
     position: relative;
     z-index: 4;
-    color: #13241e;
+    color: white;
     padding: 6.472em 0;
     text-align: center;
     text-transform: uppercase; }
   #header .parallax {
-    background: url("http://cdn.austinpray.com/static/img/header_bg.jpg") 50% 0 no-repeat fixed;
+    background: url("http://cdn.austinpray.com/static/img/header_bg_2.jpg") 50% 0 no-repeat fixed;
     background-position: 50% -300px; }
 
 .features {
@@ -1005,7 +1005,7 @@ nav {
     font-size: 21px;
     text-decoration: none; }
   #skills .flat-button:hover, #skills .flat-button:focus {
-    color: #13241e; }
+    color: #1b1a19; }
 
 /* contact section */
 #contact {
@@ -1028,12 +1028,12 @@ nav {
   #blog .lead {
     font-style: italic; }
   #blog .flat-button {
-    border-color: #13241e; }
+    border-color: #1b1a19; }
     #blog .flat-button, #blog .flat-button:visited, #blog .flat-button:focus {
-      color: #13241e; }
+      color: #1b1a19; }
     #blog .flat-button:hover {
       color: #f8f5ef;
-      background: #13241e; }
+      background: #1b1a19; }
 
 footer#foot {
   padding: 3.236em 0;

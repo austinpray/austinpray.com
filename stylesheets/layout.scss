@@ -147,7 +147,7 @@ $parallax-h: 800px;
 
 	min-height: 450px;
 	
-	background-color: $green;
+	background-color: $black;
 	
 	
 	header {
@@ -155,7 +155,7 @@ $parallax-h: 800px;
 		
 		z-index: 4;
 		
-		color: $dgreen;
+		color: white;
 		padding: (4*(1.618em)) 0;
 		text-align: center;
 		text-transform: uppercase;
@@ -165,7 +165,7 @@ $parallax-h: 800px;
 	}
 	
 	.parallax {
-	background: url('http://cdn.austinpray.com/static/img/header_bg.jpg') 50% 0 no-repeat fixed;
+	background: url('http://cdn.austinpray.com/static/img/header_bg_2.jpg') 50% 0 no-repeat fixed;
 	background-position: 50% -300px;
 	
 

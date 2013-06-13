@@ -50,16 +50,14 @@
 
     <section id="header" class="pLax color-block-section">
         <header>
-            <img src="http://cdn.austinpray.com/static/img/profile.png" width="150" height="150" alt="picture of austin pray in dapper custom suiting">
+            <img src="http://cdn.austinpray.com/static/img/profile_1.png" width="150" height="150" alt="picture of austin pray in dapper custom suiting">
 
             <h1 class="remove-bottom">Austin Pray</h1>
 
             <h3>Web Developer</h3>
         </header>
 
-        <div class="floater fnote picto">
-            <a href="http://instagram.com/p/Nbu4QHt_8T/" target="_blank">&#65;</a>
-        </div>
+        
 
         <div class="parallax" data-velocity="-0.3" data-fit="-300"></div>
     </section>
