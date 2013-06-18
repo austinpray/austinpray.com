@@ -330,18 +330,19 @@
         <article class="container">
             <div class="row large-t">
                 <h2 class="add-bottom">At Large</h2>
+                <section class="four columns"><a href="http://www.linkedin.com/in/austinpray" target="_blank"><span class="picto">w</span> LinkedIn</a></section>
+                
+                <section class="four columns"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
+                
+                <section class="four columns"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
+                
+                <section class="four columns"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
 
                 <section class="four columns"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
 
                 <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
 
-                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
-
-                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"></a><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
-
-                <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section>
-
-                <section class="four columns"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
+                <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section> 
             </div>
 
             <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550</small></section>
