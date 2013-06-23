@@ -951,6 +951,7 @@ nav {
       display: inline-block; }
       nav #nav-menu li a {
         font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
         text-decoration: none;
         margin-right: 1em; }
         nav #nav-menu li a:hover {
