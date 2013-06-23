@@ -950,6 +950,7 @@ nav {
     nav #nav-menu li {
       display: inline-block; }
       nav #nav-menu li a {
+        font-family: 'Open Sans', sans-serif;
         text-decoration: none;
         margin-right: 1em; }
         nav #nav-menu li a:hover {

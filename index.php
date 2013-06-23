@@ -345,7 +345,7 @@
                 <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section> 
             </div>
 
-            <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550 : Made in the USA</small></section>
+            <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550 : Made&nbsp;in&nbsp;the&nbsp;USA</small></section>
         </article>
     </footer><script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript">
 </script><!-- if you want to read the unminified javascript sourcecode visit http://austinpray.com/js/script.js --><script src="js/script-ck.js" type="text/javascript">
