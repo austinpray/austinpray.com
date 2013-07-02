@@ -57,8 +57,6 @@
             <h3 id="title">Web Developer</h3>
         </header>
 
-        
-
         <div class="parallax" data-velocity="-0.3" data-fit="-300"></div>
     </section>
 
@@ -78,7 +76,7 @@
         <div class="group">
             <div id="logo">
                 AUSTIN PRAY
-            </div><a href="#" id="menu-button" class="picto">&#201;</a>
+            </div><a href="#navigation" id="menu-button" class="picto">&#201;</a>
         </div>
 
         <ul id="nav-menu">
@@ -97,10 +95,11 @@
             <div class="row">
                 <section class="sixteen columns">
                     <h1>Work</h1>
+
                     <figure class="add-bottom"><img src="http://cdn.austinpray.com/static/img/work-amsust.png" alt="work-amsust" style="width:100%; max-width:600px; display:block; margin:0 auto;"></figure>
 
-                    
-					<h2>American Success Stories</h2>
+                    <h2>American Success Stories</h2>
+
                     <h3 class="add-bottom">Responsive Website &amp; Conversion Tracking</h3>
 
                     <div class="row features">
@@ -214,13 +213,12 @@
             </div>
 
             <div class="row">
-            
-            	<section class="four columns">
+                <section class="four columns">
                     <h2>Know-how</h2>
 
                     <ul>
                         <li>Responsive Websites</li>
-                        
+
                         <li>Web Applications</li>
 
                         <li>UI/UX Design</li>
@@ -228,7 +226,7 @@
                         <li>Wordpress</li>
                     </ul>
                 </section>
-            
+
                 <section class="four columns">
                     <h2>Front End</h2>
 
@@ -270,8 +268,6 @@
                         <li>Adobe Photoshop CS6</li>
                     </ul>
                 </section>
-
-                
             </div>
         </article>
     </section>
@@ -329,24 +325,40 @@
     <footer id="foot" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row large-t">
-                <h2 class="add-bottom">At Large</h2>
-                <section class="four columns"><a href="http://www.linkedin.com/in/austinpray" target="_blank"><span class="picto">w</span> LinkedIn</a></section>
-                
-                <section class="four columns"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
-                
-                <section class="four columns"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
-                
-                <section class="four columns"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
+                <div id="navigation" class="four columns">
+                    <h2 class="add-bottom">Austin</h2>
+                    <ul>
+                        <li><a href="#work-amsust">Work</a></li>
 
-                <section class="four columns"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
+                        <li><a href="#skills">Skills</a></li>
 
-                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
+                        <li><a href="#blog">Blog</a></li>
 
-                <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section> 
-                
-                <section class="four columns"><a href="https://vimeo.com/austinpray" target="_blank"><span class="picto">P</span> Vimeo</a></section>
-                
-                
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="twelve columns at-large">
+                    <h2 class="add-bottom twelve columns alpha omega">Community Member</h2>
+
+                    <section class="four columns omega"><a href="http://www.linkedin.com/in/austinpray" target="_blank"><span class="picto">w</span> LinkedIn</a></section>
+                                                 
+                    <section class="four columns omega"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
+                                                 
+                    <section class="four columns omega"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
+                                                 
+                    <h2 class="add-bottom twelve columns alpha omega">On Social Media</h2>
+                    
+                    <section class="four columns omega"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
+                                                 
+                    <section class="four columns omega"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
+                                                 
+                    <section class="four columns omega"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
+                                                 
+                    <section class="four columns omega"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section>
+                                                 
+                    <section class="four columns omega"><a href="https://vimeo.com/austinpray" target="_blank"><span class="picto">P</span> Vimeo</a></section>
+                </div>                           
             </div>
 
             <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550 : Made&nbsp;in&nbsp;the&nbsp;USA</small></section>

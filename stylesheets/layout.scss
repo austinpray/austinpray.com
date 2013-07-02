@@ -1,8 +1,5 @@
-
-
 @import "base";
 @import "skeleton";
-
 
 /* Site styles Austin Pray */
 
@@ -13,61 +10,48 @@
 	#Media Queries
 	#Font-Face */
 
-
-
 /* #Site Styles
 ================================================== */
 
-
-
 html, body {
-	color: $black;
-	font-family: 'Gentium Book Basic', serif;
-	
-	
+    color: $black;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 h3 {
-	font-weight: 300;
+    font-weight: 300;
 }
-
 
 .parallax-item {
-	position:absolute;
-	z-index:5;
-	top:40px;
-	left:400px;
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    left: 400px;
 }
 
-
 section.oven-mitt, nav.oven-mitt {
-		padding: (4*(1.618em)) 0;
-		article {
-		
-	}
-	p.lead {
-		
-	}
+    padding: 4 * 1.618em 0;
+    article {}
+    p.lead {}
 }
 
 .group:after {
-		  content: "";
-		  display: table;
-		  clear: both;
-		}
-
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .flat-button {
-	margin: 5px;
-	background: transparent;
+    margin: 5px;
+    background: transparent;
     display: inline-block;
     padding: 8px;
     font-size: 21px;
@@ -76,493 +60,385 @@ section.oven-mitt, nav.oven-mitt {
     font-family: 'Open Sans', sans-serif;
     color: $black;
     font-weight: bold;
-    border: golden-ratio(21px,  -3) solid $black;
-    @include transition (all 0.1s ease-in-out);
-    
+    border: golden-ratio(21px, -3) solid $black;
+    @include transition(all 0.1s ease-in-out);
     .picto {
-		font-family: 'modern_pictograms_proregular';
-	}
+        font-family: 'modern_pictograms_proregular';
+    }
 }
 
 @mixin flat-button($color, $background) {
-	
-	border-color:$color;
-	&, &:visited,&:focus { color: $color; }
-	&:hover  { color: $background; background: $color; }
-
+    border-color: $color;
+    &, &:visited,&:focus {
+        color: $color;
+    }
+    &:hover {
+        color: $background;
+        background: $color;
+    }
 }
 
-
 .floater {
-	position: absolute;
-	right: 5px;
-	bottom: 5px;
-	z-index: 4;
-	
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 4;
 }
 
 .fnote {
-	
-	a {
-		text-decoration: none;
-		color: $grey;
-		color: rgba(255, 255, 255, .4);
-	}
-	font-size: 16px;
-	line-height: 1;
+    a {
+        text-decoration: none;
+        color: $grey;
+        color: rgba(255, 255, 255, 0.4);
+    }
+    font-size: 16px;
+    line-height: 1;
 }
 
 .picto {
-	font-family: 'modern_pictograms_proregular' !important;
+    font-family: 'modern_pictograms_proregular' !important;
 }
 
 /* #Page Styles
 ================================================== */
 
-
-
 $parallax-h: 800px;
+
 .parallax {
-	margin: 0;
+    margin: 0;
     height: $parallax-h;
-    position:absolute;
-    top:0;left:0;
-    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .pLax {
-	color: white;
+    color: white;
     position: relative;
     width: 100% !important;
-    
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
     .container {
-	    position: relative;
-		
-		z-index: 4;
+        position: relative;
+        z-index: 4;
     }
 }
 
-
 #header {
-	
-
-	min-height: 450px;
-	
-	background-color: $black;
-	
-	
-	header {
-		position: relative;
-		
-		z-index: 4;
-		
-		color: white;
-		padding: (4*(1.618em)) 0;
-		text-align: center;
-		text-transform: uppercase;
-		h1 {
-			
-		}
-	}
-	
-	.parallax {
-	background: url('http://cdn.austinpray.com/static/img/header_bg_2.jpg') 50% 0 no-repeat fixed;
-	background-position: 50% -300px;
-	
-
-	}
-	
+    min-height: 450px;
+    background-color: $black;
+    header {
+        position: relative;
+        z-index: 4;
+        color: white;
+        padding: 4 * 1.618em 0;
+        text-align: center;
+        text-transform: uppercase;
+        h1 {}
+    }
+    .parallax {
+        background: url("http://cdn.austinpray.com/static/img/header_bg_2.jpg") 50% 0 no-repeat fixed;
+        background-position: 50% -300px;
+    }
 }
 
-
-
 .features {
-	text-align: center;
-	.cate {
-	text-align: center;
-	font-size: 92px; line-height: 96px;
-	}
+    text-align: center;
+    .cate {
+        text-align: center;
+        font-size: 92px;
+        line-height: 96px;
+    }
 }
 
 .big-icon {
-	font-size: 100px;
-	text-align: center;
-	line-height: 1;
+    font-size: 100px;
+    text-align: center;
+    line-height: 1;
 }
-
-
 
 #about {
-	.big-icon {
-		color: $grey;
-	}
-	blockquote {
-		text-align: center;
-	}
+    .big-icon {
+        color: $grey;
+    }
+    blockquote {
+        text-align: center;
+    }
 }
-
 
 /* start all things menu bar */
 $temp-height: 104px;
+
 .sticky-wrapper {
-	height: $temp-height !important;
+    height: $temp-height !important;
 }
 
 nav {
-	$menu-height: $temp-height;
-	height: $menu-height;
-	background: white;
-	
-	.group {
-		max-width: 960px;
-		position: relative;
-		margin: 0 auto;
-	}
-	
-	#logo {
-		/*
--webkit-transition: all .223s ease-in-out;
-		-moz-transition: 	all .223s ease-in-out;
-		-ms-transition: 	all .223s ease-in-out;
-		-o-transition: 		all .223s ease-in-out;
-		transition: 		all .223s ease-in-out;
-*/
-		@include transition (all 0.1s ease-in-out);
-		opacity: 0;
-	    
-	    visibility: hidden;
-	    position: absolute;
-	    
-	    left:0;
-	    
-		line-height: $menu-height;
-		font-size: 21px;
-		font-weight: bold;
-		font-family: 'Open Sans', sans-serif;
-	    
+    $menu-height: $temp-height;
+    height: $menu-height;
+    background: white;
+    .group {
+        max-width: 960px;
+        position: relative;
+        margin: 0 auto;
     }
-    
+    #logo {
+        @include transition(all 0.1s ease-in-out);
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        left: 0;
+        line-height: $menu-height;
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+    }
     #menu-button {
-	    display: none;
+        display: none;
     }
-	
-	&.stuck {
-	    position: fixed;
-	    top:0;
-	    width: 100%;
-	    z-index: 10;
-	    #logo {
-		    opacity: 1;
-		    visibility: visible;
-		    margin-left: 10px;
-	    }
-	}
-
-	#nav-menu {
-		
-		z-index: 10;
-		margin-bottom: 0;
-		
-		/*text properties*/
-		text-align: center;
-		line-height: $menu-height;
-		font-size: 21px;
-		li {
-			display: inline-block;
-			a {
-				font-family: 'Open Sans', sans-serif;
-				font-weight: 300;
-				text-decoration: none;
-				margin-right: 1em;
-				&:hover {
-					text-decoration: underline;
-				}
-				
-			}
-			&:last-child {
-				a {
-					margin-right: 0;
-				}
-			}
-		}
-		
-	}
-	
-	
-
-	
+    &.stuck {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        #logo {
+            opacity: 1;
+            visibility: visible;
+            margin-left: 10px;
+        }
+    }
+    #nav-menu {
+        
+        z-index: 10;
+        margin-bottom: 0;
+        /*text properties*/
+        text-align: center;
+        line-height: $menu-height;
+        font-size: 21px;
+        li {
+            display: inline-block;
+            a {
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                text-decoration: none;
+                margin-right: 1em;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &:last-child {
+                a {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }
-
-
-
-
 
 /* end all things menu bar */
 
 /* begin all things main body sections */
 
-
-
 .color-block-section {
-	@include white-links;
-	img {
-		max-width: 100%;
-	}	
-	h1,h3,h2 {
-		text-align: center;
-		a {text-decoration: none;}
-	}
+    @include white-links;
+    img {
+        max-width: 100%;
+    }
+    h1,h3,h2 {
+        text-align: center;
+        a {
+            text-decoration: none;
+        }
+    }
 }
-		
+
 .header-icon {
-	text-align: center;
-	font-size: 150px;
+    text-align: center;
+    font-size: 150px;
 }
-		
-		
-/* work section american success stories */		
-		
+
+/* work section american success stories */
 
 #work-amsust {
-	li { text-align: center;}
-	$background: $amsust-section;
-	
-
-	background: $background;
-	color: white;
- 
-		
-	
-	.deets {
-		text-align: center;
-		h4 {
-			text-align: center;
-		}
-		
-	}
-	.lead {
-		color: white;
-	}
-	
-
-	
-	.flat-button {
-		@include flat-button(white, $background);
-	}
+    li {
+        text-align: center;
+    }
+    $background: $amsust-section;
+    background: $background;
+    color: white;
+    .deets {
+        text-align: center;
+        h4 {
+            text-align: center;
+        }
+    }
+    .lead {
+        color: white;
+    }
+    .flat-button {
+        @include flat-button(white, $background);
+    }
 }
 
 /* skills section */
 
 #skills {
-	li { text-align: center;}
-	$background: complement(darken($vblue,20%)); 
-	/* $background: lighten($maroon, 25%); */
-	color: white;
-	background: $background;
-	.flat-button, .flat-button:visited {
-		font-size:21px;
-		text-decoration: none;
-		
-	}
-	.flat-button:hover, .flat-button:focus {
-		color: $black;
-	}
+    li {
+        text-align: center;
+    }
+    $background: complement(darken($vblue, 20%));
+    /* $background: lighten($maroon, 25%); */
+    color: white;
+    background: $background;
+    .flat-button, .flat-button:visited {
+        font-size: 21px;
+        text-decoration: none;
+    }
+    .flat-button:hover, .flat-button:focus {
+        color: $black;
+    }
 }
 
 /* contact section */
 
 #contact {
-	li { text-align: center;}
-	$background: $contact-section; 
-	/* $background: lighten($maroon, 25%); */
-	color: white;
-	background: $background;
-	
-	#hcard-Austin-Pray {
-		font-size: 21px;
-		line-height: 30px;
-		text-align: center;
-		.street-address, .postal-code, .country-name {
-			display: none;
-		}
-	}
-	
-	
-
+    li {
+        text-align: center;
+    }
+    $background: $contact-section;
+    /* $background: lighten($maroon, 25%); */
+    color: white;
+    background: $background;
+    #hcard-Austin-Pray {
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        .street-address, .postal-code, .country-name {
+            display: none;
+        }
+    }
 }
 
 /* blog section */
 
 #blog {
-	$background:$blog-section;
-	background: $background;
-	text-align: center;
-	.lead {
-		
-		font-style: italic;
-	}
-	
-	
-	.flat-button {
-		@include flat-button($black, $background);
-	}
-	
-	
+    $background: $blog-section;
+    background: $background;
+    text-align: center;
+    .lead {
+        font-style: italic;
+    }
+    .flat-button {
+        @include flat-button($black, $background);
+    }
 }
-
-
-
-
-
 
 footer#foot {
-	padding: (2*(1.618em)) 0;
-	$background: $footer-section;
-	background: $background;
-	$text-color: white;
-	
-	color:$text-color;
-	.parallax {
-	background: url('http://cdn.austinpray.com/static/img/cat_bg.jpg') 50% 0 no-repeat fixed;
-	
-	
-
-	}
-	
-	
-		text-align: center;
-	
-	
-	.copyright {
-		text-align: center;
-		small {
-			
-		}
-	}
-	
-		
+    padding: 2 * 1.618em 0;
+    $background: $footer-section;
+    background: $background;
+    $text-color: white;
+    color: $text-color;
+    text-align: center;
+    
+    
 }
-
-
 
 /* #Media Queries
 ================================================== */
 
-	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {
-		
-		body {
-			
-		}
-		
-		#header {
-			
-			hgroup {
-				
-				padding: (6*(1.618em)) 0;
-			}
-			
-		}
-		
-	}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    #header {
+        hgroup {
+            padding: 6 * 1.618em 0;
+        }
+    }
+}
 
-	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		
-		
-	}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+}
 
-	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    $menu-height: 64px;
+    .sticky-wrapper {
+        height: $menu-height !important;
+    }
+    nav {
+        $menu-height: 64px;
+        height: $menu-height;
+        background: white;
+        #logo {
+            line-height: $menu-height;
+        }
+        #menu-button {
+            display: inline-block;
+            float: right;
+            font-size: $menu-height - 6;
+            line-height: $menu-height;
+            margin-right: 10px;
+            /* text properties */
+            text-decoration: none;
+        }
+        #nav-menu {
+        
+            max-height: 0em;
+            overflow: hidden;
+            position: relative;
+            background: white;
+            /* text properties */
+            text-align: center;
+            font-size: 21px;
+            @include transition(max-height 0.3s cubic-bezier(0.785, 0.135, 0.150, 0.860));
+            &.active {
+                max-height: 30em;
+                
+            }
+            li {
+                &:last-child {
+                    padding-bottom: 0.618em;
+                }
+                display: block;
+                margin-right: 0;
+                a {
+                    display: block;
+                    padding: 0.618em 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    #header {
+        background-size: auto 150%;
+        hgroup {
+            padding: 5 * 1.618em 0;
+        }
+    }
+}
 
-		$menu-height:64px;
-		.sticky-wrapper {
-			height: $menu-height !important;
-		}
-		
-		nav {
-			$menu-height: 64px;
-			height: $menu-height;
-			background: white;
-			#logo {
-				
-				
-				line-height: $menu-height;
-			}
-			#menu-button {
-				display: inline-block;
-				float: right;
-				font-size: ($menu-height - 6);
-				line-height: $menu-height;
-				margin-right: 10px;
-				/* text properties */
-				text-decoration: none;
-				
-			}
-			#nav-menu {
-				position: relative;
-				background: white;
-				display:none;
-				
-				padding-bottom: 0.618em;
-				
-				/* text properties */
-				text-align: center;
-				font-size: 21px;
-				
-				li {
-					display: block;
-					
-					margin-right: 0;
-					a {
-						display: block;
-						padding: 0.618em 0;
-						margin-right: 0;
-					}
-				
-				}
-				
-			}
-		}
-		
-		
-		#header {
-			background-size: auto 150%;
-			hgroup {
-				padding: (5*(1.618em)) 0;
-			}
-		}
-		
-	}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
-	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #header {
+        hgroup {
+            padding: 3 * 1.618em 0;
+        }
+    }
+}
 
-	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {
-		
-		#header {
-			
-			hgroup {
-				padding: (3*(1.618em)) 0;
-			}
-		}
-		
-	}
 /* #Font-Face
 ================================================== */
 @font-face {
     font-family: 'modern_pictograms_proregular';
-    src: url('modernpictogramspro_2-webfont.eot');
-    src: url('modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('modernpictogramspro_2-webfont.woff') format('woff'),
-         url('modernpictogramspro_2-webfont.ttf') format('truetype');
+    src: url("modernpictogramspro_2-webfont.eot");
+    src: url("modernpictogramspro_2-webfont.eot?#iefix") format("embedded-opentype"), url("modernpictogramspro_2-webfont.woff") format("woff"), url("modernpictogramspro_2-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-    
 }
-
