@@ -343,6 +343,10 @@
                 <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
 
                 <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section> 
+                
+                <section class="four columns"><a href="https://vimeo.com/austinpray" target="_blank"><span class="picto">P</span> Vimeo</a></section>
+                
+                
             </div>
 
             <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550 : Made&nbsp;in&nbsp;the&nbsp;USA</small></section>
