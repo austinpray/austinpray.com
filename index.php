@@ -372,7 +372,7 @@
                 <div class="four columns">
                     <h4 class="add-bottom">In General</h4>
 
-                    <p><small>I founded my own web development agency, Corelaunch. Most of the time I am <a href="#work">building websites</a>, <a href="https://github.com/austinpray/">writing software for the web</a>, or chasing the latest <a href="https://twitter.com/schwa/status/340685860821430272">buzzwords</a>. When I am not pushing pixels, I am studying computer science over at <a href="http://www.utdallas.edu/">The University of Texas at Dallas</a>.</small></p>
+                    <p><small>Most of the time I am <a href="#work">building websites</a>, <a href="https://github.com/austinpray/">writing software for the web</a>, or chasing the latest <a href="https://twitter.com/schwa/status/340685860821430272">buzzwords</a>. When I am not pushing pixels, I am studying computer science over at <a href="http://www.utdallas.edu/">The University of Texas at Dallas</a>.</small></p>
                 </div>
             </div>
 
