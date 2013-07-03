@@ -262,9 +262,6 @@ nav {
 /* work section american success stories */
 
 #work-amsust {
-    li {
-        text-align: center;
-    }
     $background: $amsust-section;
     background: $background;
     color: white;
@@ -285,8 +282,9 @@ nav {
 /* skills section */
 
 #skills {
-    li {
-        text-align: center;
+    text-align: left;
+    h2 {
+        text-align: left;
     }
     $background: complement(darken($vblue, 20%));
     /* $background: lighten($maroon, 25%); */
@@ -341,8 +339,10 @@ footer#foot {
     background: $background;
     $text-color: white;
     color: $text-color;
-    text-align: center;
-    
+    text-align: left;
+    .copyright {
+        text-align: center;
+    }
     
 }
 
