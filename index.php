@@ -57,8 +57,6 @@
             <h3 id="title">Web Developer</h3>
         </header>
 
-        
-
         <div class="parallax" data-velocity="-0.3" data-fit="-300"></div>
     </section>
 
@@ -78,7 +76,7 @@
         <div class="group">
             <div id="logo">
                 AUSTIN PRAY
-            </div><a href="#" id="menu-button" class="picto">&#201;</a>
+            </div><a href="#navigation" id="menu-button" class="picto">&#201;</a>
         </div>
 
         <ul id="nav-menu">
@@ -97,10 +95,11 @@
             <div class="row">
                 <section class="sixteen columns">
                     <h1>Work</h1>
+
                     <figure class="add-bottom"><img src="http://cdn.austinpray.com/static/img/work-amsust.png" alt="work-amsust" style="width:100%; max-width:600px; display:block; margin:0 auto;"></figure>
 
-                    
-					<h2>American Success Stories</h2>
+                    <h2>American Success Stories</h2>
+
                     <h3 class="add-bottom">Responsive Website &amp; Conversion Tracking</h3>
 
                     <div class="row features">
@@ -126,15 +125,15 @@
             </div>
 
             <div class="row">
-                <section class="deets"><a href="#" class="flat-button" id="details-for-nerds-show">details for nerds</a><a href="http://americansuccessnetwork.com" target="_blank" class="flat-button">visit live site</a></section>
+                <section class="deets"><a href="#" class="flat-button" id="details-for-nerds-show">details for nerds</a><a href="http://americansuccessnetwork.com" class="flat-button">visit live site</a></section>
             </div>
 
             <div class="row" id="details-for-nerds">
-                <h2 class="sixteen-columns add-bottom">Details For Nerds</h2>
+                <h3 class="sixteen-columns add-bottom">Details For Nerds</h3>
 
                 <section class="sixteen-columns clearfix">
                     <div class="alpha four columns">
-                        <h3>Standards</h3>
+                        <h4>Standards</h4>
 
                         <ul>
                             <li>HTML 5</li>
@@ -148,7 +147,7 @@
                     </div>
 
                     <div class="four columns">
-                        <h3>Tools</h3>
+                        <h4>Tools</h4>
 
                         <ul>
                             <li>jQuery 1.8.1</li>
@@ -166,7 +165,7 @@
                     </div>
 
                     <div class=" four columns">
-                        <h3>Software</h3>
+                        <h4>Software</h4>
 
                         <ul>
                             <li>Coda 2 + Transmit 4</li>
@@ -184,16 +183,16 @@
                     </div>
 
                     <div class="omega four columns">
-                        <h3>Notable Features</h3>
+                        <h4>Notable Features</h4>
 
                         <ul>
                             <li>mobile-first responsive, em based layout</li>
 
-                            <li><a href="http://americansuccessnetwork.com/intro/" target="_blank">custom full browser slideshow</a></li>
+                            <li><a href="http://americansuccessnetwork.com/intro/">custom full browser slideshow</a></li>
 
-                            <li><a href="https://github.com/austinpray/little-engine" target="_blank">custom PHP template engine</a></li>
+                            <li><a href="https://github.com/austinpray/little-engine">custom PHP template engine</a></li>
 
-                            <li><a href="http://americansuccessnetwork.com/contact.php" target="_blank">AJAX contact form</a></li>
+                            <li><a href="http://americansuccessnetwork.com/contact.php">AJAX contact form</a></li>
 
                             <li>81 YSlow score</li>
                         </ul>
@@ -214,13 +213,12 @@
             </div>
 
             <div class="row">
-            
-            	<section class="four columns">
+                <section class="four columns">
                     <h2>Know-how</h2>
 
                     <ul>
                         <li>Responsive Websites</li>
-                        
+
                         <li>Web Applications</li>
 
                         <li>UI/UX Design</li>
@@ -228,7 +226,7 @@
                         <li>Wordpress</li>
                     </ul>
                 </section>
-            
+
                 <section class="four columns">
                     <h2>Front End</h2>
 
@@ -270,8 +268,6 @@
                         <li>Adobe Photoshop CS6</li>
                     </ul>
                 </section>
-
-                
             </div>
         </article>
     </section>
@@ -286,7 +282,7 @@
 
                     <blockquote>
                         <p class="lead">Written for power users and fellow developers, my blog keeps track of clever things I figure out. I aim to document solutions to problems that crop up when living on the bleeding edge of web development.</p>
-                    </blockquote><a href="http://austinpray.com/blog" class="flat-button" target="_blank">visit blog</a>
+                    </blockquote><a href="http://austinpray.com/blog" class="flat-button">visit blog</a>
                 </section>
             </div>
 
@@ -329,20 +325,54 @@
     <footer id="foot" class="oven-mitt color-block-section">
         <article class="container">
             <div class="row large-t">
-                <h2 class="add-bottom">At Large</h2>
-                <section class="four columns"><a href="http://www.linkedin.com/in/austinpray" target="_blank"><span class="picto">w</span> LinkedIn</a></section>
-                
-                <section class="four columns"><a href="http://twitter.com/austinpray" target="_blank"><span class="picto">T</span> Twitter</a></section>
-                
-                <section class="four columns"><a href="https://plus.google.com/u/0/105718352546208908373/" target="_blank"><span class="picto">+</span> Google+</a></section>
-                
-                <section class="four columns"><a href="http://facebook.com/austinpray" target="_blank"><span class="picto">G</span> Facebook</a></section>
+                <div id="navigation" class="four columns">
+                    <h4 class="add-bottom">Austin Pray</h4>
 
-                <section class="four columns"><a href="https://github.com/austinpray/" target="_blank"><span class="picto">.</span> Github</a></section>
+                    <ul>
+                        <li><a href="#work-amsust">Work</a></li>
 
-                <section class="four columns"><a href="http://stackoverflow.com/users/1585343/austin-pray" target="_blank"><span class="picto">&#249;</span> Stack Overflow</a></section>
+                        <li><a href="#skills">Skills</a></li>
 
-                <section class="four columns"><a href="http://instagram.com/austinpray" target="_blank"><span class="picto">A</span> Instagram</a></section> 
+                        <li><a href="#blog">Blog</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="four columns">
+                    <h4 class="add-bottom">In The Community</h4>
+
+                    <ul>
+                        <li><a href="https://github.com/austinpray/"><span class="picto">*</span> Github</a></li>
+
+                        <li><a href="http://stackoverflow.com/users/1585343/austin-pray"><span class="picto">&#249;</span> Stack Overflow</a></li>
+
+                        <li><a href="http://jsfiddle.net/user/austinpray/"><span class="picto">!</span> JSFiddle</a></li>
+                    </ul>
+                </div>
+
+                <div class="four columns">
+                    <h4 class="add-bottom">On Social Media</h4>
+
+                    <ul>
+                        <li><a href="http://www.linkedin.com/in/austinpray"><span class="picto">f</span> Linkedin</a></li>
+                    
+                        <li><a href="http://twitter.com/austinpray"><span class="picto">T</span> Twitter</a></li>
+
+                        <li><a href="https://plus.google.com/u/0/105718352546208908373/" rel="author"><span class="picto">+</span> Google+</a></li>
+
+                        <li><a href="http://facebook.com/austinpray"><span class="picto">G</span> Facebook</a></li>
+
+                        <li><a href="http://instagram.com/austinpray"><span class="picto">A</span> Instagram</a></li>
+
+                        <li><a href="https://vimeo.com/austinpray"><span class="picto">P</span> Vimeo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="four columns">
+                    <h4 class="add-bottom">In General</h4>
+                    <p><small>I founded my own web development agency, Corelaunch. Most of the time I am <a href="#work">building websites</a>, <a href="https://github.com/austinpray/">writing software for the web</a>, or chasing the latest <a href="https://twitter.com/schwa/status/340685860821430272">buzzwords</a>. When I am not pushing pixels, I am studying computer science over at <a href="http://www.utdallas.edu/">The University of Texas at Dallas</a>.</small></p>
+                </div>
             </div>
 
             <section class="row copyright"><small>Copyright 2013 Corelaunch : (903) 345-5550 : Made&nbsp;in&nbsp;the&nbsp;USA</small></section>
