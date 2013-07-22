@@ -136,7 +136,7 @@
                         <h4>Standards</h4>
 
                         <ul>
-                            <li>HTML 5</li>
+                            <li>HTML5</li>
 
                             <li>CSS 3/SASS</li>
 
@@ -156,7 +156,7 @@
 
                             <li>Respond.js 1.1.0</li>
 
-                            <li>HTML 5 Boilerplate 4.0</li>
+                            <li>HTML5 Boilerplate 4.0</li>
 
                             <li>Git</li>
 
@@ -231,7 +231,7 @@
                     <h2>Front End</h2>
 
                     <ul>
-                        <li>HTML 5</li>
+                        <li>HTML5</li>
 
                         <li>CSS 3 + SASS</li>
 
