@@ -346,6 +346,12 @@ nav {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+    #skills, #foot {
+        text-align: center;
+        h2 {
+            text-align: center;
+        }
+    }
     $menu-height: 64px;
     .sticky-wrapper {
         height: $menu-height !important;
