@@ -11,16 +11,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/images\/icon.png" : {
+    "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icon.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/icon.png",
-      "initialSize" : 6013,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
+      "fileType" : 64
     },
     "\/images\/header_bg_2.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -66,15 +66,15 @@
       "initialSize" : 3872,
       "fileType" : 8192
     },
-    "\/images\/work-amsust.png" : {
+    "\/images\/icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/work-amsust.png",
+      "inputAbbreviatedPath" : "\/images\/icon.png",
       "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/work-amsust.png",
-      "initialSize" : 222078,
+      "outputAbbreviatedPath" : "\/images\/icon.png",
+      "initialSize" : 6013,
       "fileType" : 8192
     },
     "\/images\/header_bg.jpg" : {
@@ -88,16 +88,16 @@
       "initialSize" : 53386,
       "fileType" : 4096
     },
-    "\/js\/plugins.js" : {
+    "\/images\/work-amsust.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/images\/work-amsust.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/work-amsust.png",
+      "initialSize" : 222078,
+      "fileType" : 8192
     },
     "\/js\/fastclick.js" : {
       "ignoreWasSetByUser" : 0,
@@ -121,17 +121,6 @@
       "outputAbbreviatedPath" : "\/js\/waypoints-sticky-ck.js",
       "fileType" : 64
     },
-    "\/images\/fish_bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/fish_bg.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/fish_bg.jpg",
-      "initialSize" : 54254,
-      "fileType" : 4096
-    },
     "\/js\/waypoints.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -142,6 +131,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/waypoints-ck.js",
       "fileType" : 64
+    },
+    "\/images\/fish_bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/fish_bg.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/fish_bg.jpg",
+      "initialSize" : 54254,
+      "fileType" : 4096
     },
     "\/stylesheets\/layout.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -154,17 +154,6 @@
       "outputAbbreviatedPath" : "\/css\/layout.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/images\/apple-touch-icon-114x114.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
-      "initialSize" : 10118,
-      "fileType" : 8192
     },
     "\/stylesheets\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -187,6 +176,17 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/images\/apple-touch-icon.png",
       "initialSize" : 2469,
+      "fileType" : 8192
+    },
+    "\/images\/apple-touch-icon-114x114.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
+      "initialSize" : 10118,
       "fileType" : 8192
     },
     "\/js\/jquery.scrolly.js" : {
