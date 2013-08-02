@@ -1,2 +1,10 @@
 User-agent: *
 Disallow: /austinpray.com_05-22-2013
+Disallow: /v1
+Disallow: /test
+Disallow: /stackoverflow
+Disallow: /dragonette
+Disallow: /Dev
+Disallow: /melibax
+Disallow: /lifesettle
+Disallow: /old
