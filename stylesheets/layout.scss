@@ -37,7 +37,7 @@ h3 {
     left: 400px;
 }
 
-section.oven-mitt, nav.oven-mitt {
+.oven-mitt {
     padding: 4 * 1.618em 0;
     article {}
     p.lead {}
@@ -113,34 +113,19 @@ $parallax-h: 800px;
     width: 100%;
 }
 
-.pLax {
-    color: white;
-    position: relative;
-    width: 100% !important;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    .container {
-        position: relative;
-        z-index: 4;
-    }
-}
 
 #header {
-    min-height: 450px;
     background-color: $black;
+    background: url("http://cdn.austinpray.com/static/img/header_bg_2.jpg");
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat: none;
     header {
-        position: relative;
-        z-index: 4;
         color: white;
-        padding: 4 * 1.618em 0;
+        padding: (4 * 1.618em) 0;
         text-align: center;
         text-transform: uppercase;
-        h1 {}
-    }
-    .parallax {
-        background: url("http://cdn.austinpray.com/static/img/header_bg_2.jpg") 50% 0 no-repeat fixed;
-        background-position: 50% -300px;
+
     }
 }
 
@@ -333,7 +318,7 @@ nav {
     }
 }
 
-footer#foot {
+#foot {
     padding: 2 * 1.618em 0;
     $background: $footer-section;
     background: $background;
@@ -351,11 +336,7 @@ footer#foot {
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
-    #header {
-        hgroup {
-            padding: 6 * 1.618em 0;
-        }
-    }
+
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
@@ -386,7 +367,6 @@ footer#foot {
             text-decoration: none;
         }
         #nav-menu {
-        
             max-height: 0em;
             overflow: hidden;
             position: relative;
@@ -414,9 +394,11 @@ footer#foot {
         }
     }
     #header {
-        background-size: auto 150%;
-        hgroup {
-            padding: 5 * 1.618em 0;
+        background-size: cover;
+        background-attachment: scroll;
+        padding:0;
+        header {
+            padding: (2 * 1.618em) 0;
         }
     }
 }
@@ -426,11 +408,7 @@ footer#foot {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-    #header {
-        hgroup {
-            padding: 3 * 1.618em 0;
-        }
-    }
+
 }
 
 /* #Font-Face

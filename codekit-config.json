@@ -22,15 +22,6 @@
       "initialSize" : 6013,
       "fileType" : 8192
     },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/images\/header_bg_2.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -53,17 +44,6 @@
       "initialSize" : 199683,
       "fileType" : 8192
     },
-    "\/images\/work-amsust.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/work-amsust.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/work-amsust.png",
-      "initialSize" : 222078,
-      "fileType" : 8192
-    },
     "\/js\/plugins-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -75,17 +55,6 @@
       "outputAbbreviatedPath" : "\/js\/plugins-ck-ck.js",
       "fileType" : 64
     },
-    "\/images\/header_bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/header_bg.jpg",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/header_bg.jpg",
-      "initialSize" : 53386,
-      "fileType" : 4096
-    },
     "\/images\/apple-touch-icon-72x72.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -96,6 +65,28 @@
       "outputAbbreviatedPath" : "\/images\/apple-touch-icon-72x72.png",
       "initialSize" : 3872,
       "fileType" : 8192
+    },
+    "\/images\/work-amsust.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/work-amsust.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/work-amsust.png",
+      "initialSize" : 222078,
+      "fileType" : 8192
+    },
+    "\/images\/header_bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/header_bg.jpg",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/header_bg.jpg",
+      "initialSize" : 53386,
+      "fileType" : 4096
     },
     "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -158,11 +149,22 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/stylesheets\/layout.scss",
-      "outputStyle" : 0,
+      "outputStyle" : 3,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/layout.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/images\/apple-touch-icon-114x114.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
+      "initialSize" : 10118,
+      "fileType" : 8192
     },
     "\/stylesheets\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -185,17 +187,6 @@
       "processed" : 1,
       "outputAbbreviatedPath" : "\/images\/apple-touch-icon.png",
       "initialSize" : 2469,
-      "fileType" : 8192
-    },
-    "\/images\/apple-touch-icon-114x114.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/images\/apple-touch-icon-114x114.png",
-      "initialSize" : 10118,
       "fileType" : 8192
     },
     "\/js\/jquery.scrolly.js" : {
@@ -274,6 +265,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/script-ck-ck.js",
       "fileType" : 64
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/script.js" : {
       "ignoreWasSetByUser" : 0,
