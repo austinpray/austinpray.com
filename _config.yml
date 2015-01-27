@@ -1,5 +1,6 @@
 # Site settings
-title: Austin Pray · Full Stack Developer in Dallas, TX
+title: Austin Pray
+site_title: Austin Pray · Full Stack Developer in Dallas, TX
 byline: writes software for the web.
 email: austin@austinpray.com
 description: > # this means to ignore newlines until "baseurl:"
