@@ -16,6 +16,7 @@
             <span itemprop="region">TX</span>
           </li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li itemprop="telephone">(903) 345-5550</li>
         </ul>
       </div>
 
@@ -43,6 +44,14 @@
             <a href="https://plus.google.com/{{ site.gplus_username }}" rel="publisher">
               <i class="ion-social-googleplus"></i>
               <span class="username">{{ site.gplus_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.stackoverflow %}
+          <li>
+            <a href="{{ site.stackoverflow }}" rel="publisher">
+              <i class="ion-link"></i>
+              <span class="username">Stack Overflow</span>
             </a>
           </li>
           {% endif %}
