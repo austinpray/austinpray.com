@@ -234,3 +234,69 @@
     }
   }
 }
+
+/**
+ * Jumbotron
+ */
+$grad-left: #00A388;
+$grad-top: #FF6138;
+$grad-right: #BEEB9F;
+.jumbotron {
+  min-height: 75vh;
+  background-color: #1d1d1d;
+  background:
+    linear-gradient(
+      $grad-left,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      $grad-top,
+      transparent
+    ),
+    linear-gradient(
+      -90deg,
+      $grad-right,
+      transparent
+    );
+	
+background-blend-mode: screen;
+  color: #fff;
+  position: relative;
+}
+
+.jumbotron-links {
+  font-size: 2em;
+  a {
+    padding: 0 0.2em;
+    &, &:link, &:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+    &:hover{
+      color: $brand-color;
+    }
+    &:active {
+      color: saturate(darken($brand-color, 20%), 50%);
+    }
+  }
+}
+
+.jumbotron-content {
+  font-size: 2vw;
+  @include media-query($on-laptop) {
+    font-size: 1em;
+  }
+  @extend %vertical-align;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.jumbotron-title {
+  font-size: 3em;
+}
+
+.jumbotron-byline {
+  font-size: 1em;
+}

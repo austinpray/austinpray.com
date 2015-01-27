@@ -1,5 +1,6 @@
 # Site settings
 title: Austin Pray
+byline: writes software for the web.
 email: austin@austinpray.com
 description: > # this means to ignore newlines until "baseurl:"
   Austin is a full-stack developer focused on pushing the limits of the web as
@@ -7,9 +8,10 @@ description: > # this means to ignore newlines until "baseurl:"
   developer at corelaunch.com, a small consulting shop that builds software for
   the web.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://austinpray.com.com" # the base hostname & protocol for your site
+url: "http://austinpray.com" # the base hostname & protocol for your site
 twitter_username: austinpray
 github_username:  austinpray
+stackoverflow: "https://stackoverflow.com/users/1585343/austin-pray"
 
 # Build settings
 markdown: kramdown
