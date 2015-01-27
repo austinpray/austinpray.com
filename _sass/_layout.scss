@@ -107,6 +107,13 @@
   margin-left: 0;
 }
 
+.contact-list__avatar {
+  margin-bottom: 0.618em;
+  img {
+    max-width: 100px;
+  }
+}
+
 .footer-col-wrapper {
   font-size: 15px;
   color: $grey-color;
