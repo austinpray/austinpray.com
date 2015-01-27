@@ -11,6 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://austinpray.com" # the base hostname & protocol for your site
 twitter_username: austinpray
 github_username:  austinpray
+gplus_username: +AustinPray
 stackoverflow: "https://stackoverflow.com/users/1585343/austin-pray"
 
 # Build settings

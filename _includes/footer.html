@@ -38,6 +38,14 @@
             </a>
           </li>
           {% endif %}
+          {% if site.gplus_username %}
+          <li>
+            <a href="https://plus.google.com/{{ site.gplus_username }}" rel="publisher">
+              <i class="ion-social-googleplus"></i>
+              <span class="username">{{ site.gplus_username }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
