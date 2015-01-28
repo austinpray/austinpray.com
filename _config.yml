@@ -29,3 +29,6 @@ defaults:
     values:
       layout: post
       author: "Austin Pray"
+
+gems:
+  - jekyll-sitemap
