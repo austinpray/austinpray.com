@@ -1,0 +1,3 @@
+{% for script in page.scripts %}
+<script src="{{ site.scripts[script] | prepend: site.baseurl }}"></script>
+{% endfor %}

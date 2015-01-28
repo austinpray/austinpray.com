@@ -245,31 +245,22 @@
 /**
  * Jumbotron
  */
-$grad-top: #A7BD5B;
-$grad-right: #8DC7B8;
-$grad-left: #DC574E;
 .jumbotron {
   min-height: 75vh;
-  background-color: #1d1d1d;
+  background-color: $main-accent;
   background:
     linear-gradient(
-      $grad-left,
-      transparent
-    ),
-    linear-gradient(
-      90deg,
-      $grad-top,
-      transparent
-    ),
-    linear-gradient(
-      -90deg,
-      $grad-right,
-      transparent
+      180deg,
+      $main-accent,
+      lighten($main-accent, 20%)
     );
-	
-background-blend-mode: screen;
   color: #fff;
   position: relative;
+}
+
+.jumbotron--small {
+  @extend .jumbotron;
+  min-height: 40vh;
 }
 
 .jumbotron-links {
@@ -306,4 +297,43 @@ background-blend-mode: screen;
 
 .jumbotron-byline {
   font-size: 1em;
+}
+
+// d3
+svg text{
+	font-size:12px;
+}
+
+rect{
+	shape-rendering:crispEdges;
+}
+.graph-container {
+  overflow: scroll;
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.loading-indicator {
+  &.out {
+    display: none;
+  }
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-duration:0.3s;
+  -moz-animation:fadeIn ease-in 1;
+  -moz-animation-fill-mode:forwards;
+  -moz-animation-duration:0.3s;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:0.3s;
+  color: $grey-color;
+  font-size: 3em;
+  text-align: center;
 }
