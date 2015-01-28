@@ -245,29 +245,15 @@
 /**
  * Jumbotron
  */
-$grad-top: #A7BD5B;
-$grad-right: #8DC7B8;
-$grad-left: #DC574E;
 .jumbotron {
   min-height: 75vh;
-  background-color: #1d1d1d;
+  background-color: $main-accent;
   background:
     linear-gradient(
-      $grad-left,
-      transparent
-    ),
-    linear-gradient(
-      90deg,
-      $grad-top,
-      transparent
-    ),
-    linear-gradient(
-      -90deg,
-      $grad-right,
-      transparent
+      180deg,
+      $main-accent,
+      lighten($main-accent, 20%)
     );
-	
-background-blend-mode: screen;
   color: #fff;
   position: relative;
 }
