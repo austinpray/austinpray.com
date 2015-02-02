@@ -258,6 +258,11 @@
   position: relative;
 }
 
+.jumbotron--small {
+  @extend .jumbotron;
+  min-height: 40vh;
+}
+
 .jumbotron-links {
   font-size: 2em;
   a {
@@ -292,4 +297,43 @@
 
 .jumbotron-byline {
   font-size: 1em;
+}
+
+// d3
+svg text{
+	font-size:12px;
+}
+
+rect{
+	shape-rendering:crispEdges;
+}
+.graph-container {
+  overflow: scroll;
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.loading-indicator {
+  &.out {
+    display: none;
+  }
+  opacity:0;
+  -webkit-animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-duration:0.3s;
+  -moz-animation:fadeIn ease-in 1;
+  -moz-animation-fill-mode:forwards;
+  -moz-animation-duration:0.3s;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:0.3s;
+  color: $grey-color;
+  font-size: 3em;
+  text-align: center;
 }
