@@ -26,7 +26,7 @@ tags: jquery forms
 
 ## Problem
 
-I had a friend last night ask me
+I had a friend last night ask me:
 
 >Anyone good at jQuery want to tell me if the following is a convoluted?
 >
@@ -46,40 +46,28 @@ He had a group of checkboxes:
 
 He wanted them to behave such that:
 
-1. When "none of the above" is checked: all the other options become unchecked
-   and disabled.
-2. When "none of the above" is unchecked: all the other options become
-   enabled again.
+1. When "none of the above" is checked: all the other options become unchecked and disabled.
+2. When "none of the above" is unchecked: all the other options become enabled again.
 
-There is nothing really wrong with the jquery one-liner my friend came up with.
-However I wanted a solution that didn't rely on the user having to uncheck "none
-of the above" before being able to click another option. So:
+There is nothing really wrong with the jquery one-liner my friend came up with. However I wanted a solution that didn't rely on the user having to uncheck "none of the above" before being able to click another option. So:
 
-1. When "none of the above" is checked: all of the other options become
-   unchecked.
-2. When an option other than "none of the above" is selected and "none of the
-   above" is already checked: "none of the above" should be automatically
-   unchecked.
-
+1. When "none of the above" is checked: all of the other options become unchecked.
+2. When an option other than "none of the above" is selected and "none of the above" is already checked: "none of the above" should be automatically unchecked.
 
 ## Over-engineered Solution
 
 ![gif of checkboxes](/assets/checkbox.gif)
-
-I wanted to skip the 
 
 ### Approach
 
 Each time a checkbox in the group is checked:
 
 1. Loop through all of the checked boxes and get their values.
-2. If "none of the above" is among the values then decide which ones
-   to uncheck based on the element that was just clicked.
+2. If "none of the above" is among the values: decide which ones to uncheck based on the element that was just clicked.
 
 ### Deciding when to uncheck 
 
-We loop through all of the checked boxes. For each element in the loop we
-evaluate this statement to determine if we should uncheck it:
+We loop through all of the checked boxes. For each element in the loop we evaluate this statement to determine if we should uncheck it:
 
 ```
 (User checked "none of the above") XOR (Current element in the loop is "none of the above")
