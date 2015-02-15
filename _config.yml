@@ -21,6 +21,8 @@ repo_editurl: "https://github.com/austinpray/austinpray.com/edit/gh-pages/"
 # Build settings
 markdown: kramdown
 
+highlighter: pygments
+
 kramdown:
   input: GFM
   hard_wrap: false

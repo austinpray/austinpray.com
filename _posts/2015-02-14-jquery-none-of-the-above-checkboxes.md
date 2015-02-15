@@ -29,12 +29,11 @@ tags: jquery forms
 I had a friend last night ask me:
 
 >Anyone good at jQuery want to tell me if the following is a convoluted?
->
-```javascript
+{% highlight js %}
 $('.gfield_checkbox input[value="none"]').change(function() {
   $(this).parents('.gfield_checkbox').find('input:checkbox').not(this).prop('checked', false).prop('disabled', $(this)[0].checked);
 });
-```
+{% endhighlight %}
 
 He had a group of checkboxes:
 
