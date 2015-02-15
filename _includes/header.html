@@ -1,8 +1,17 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="site-header-wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="me">
+      <div class="large-up my-profile-pic">
+        <a href="{{ site.baseurl }}/">
+          <img itemprop="image" src="https://secure.gravatar.com/avatar/a2b36fe61081d63aa781f4ab7a6222d3.png?s=200" alt="Austin Pray">
+        </a>
+      </div>
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+      <span class="large-up">Full Stack Developer</span>
+    </div>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -19,6 +28,9 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+
+        <a class="page-link" href="https://github.com/austinpray" title="@austinpray">GitHub</a>
+        <a class="page-link" href="mailto:{{ site.email }}" title="austin@austinpray.com">Email</a>
       </div>
     </nav>
 

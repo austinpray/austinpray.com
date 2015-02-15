@@ -10,6 +10,7 @@
   position: relative;
 }
 
+
 .site-title {
   font-size: 26px;
   line-height: 56px;
@@ -336,4 +337,71 @@ rect{
   color: $grey-color;
   font-size: 3em;
   text-align: center;
+}
+
+// responsive
+.large-up {
+  display: none;
+}
+$breakpoint: 750px;
+
+@media (max-width: #{$breakpoint}) {
+  .site-header-wrapper {
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+  }
+}
+
+@media (min-width: #{$breakpoint}) {
+  .large-up {
+    display: block;
+  }
+  .layout-default {
+    @include flexbox();
+    .site-title {
+      color: #fff;
+      float: none;
+      line-height: 1.5;
+      margin-top: 0.3em;
+      display: block;
+    }
+    .site-nav {
+      float: none;
+      &, .page-link {
+        text-decoration: underline;
+        color: #fff;
+      }
+    }
+    .trigger {
+      margin-top: 1em;
+    }
+    .page-link {
+      display: block;
+      margin-left: 0 !important;
+      padding: 2% 0;
+    }
+    .site-header {
+      padding-top: 2%;
+      text-align: center;
+      border:0;
+      min-height:100vh;
+      @include flex(1);
+      max-width: 320px;
+      background-color: $dark;
+      color: #fff;
+      width: 200px;
+    }
+
+    .page-content{
+      @include flex(3);
+      padding: $spacing-unit 0;
+    }
+  }
+}
+
+.my-profile-pic {
+  margin:0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  max-width: 100px;
 }
