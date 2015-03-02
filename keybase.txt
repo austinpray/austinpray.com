@@ -1,1 +1,73 @@
-yee
+==================================================================
+https://keybase.io/austinpray
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://austinpray.com
+  * I am austinpray (https://keybase.io/austinpray) on keybase.
+  * I have a public key with fingerprint 8226 F202 2B50 F51D FE15  57EC 207E 606D 5ACF C5F1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8226f2022b50f51dfe1557ec207e606d5acfc5f1",
+            "host": "keybase.io",
+            "key_id": "207e606d5acfc5f1",
+            "kid": "010147f3438709748b6f261b94246dcce7b59240f5843ae7a72593d9dda6a063abe70a",
+            "uid": "8a0727b6205c69bec6fa794645634319",
+            "username": "austinpray"
+        },
+        "service": {
+            "hostname": "austinpray.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1425311466,
+    "expire_in": 157680000,
+    "prev": "4a176503b3064bbb0cccd9f79c28dd375a3cc46865aaf92135a673720c7ca162",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM0AnicbVJrTBRXFF5aIRYiFHkkaoI4TW3jrjDv2VnaLVoLQrGESh8QLM7cubOM
+ys4+ZpF3TZGtVYxYka5IlCw0jULlZQ0/alCrLQqCkJgCEmpFlu22toGiNBi1M6T9
+1d4/N/c73+Oek3N1xfO60KD4yp2FuUPXZoP6L29x6bLn3YEyhJeFEsRUhuyGS5co
+WS3QYXNIVgUxIUYcp0UcxXGeQkUKE0SIURQDAY4ykEZpgeKACCgRQwxIgezUFKoN
+zzlhgiSrmPrIlwQV/R/+7qUCiqEYyYgESRgZlGVII6/m0RjPkjhJCwBAhqdYnFTD
+jSTBQYZjcIolBFYQOJpDaYLjIYNyqp1ryc7IoQzO8DSOUoBmeQhokWNYkiYpWo3A
+WI3ohA4rVwhVNudyKpLV5uBKkAoDouJFEoDaELRe/sNJAHKhqrc5ZEUG8h61VqAo
+NpMmVUpsGncv5PP/ccnnJaugjlIVFEGHU5KtiAlTmUCRNFuMxCkCw0iaNiCw2CY5
+YL6kMSiGNqLq0WJgkWpJchhDUyjBEyhN8jyPAgAEVmRYgBsFgWAojgCApI00xXEi
+i2MExdEMweAoYACH0Tii9WW3yoiJUL/JWVRLp2SxcorLAZGKK5fzlumCQnUhwc9p
+y6ALfeHFf1fEOxrxzLLj8+CDY8JMy7emHzLNHy3c8HTFx2bPO4s/3tBVWpl40N45
+vm9l+lD6ryEXY12ptrbDnm1CVmt+ZNGqoy0TOyqS/zAfD3vZJZY97e1/5NYnnzaI
+D0Zs1z89hZ6OXhvxe8rR5IdHckI8xEum9c5Xgzve+eJmmtQaN57wY3Eguntg2lb+
+hr7he+c0OOVt6xv11Xrq7OsevbZB6MjdnHSm8L3OyqmTt7+b3J+Xc6s6fFXvswT3
+pj2lxwvqF9POR0Jz+y6z7zP5EGrMWz2xGIjQdxpSeoS8xxkTMY3v7+yZGL27bMXa
+DwbK5aZO8qvX69ybyMjYE00tVQ9B8sWo+MPLG1q934TPzFxab24/Z/9kaHXz4vIx
+91TVyM3JexmWwYK4sETw5ronfCMVmjnYN2yu7Jn++UZm3dWgovDhyUDNcEf3/Sif
+XH5g+8m+sV96evzbu+zm267YJBmRjyUpADlREvjy3fZzB5xn97NP9NewrNY7+pi6
+C4NnNmJ3z9ak/XXl8d5LPn9zC7PPm9P9Z96RWX/jXNx1VucdqM7YVtvZm+wPbr4z
+6889Ft2SPT+VVIsq7a98jUxt/OlBuju0NKa+zec/H3YvpC7l/pq5lebKqJoP2zZP
+ZsG3tvqq+xdqAnH1nqcT/IUtvwVK7JY1b6fObfXV70okPanjC03ZIw14lbJ4i50d
+CfobKN202w==
+=nO0R
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/austinpray
+
+==================================================================
