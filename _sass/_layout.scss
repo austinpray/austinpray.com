@@ -381,7 +381,6 @@ $breakpoint: 750px;
       padding: 2% 0;
     }
     .site-header {
-      padding-top: 2%;
       text-align: center;
       border:0;
       min-height:100vh;
@@ -390,6 +389,10 @@ $breakpoint: 750px;
       background-color: $dark;
       color: #fff;
       width: 200px;
+    }
+
+    .site-header-wrapper {
+      margin-top: 10%;
     }
 
     .page-content{
