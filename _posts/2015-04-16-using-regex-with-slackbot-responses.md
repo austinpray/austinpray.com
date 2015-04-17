@@ -36,7 +36,7 @@ have to statically compile the regex permutations and then feed them to
 Slackbot. I went ahead and used the [Genex][] perl module to do this. I explain
 how to install perl modules further down.
 
-### yee
+### example: “yee”
 
 ```
 perl -MRegexp::Genex=:all -le 'print join(",\n", strings(qr/yee{1,8}/, 20))'
@@ -62,7 +62,7 @@ Note the `strings` method:
   Produce a list of strings that would match the regex.
 ```
 
-### how good?
+### example: “how good is x at y?”
 
 They can get pretty complex:
 
@@ -84,7 +84,7 @@ How good is Darren at python?,
 How good is Darren at golang?
 ```
 
-### aww yiss
+### example “aww yiss”
 
 ```
 perl -MRegexp::Genex=:all -le 'print join(",\n", strings(qr/aww{1,9} yiss{1,9}/, 50))'
