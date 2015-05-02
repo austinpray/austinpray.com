@@ -1,35 +1,19 @@
 ---
-layout: frontpage
+layout: default
 ---
-
-<div class="jumbotron">
-  <div class="jumbotron-content">
-    <h1 class="jumbotron-title">Austin Pray</h1>
-    <p class="jumbotron-byline">
-      {{ site.byline }}
-    </p>
-    <p class="jumbotron-byline">
-    <p class="jumbotron-links">
-      <a itemprop="url" href="https://github.com/austinpray" title="@austinpray"><i class="ion-social-octocat"></i></a>
-      <a href="mailto:{{ site.email }}" title="austin@austinpray.com"><i class="ion-email"></i></a>
-      <a itemprop="url" href="https://twitter.com/austinpray" title="@austinpray"><i class="ion-social-twitter"></i></a>
-    </p>
-  </div>
-</div>
 
 <div class="page-content">
   <div class="wrapper">
     <div class="home">
 
-      <h1 class="page-heading">Posts</h1>
-
       <ul class="post-list">
         {% for post in site.posts %}
         <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
           <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a class="post-link block-link" href="{{ post.url | prepend: site.baseurl }}">
+              <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
+              {{ post.title }}
+            </a>
           </h2>
         </li>
         {% endfor %}

@@ -6,6 +6,7 @@
 
 
 // Our variables
+// https://color.adobe.com/626393-starry-night-van-gogh-paintings-color-theme-5991769/
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,12 +17,12 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
-$main-accent:      #59ABE3;
+$main-accent:      #6FAFD9;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-$dark: mix(#1d1d1d, $main-accent, 64%);
+$dark: #284772;
 $darker: mix(#1d1d1d, $main-accent, 80%);
 
 // Width of the content area
