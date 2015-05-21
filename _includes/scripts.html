@@ -1,3 +1,14 @@
+<script>
+  var currentDate = new Date();
+  var currentMonth = currentDate.getMonth();
+  var currentDay = currentDate.getDate();
+  if (currentMonth === 4 && currentDay === 21) {
+    var bday = document.createElement('div');
+    bday.textContent = "It is Austin Pray's Birthday Today";
+    bday.className = "birthday";
+    document.body.insertBefore(bday, document.body.firstChild);
+  }
+</script>
 {% for script in page.scripts %}
 <script src="{{ site.scripts[script] | prepend: site.baseurl }}"></script>
 {% endfor %}

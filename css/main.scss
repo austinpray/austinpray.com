@@ -60,3 +60,42 @@ $on-laptop:        800px;
   "layout",
   "syntax-highlighting"
 ;
+
+.birthday {
+  background: #f1f1f1;
+  display: block;
+	text-align:center;
+	font-size:20px;
+	font-family:Helvetica,sans-serif;
+	padding:20px 0;
+	
+	-webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	
+	-webkit-animation:blink 1s infinite;
+	-moz-animation:blink 1s infinite;
+	-o-animation:blink 1s infinite;
+	animation:blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+	0%,50%,100% {
+		opacity:1;
+	}
+	
+	25%,75% {
+		opacity:0;
+	}
+}
+
+@keyframes blink {
+	0%,50%,100% {
+		opacity:1;
+	}
+	
+	25%,75% {
+		opacity:0;
+	}
+}
