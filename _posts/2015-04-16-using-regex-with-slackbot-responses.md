@@ -5,8 +5,7 @@ categories: hacks
 tags: slack slackbot perl
 ---
 
-I love [Slack][] and [Slackbot][]. Slackbot does a bunch of
-cool stuff, but mostly I use it for the automatic responses.
+I love [Slack][] and [Slackbot][]. Among other actually useful things, I use it for the automatic responses feature.
 
 ![Ridwan getting upset](/assets/slackbotridupset.png)
 
