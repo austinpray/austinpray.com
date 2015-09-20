@@ -72,16 +72,16 @@ We loop through all of the checked boxes. For each element in the loop we evalua
 $$
 A = \text{User checked "none of the above"}\\
 B = \text{Current element in the loop is "none of the above"}\\
-A \oplus B
+A \oplus B \equiv (A \rightarrow B) \rightarrow (\neg(B \rightarrow A))
 $$
 
-or 
+or:
 
-$$
-A = \text{User checked "none of the above"}\\
-B = \text{Current element in the loop is "none of the above"}\\
-(A \rightarrow B) \rightarrow (\neg(B \rightarrow A))
-$$
+{% highlight javascript %}
+if (A^B) {
+  // uncheck everything else
+}
+{% endhighlight %}
 
 If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). I highly recommend getting familiar with all your logical operators. In this case an exclusive OR saves us from:
 
@@ -90,6 +90,14 @@ A = \text{User checked "none of the above"}\\
 B = \text{Current element in the loop is "none of the above"}\\
 (\neg A \wedge B) \vee (A \wedge \neg B)
 $$
+
+or this confusing mess:
+
+{% highlight javascript %}
+if ((!A && B) || (A && !B)) {
+  // uncheck everything else
+}
+{% endhighlight %}
 
 ## Conclusions
 
