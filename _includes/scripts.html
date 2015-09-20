@@ -10,75 +10,13 @@
   }
 </script>
 {% if page.math %}
-<script src="{{ site.scripts["katex"] }}"></script>
-<script>
-(function (katex) {
-  var getText = function( elem ) {
-    var node,
-    ret = "",
-    i = 0,
-      nodeType = elem.nodeType;
-
-    if ( !nodeType ) {
-      // If no nodeType, this is expected to be an array
-      while ( (node = elem[i++]) ) {
-        // Do not traverse comment nodes
-        ret += getText( node );
-      }
-    } else if ( nodeType === 1 || nodeType === 9 || nodeType === 11 ) {
-      // Use textContent for elements
-      // innerText usage removed for consistency of new lines (jQuery #11153)
-      if ( typeof elem.textContent === "string" ) {
-        return elem.textContent;
-      } else {
-        // Traverse its children
-        for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
-          ret += getText( elem );
-        }
-      }
-    } else if ( nodeType === 3 || nodeType === 4 ) {
-      return elem.nodeValue;
-    }
-    // Do not include comment or processing instruction nodes
-
-    return ret;
-  };
-  var texBlocks = Array.prototype.slice.call(
-    document.querySelectorAll("script[type='math/tex; mode=display']")
-  );
-  var texInline = Array.prototype.slice.call(
-    document.querySelectorAll("script[type='math/tex']")
-  );
-  var callbackFactory = function(type) {
-    var elType, elClass, toRender;
-    switch(type) {
-      case 'inline':
-        elType = 'span';
-        elClass = 'inline-equation';
-        toRender = function(el) {
-          return getText(el);
-        };
-        break;
-      default:
-        elType = 'div';
-        elClass = 'equation';
-        toRender = function(el) {
-          return "\\displaystyle " + getText(el);
-        };
-    }
-    return function (el) {
-      var rendered = document.createElement(elType);
-      rendered.className = elClass;
-      var latex = toRender(el).replace(/(% <!\[CDATA\[)|(%]]>)/ig, '');
-      katex.render(latex, rendered);
-      el.parentNode.replaceChild(rendered, el);
-    }
-  };
-
-  texBlocks.forEach(callbackFactory('block'));
-  texInline.forEach(callbackFactory('inline'));
-}(katex));
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+ "HTML-CSS": { linebreaks: { automatic: true } },
+         SVG: { linebreaks: { automatic: true } }
+});
 </script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 {% for script in page.scripts %}
 <script src="{{ site.scripts[script] | prepend: site.baseurl }}"></script>

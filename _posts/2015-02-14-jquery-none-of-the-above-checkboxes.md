@@ -69,21 +69,27 @@ Each time a checkbox in the group is checked:
 
 We loop through all of the checked boxes. For each element in the loop we evaluate this statement to determine if we should uncheck it:
 
-```
-(User checked "none of the above") XOR (Current element in the loop is "none of the above")
-```
+$$
+A = \text{User checked "none of the above"}\\
+B = \text{Current element in the loop is "none of the above"}\\
+A \oplus B
+$$
 
 or 
 
-𝐴 = User checked "none of the above"  
-𝐵 = Current element in the loop is "none of the above"  
-$$(A \rightarrow B) \rightarrow (\neg(B \rightarrow A))$$
+$$
+A = \text{User checked "none of the above"}\\
+B = \text{Current element in the loop is "none of the above"}\\
+(A \rightarrow B) \rightarrow (\neg(B \rightarrow A))
+$$
 
 If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). I highly recommend getting familiar with all your logical operators. In this case an exclusive OR saves us from:
 
-𝐴 = User checked "none of the above"  
-𝐵 = Current element in the loop is "none of the above"  
-$$(\neg A \wedge B) \vee (A \wedge \neg B)$$
+$$
+A = \text{User checked "none of the above"}\\
+B = \text{Current element in the loop is "none of the above"}\\
+(\neg A \wedge B) \vee (A \wedge \neg B)
+$$
 
 ## Conclusions
 
