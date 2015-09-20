@@ -87,9 +87,11 @@ Node your build matrix will explode.
 The number of builds will be the cardinality of the [cartesian product][] of
 your Ruby and Node versions.
 
-$$R = \{r \mid r \in \text{Desired Ruby Versions}\}$$  
-$$N = \{n \mid n \in \text{Desired Node Versions}\}$$  
-$$\text{Number of Builds} = |R \times N| = |\{(r,n) \mid r \in R, n \in N\}|$$  
+$$ R = \{r \mid r \in \text{Desired Ruby Versions}\}$$  
+$$ N = \{n \mid n \in \text{Desired Node Versions}\}$$  
+$$ \text{Number of Builds} = |R|\cdot|N| = |R \times N| = |\{(r,n) \mid r \in R, n \in N\}|$$
+
+So if you have 3 Ruby versions and 2 Node versions you will have 6 Builds.
 
 Here is a simple Python program to calculate the combinations if we added
 differing versions of NPM to the mix:

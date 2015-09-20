@@ -70,7 +70,6 @@
       var rendered = document.createElement(elType);
       rendered.className = elClass;
       var latex = toRender(el).replace(/(% <!\[CDATA\[)|(%]]>)/ig, '');
-      console.log(rendered, el, latex);
       katex.render(latex, rendered);
       el.parentNode.replaceChild(rendered, el);
     }
