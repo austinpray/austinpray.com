@@ -3,6 +3,7 @@ layout: post
 title: "“None of the Above” Checkbox with jQuery" 
 categories: javascript
 tags: jquery forms
+math: true
 ---
 
 ## Demo
@@ -74,17 +75,15 @@ We loop through all of the checked boxes. For each element in the loop we evalua
 
 or 
 
-```
-A = User checked "none of the above"
-B = Current element in the loop is "none of the above"
-(A implies B) implies (not (B implies A))
-```
+𝐴 = User checked "none of the above"  
+𝐵 = Current element in the loop is "none of the above"  
+$$(A \rightarrow B) \rightarrow (\neg(B \rightarrow A))$$
 
 If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). I highly recommend getting familiar with all your logical operators. In this case an exclusive OR saves us from:
 
-```
-(NOT User checked "none of the above" AND Current element in the loop is "none of the above") OR (User checked "none of the above" AND NOT Current element in the loop is "none of the above")
-```
+𝐴 = User checked "none of the above"  
+𝐵 = Current element in the loop is "none of the above"  
+$$(\neg A \wedge B) \vee (A \wedge \neg B)$$
 
 ## Conclusions
 
