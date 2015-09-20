@@ -3,6 +3,7 @@ layout: post
 title: "Travis CI: Node Version Management on Non-Node Projects" 
 categories: ops
 tags: travis ci node
+math: true
 ---
 
 These days you have to go extremely out of your way to avoid using Node tooling
@@ -81,13 +82,14 @@ nvm install $TRAVIS_NODE_VERSION
 ## Watch the Math
 
 You have to be a bit careful here. If you define too many versions of Ruby and
-Node your build matrix will explode. The number of builds will be the number of
-elements in the [cartesian product][] of the versions of your primary language
-and your Node version.
+Node your build matrix will explode. 
 
-R = Ruby Versions  
-N = Node Versions  
-R × N = { (a, b) | a ∈ R and b ∈ N }
+The number of builds will be the cardinality of the [cartesian product][] of
+your Ruby and Node versions.
+
+$$R = \{r \mid r \in \text{Desired Ruby Versions}\}$$  
+$$N = \{n \mid n \in \text{Desired Node Versions}\}$$  
+$$\text{Number of Builds} = |R \times N| = |\{(r,n) \mid r \in R, n \in N\}|$$  
 
 Here is a simple Python program to calculate the combinations if we added
 differing versions of NPM to the mix:

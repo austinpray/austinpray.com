@@ -39,7 +39,11 @@ defaults:
 gems:
   - jekyll-sitemap
 
+styles:
+  katex: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"
+
 scripts: 
-  d3: "//cdn.jsdelivr.net/d3js/3.5.3/d3.js"
-  lodash: "//cdn.jsdelivr.net/lodash/3.0.0/lodash.js"
+  d3: "https://cdn.jsdelivr.net/d3js/3.5.3/d3.js"
+  lodash: "https://cdn.jsdelivr.net/lodash/3.0.0/lodash.js"
   activity: "/scripts/activity.js"
+  katex: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"
