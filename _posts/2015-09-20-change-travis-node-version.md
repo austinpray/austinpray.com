@@ -89,7 +89,8 @@ R = Ruby Versions
 N = Node Versions  
 R × N = { (a, b) | a ∈ R and b ∈ N }
 
-Simple Python program to calculate the combinations if we added differing versions of NPM to the mix:
+Here is a simple Python program to calculate the combinations if we added
+differing versions of NPM to the mix:
 
 {% highlight python %}
 {% include sauce/travis-cartesian-1.py %}
