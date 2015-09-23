@@ -100,7 +100,7 @@ If you've never used perl before, you should check out
 [CPAN](http://www.cpan.org/modules/index.html) and [their install
 instructions](http://www.cpan.org/modules/INSTALL.html). 
 
-If you are on Mac OSX you already have `perl` and `cpan` in your path. So all
+If you are on Mac OSX, you already have `perl` and `cpan` in your path. So all
 you need to do is install `cpanm`.
 
 ```
