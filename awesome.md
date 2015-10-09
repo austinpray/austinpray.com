@@ -3,6 +3,8 @@ layout: page
 title: Awesome
 ---
 
+A curated list of awesome tools, frameworks, libraries, and software I have used.
+
 ## JavaScript Packages
 
 ### [linkedin/hopscotch](https://github.com/linkedin/hopscotch)
