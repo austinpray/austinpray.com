@@ -7,8 +7,12 @@ A curated list of awesome tools, frameworks, libraries, and software I have used
 
 ## JavaScript Packages
 
-### [linkedin/hopscotch](https://github.com/linkedin/hopscotch)
+{% assign jsPackages = site.data.awesome | where:'category', 'js' %}
+{% for package in jsPackages %}
+### [{{ package.name }}]({{ package.url }})
 
-> Hopscotch is a framework to make it easy for developers to add product tours to their pages. Hopscotch accepts a tour JSON object as input and provides an API for the developer to control rendering the tour display and managing the tour progress.
+>
+{{ package.quote }}
 
-This is the best user walkthrough module I have come across. Great test coverage and professionally maintained.
+{{ package.comment }}
+{% endfor %}

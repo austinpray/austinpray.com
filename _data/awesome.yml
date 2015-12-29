@@ -1,0 +1,12 @@
+- name: linkedin/hopscotch
+  url: https://github.com/linkedin/hopscotch
+  category: js
+  quote: >
+    Hopscotch is a framework to make it easy for developers to add product
+    tours to their pages. Hopscotch accepts a tour JSON object as input and
+    provides an API for the developer to control rendering the tour display and
+    managing the tour progress.
+  comment: >
+    This is the best user walkthrough module I have come across. Great test
+    coverage and professionally maintained.
+
