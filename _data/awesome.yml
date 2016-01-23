@@ -1,3 +1,17 @@
+- name: FormidableLabs/victory
+  url: https://github.com/FormidableLabs/victory
+  category: js
+  quote: >
+    Victory is an opinionated, but fully overridable, ecosystem of composable
+    React components for building interactive data visualizations. This repo
+    aggregates all of the stable Victory components so they can be conveniently
+    included.
+  comment: >
+    For complex visualizations there is no doubt that d3 is king. But what
+    about simple line charts, bar charts, and pie charts that live on
+    dashboards and such? Victory is the best charting tool I have found for
+    integrating with React projects. Well tested, professionally maintained by
+    multiple employees of FormidableLabs.
 - name: linkedin/hopscotch
   url: https://github.com/linkedin/hopscotch
   category: js
