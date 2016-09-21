@@ -1,3 +1,5 @@
+```
+
 How to count bits and influence people.
 
 This is a SIMD within a register (SWAR) bit count algorhythm.
@@ -187,3 +189,5 @@ Finally
              R = 0000aaaa000aaaaa000aaaaa00aaaaaa
     0x0000003f = 00000000000000000000000000111111
 R & 0x0000003f = 00000000000000000000000000aaaaaa // 6 possible 1s with the largest actual possible being 32 (100000)
+
+```
