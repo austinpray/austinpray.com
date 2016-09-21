@@ -1,6 +1,7 @@
 ```
 
 How to count bits and influence people.
+By Tom Coladonato
 
 This is a SIMD within a register (SWAR) bit count algorhythm.
 
