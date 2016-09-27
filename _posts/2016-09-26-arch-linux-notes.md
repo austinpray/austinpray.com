@@ -24,3 +24,5 @@ https://wiki.archlinux.org/index.php/Vagrant
 `pacman -S virtualbox vagrant` and then choose `virtualbox-host-modules-arch`.
 
 You are gonna probably need nfs https://wiki.archlinux.org/index.php/NFS
+
+I had to install `net-tools` to get nfs working.
