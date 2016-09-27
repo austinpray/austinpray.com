@@ -1,5 +1,9 @@
 Just some notes from installing Arch Linux. Will come back and clean this article up.
 
+## Don't Forget
+
+Install and enable NTPD https://wiki.archlinux.org/index.php/Network_Time_Protocol_daemon
+
 ## GUI and Graphics
 
 Nvidia GTX 1070 -> install `nvidia` package. `nvidia-libgl` fine.
@@ -19,3 +23,4 @@ https://wiki.archlinux.org/index.php/Vagrant
 
 `pacman -S virtualbox vagrant` and then choose `virtualbox-host-modules-arch`.
 
+You are gonna probably need nfs https://wiki.archlinux.org/index.php/NFS
