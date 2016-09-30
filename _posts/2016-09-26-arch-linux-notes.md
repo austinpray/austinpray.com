@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2016-09-28
+Packages list last updated: 2016-09-30
 
 ```arch-packages
 adobe-source-code-pro-fonts
@@ -82,6 +82,7 @@ jdk8-openjdk
 jfsutils
 keychain
 less
+libreoffice-fresh
 libtool
 licenses
 lightdm
@@ -139,6 +140,7 @@ virtualbox
 w3m
 wget
 which
+xautolock
 xclip
 xfsprogs
 zip
