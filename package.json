@@ -1,0 +1,24 @@
+{
+  "name": "austinpray.com",
+  "version": "1.0.0",
+  "description": "austinpray.com :watermelon: ===========================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compileMatt": "babel scripts/matt.js --out-file scripts/matt-compiled.js --source-maps",
+    "watchcompilematt": "babel scripts/matt.js --watch --out-file scripts/matt-compiled.js --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinpray/austinpray.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinpray/austinpray.com/issues"
+  },
+  "homepage": "https://github.com/austinpray/austinpray.com#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0"
+  }
+}

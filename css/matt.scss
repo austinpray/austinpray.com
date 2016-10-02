@@ -1,0 +1,35 @@
+---
+---
+
+body {
+  background: #272822;
+  color: #fff;
+  font-family: monospace;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+}
+
+#output {
+  flex-grow: 1;
+  overflow: scroll;
+}
+
+#output {
+}
+
+#input {
+}
+
+.terminalInput {
+  width: 100%;
+  font-size: 120%;
+}
+
+.ps1 {
+  color: #A6E22E;
+}
