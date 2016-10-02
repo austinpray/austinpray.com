@@ -16,10 +16,12 @@
 <div class="frame">
   <h1>matt adventure</h1>
   <div id="output"></div>
-  <div id="input"><form>
-    <input type="text" class="terminalInput" />
-  </form></div>
+  <div id="input">
+    <form id="inputForm">
+      <input type="text" id="userInput" class="terminalInput" autocomplete="off" autofocus />
+    </form>
+  </div>
 </div>
-<script src="scripts/matt-compiled.js"></script>
+<script src="webpack-dist/matt.bundle.js"></script>
 </body>
 </html>

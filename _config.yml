@@ -47,3 +47,5 @@ scripts:
   lodash: "https://cdn.jsdelivr.net/lodash/3.0.0/lodash.js"
   activity: "/scripts/activity.js"
   katex: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.js"
+
+exclude: [node_modules, package.json, npm-debug.log, scss]
