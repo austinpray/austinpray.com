@@ -68,7 +68,7 @@ const sendImage = function (path) {
   const img = new Image();
   img.src = path;
   const messageEl = document.createElement('div');
-  messageEl.className = "message";
+  messageEl.className = "message message-image";
   messageEl.appendChild(img);
   output.appendChild(messageEl);
   img.onload = function () {
@@ -104,7 +104,7 @@ const cannedMessages = {
     sendImage("/assets/old_phone.jpg");
     sendInfoMessage("**WHAT IN THE FUCK IS THIS THING??**");
     sendInfoMessage("The battery died after getting a glimpse of the home screen.");
-    sendInfoMessage("You got an iPhone in 2010.");
+    sendInfoMessage("You got an iPhone in 2010 and have had an iPhone ever since.");
   }
 };
 
@@ -136,11 +136,8 @@ const states = {
       "How the heck are you even here? Didn't Matt's parents sell this place a while ago?"
     );
 
-    delay(
-      () => sendMessage(
-        HELP_PS1, "You can `inspect` things. You can also `stand up`. You can check your `pockets` as well."),
-      3000
-    );
+    sendMessage(HELP_PS1, "You can `inspect` things. You can also `stand up`. You can check your `pockets` as well.");
+
     return {
       ...state,
       name: "eyesOpen",
@@ -173,7 +170,7 @@ const states = {
           }
         }
 
-        if (contains(input, "say", "talk", "yell")) {
+        if (contains(input, "say", "talk", "yell", "ask")) {
           return sendInfoMessage("They are too busy playing the game to talk.");
         }
 
@@ -192,10 +189,20 @@ const states = {
   gameRoomStandUp: function (state = {}) {
     sendMessages(
       MESSAGE_PS1,
-      "You are definitely spooked. You can't remember how you got inside Matt's old house. " +
-      "You can't remember ",
-      "You stand up to inspect the rest of the room.",
-      "Behind Matt you see a door than you know leads to the balcony."
+      "You are definitely spooked.",
+      "You can't remember how you got inside Matt's old house.",
+      "You stand up to further inspect the room. " +
+      "You remember that Matt's game room is on the second floor of the house. "
+    );
+    sendInfoMessage(
+`- On your right, behind where Matt is sitting: you see the _balcony door_.
+- On your left, behind where brittany is sitting: you see a _window_ overlooking the cul-de-sac.
+- Looking behind the couch and opposite from the TV: you see the _gameroom door_. You must have come through this door to get into the gameroom.`
+    );
+
+
+    sendMessages(
+      MESSAGE_PS1,
     );
     return {
       ...state,
@@ -206,6 +213,71 @@ const states = {
           cannedMessages.showPhone();
           return;
         }
+
+        if (contains(input, "look around")) {
+          sendInfoMessage("_balcony door_ on your right. _window_ on your left. _gameroom door_ behind you.");
+          return;
+        }
+
+        if (contains(input, "balcony")) {
+          return states.balcony();
+        }
+
+        if (contains(input, "gameroom door", "exit gameroom", "leave gameroom")) {
+          sendInfoMessage("You decide to leave the room. You open the gameroom door.");
+          return states.teleportToPool();
+        }
+
+        if (contains(input, "window")) {
+          sendInfoMessage(
+            "You walk over to the window. Through the blinds you see the cul-de-sac where matt lives. " +
+            "Well, where you used to live. Actually, that much isn't quite clear right now."
+          );
+          sendInfoMessage("You angle yourself so you can see further down the street");
+          sendInfoMessage(
+`Looking down the street leading into the cul-de-sac you see
+- The useless stop sign that polices traffic between a dead end and a cul-de-sac. You blow right though this stop sign every time you come to Matt's house
+- A tire swing hooked up to a neighbor's tree.`
+          );
+          sendInfoMessage("You walk back to the middle of the gameroom and stand looking at the TV");
+          return;
+        }
+      }
+    }
+  },
+  balcony: function (state) {
+    sendInfoMessage("You walk over to the balcony door. You open the door and step out onto the balcony.");
+    sendInfoMessage("From the balcony railing you can see the backyard. You can hear people playing in the _pool_");
+    sendInfoMessage("If people are playing in the pool, why are matt and brittany upstairs playing smash?");
+    return {
+      ...state,
+      name: "balcony",
+      handle(input) {
+        if (contains(input, "inside", "gameroom", "door")) {
+          sendInfoMessage("You head back inside. You open the door.");
+          return states.teleportToPool(state);
+        }
+        if (contains(input, "look", "inspect")) {
+          sendInfoMessage("Bunch of leaves on the roof. The backyard looks just like you remember.")
+        }
+      }
+    }
+  },
+  teleportToPool(state) {
+    sendInfoMessage("There is a blinding flash of light and heat");
+    sendInfoMessage("");
+    sendInfoMessage("You feel wet.");
+    sendInfoMessage(
+      "You look down and you are standing in Matt's pool, hugging Brittany. " +
+      "You look up and you see Darren is taking your picture"
+    );
+    sendInfoMessage("Darren says the picture looks \"pro\"");
+    delay(() => sendImage("/assets/old_pool.jpg"), 5000);
+    return {
+      ...state,
+      name: "teleportToPool",
+      hande(state) {
+
       }
     }
   }
