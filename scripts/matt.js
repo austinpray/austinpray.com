@@ -324,8 +324,8 @@ const states = {
           sendInfoMessage("October 2nd is Matt's Birthday");
           sendHelpMessage("You now know that the date is October 2nd");
           sendHelpMessage("1. Everything is fine. Don't worry about me. (lie)\n" +
-            "2. ~~I think I forgot about a phone call I had to make. What is today? (lie)~~\n" +
-            "3. I can't find my phone. Have you seen it?\n" +
+            "2. ~~What is the date today?~~\n" +
+            "3. I can't find my phone. Have you seen it?" +
             "4. (Say nothing and go out into hallway.)");
           return {
             knowDay: true
