@@ -3,7 +3,7 @@
 
 body {
   background: #272822;
-  color: #fff;
+  color: #C5C8C6;
   font-family: monospace;
   font-size: 120%;
 }
@@ -32,11 +32,11 @@ body {
 }
 
 .ps1 {
-  color: #A6E22E;
+  color: #66D9EF;
 }
 
 .user-ps1 {
-  color: #66D9EF;
+  color: #A6E22E;
 }
 .help-ps1 {
   color: #F92672;
@@ -70,6 +70,14 @@ body {
 }
 
 .message {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.message-user {
   -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1s; /* Firefox < 16 */
   -ms-animation: fadein 1s; /* Internet Explorer */
