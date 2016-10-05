@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2016-09-30
+Packages list last updated: 2016-10-05
 
 ```arch-packages
 adobe-source-code-pro-fonts
@@ -53,6 +53,7 @@ dhcpcd
 diffutils
 dmenu
 e2fsprogs
+emojione-color-font
 escrotum-git
 fakeroot
 file
@@ -66,6 +67,7 @@ gettext
 git
 glibc
 google-chrome
+gradle
 grep
 gvim
 gzip
@@ -80,6 +82,7 @@ iputils
 j4-dmenu-desktop
 jdk8-openjdk
 jfsutils
+keepass
 keychain
 less
 libreoffice-fresh
