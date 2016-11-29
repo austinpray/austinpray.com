@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2016-10-05
+Packages list last updated: 2016-11-28
 
 ```arch-packages
 adobe-source-code-pro-fonts
@@ -41,13 +41,16 @@ alsa-utils
 autoconf
 autojump
 automake
+avidemux-qt
 bash
 binutils
 bison
+brother-brgenml1
 bzip2
 coreutils
 cower
 cryptsetup
+cups-pdf
 device-mapper
 dhcpcd
 diffutils
@@ -56,10 +59,14 @@ e2fsprogs
 emojione-color-font
 escrotum-git
 fakeroot
+ffmpeg
 file
 filesystem
 findutils
 flex
+foomatic-db-engine
+foomatic-db-nonfree-ppds
+foomatic-db-ppds
 gawk
 gcc
 gcc-libs
@@ -67,7 +74,9 @@ gettext
 git
 glibc
 google-chrome
+gparted
 gradle
+graphviz
 grep
 gvim
 gzip
@@ -85,6 +94,7 @@ jfsutils
 keepass
 keychain
 less
+libmcrypt
 libreoffice-fresh
 libtool
 licenses
@@ -98,10 +108,12 @@ make
 man-db
 man-pages
 mdadm
+meld
 nano
 net-tools
 netctl
 nfs-utils
+ntfs-3g
 nvidia
 openssh
 otf-ipafont
@@ -115,24 +127,33 @@ perl
 pkg-config
 pm-utils
 poppler
+postgresql
 procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+python-gobject
 python-pip
 python2-virtualenv
+qt4
 ranger
+redshift
 reiserfsprogs
+rsync
 s-nail
+sbt
+scala
 sed
 shadow
 slack-desktop
+sshfs
 sudo
 sysfsutils
 systemd-sysvcompat
 tar
 termite
 texinfo
+tidy
 tree
 unzip
 usbutils
@@ -140,6 +161,7 @@ util-linux
 vagrant
 vi
 virtualbox
+vlc
 w3m
 wget
 which
