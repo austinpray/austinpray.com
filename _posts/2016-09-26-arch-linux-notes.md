@@ -32,21 +32,22 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2016-11-28
+Packages list last updated: 2017-01-17
 
 ```arch-packages
-adobe-source-code-pro-fonts
 adobe-source-han-sans-jp-fonts
 alsa-utils
 autoconf
 autojump
 automake
 avidemux-qt
+baobab
 bash
 binutils
 bison
 brother-brgenml1
 bzip2
+chromium
 coreutils
 cower
 cryptsetup
@@ -71,8 +72,10 @@ gawk
 gcc
 gcc-libs
 gettext
+gimp
 git
 glibc
+gnome-system-monitor
 google-chrome
 gparted
 gradle
@@ -84,6 +87,8 @@ highlight
 i3-wm
 i3lock
 i3status
+ibus
+ibus-mozc
 imlib2
 inetutils
 iproute2
@@ -140,11 +145,14 @@ ranger
 redshift
 reiserfsprogs
 rsync
+rxvt
+rxvt-unicode
 s-nail
 sbt
 scala
 sed
 shadow
+silver-searcher-git
 slack-desktop
 sshfs
 sudo
@@ -155,16 +163,27 @@ termite
 texinfo
 tidy
 tree
+ttf-google-fonts-git
+ttf-ms-win10
+ttf-ms-win10-japanese
+ttf-ms-win10-korean
+ttf-ms-win10-other
+ttf-ms-win10-sea
+ttf-ms-win10-thai
+ttf-ms-win10-zh_cn
+ttf-ms-win10-zh_tw
 unzip
 usbutils
 util-linux
 vagrant
 vi
 virtualbox
+virtualbox-ext-oracle
 vlc
 w3m
 wget
 which
+winusb
 xautolock
 xclip
 xfsprogs
