@@ -14,7 +14,7 @@ Replace dmenu with https://github.com/enkore/j4-dmenu-desktop <-- sooo dope
 
 ## Japanese Fonts
 
-Don't forget your Japanese fonts if you are listening to future funk. 
+Don't forget your Japanese fonts if you are an insufferable weeb. 
 
 `sudo pacman -S adobe-source-han-sans-jp-fonts`
 `sudo pacman -S otf-ipafont`
