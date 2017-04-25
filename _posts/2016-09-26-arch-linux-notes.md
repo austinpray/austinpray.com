@@ -32,20 +32,24 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2017-01-17
+Packages list last updated: 2017-04-25
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
 alsa-utils
+anki
+apvlv
 autoconf
 autojump
 automake
 avidemux-qt
 baobab
 bash
+bind-tools
 binutils
 bison
 brother-brgenml1
+btrfs-progs
 bzip2
 chromium
 coreutils
@@ -56,10 +60,15 @@ device-mapper
 dhcpcd
 diffutils
 dmenu
+docker
+docker-compose
+dosfstools
 e2fsprogs
 emojione-color-font
 escrotum-git
 fakeroot
+fbida
+fbv
 ffmpeg
 file
 filesystem
@@ -74,6 +83,7 @@ gcc-libs
 gettext
 gimp
 git
+git-lfs
 glibc
 gnome-system-monitor
 google-chrome
@@ -84,6 +94,7 @@ grep
 gvim
 gzip
 highlight
+htop
 i3-wm
 i3lock
 i3status
@@ -91,13 +102,18 @@ ibus
 ibus-mozc
 imlib2
 inetutils
+inkscape
 iproute2
 iputils
 j4-dmenu-desktop
 jdk8-openjdk
 jfsutils
+jq
+kakasi
+kanjistrokeorders-ttf
 keepass
 keychain
+klavaro
 less
 libmcrypt
 libreoffice-fresh
@@ -108,12 +124,19 @@ lightdm-gtk-greeter
 linux
 logrotate
 lvm2
+lxc
 m4
 make
 man-db
 man-pages
+mariadb-clients
 mdadm
+mecab-ipadic
+meh-git
 meld
+mplayer
+mupdf
+mysql-workbench
 nano
 net-tools
 netctl
@@ -122,6 +145,7 @@ ntfs-3g
 nvidia
 openssh
 otf-ipafont
+p7zip
 pacaur
 pacman
 patch
@@ -130,13 +154,15 @@ pciutils
 pcmciautils
 perl
 pkg-config
-pm-utils
 poppler
 postgresql
 procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pwgen
+python-beautifulsoup4
+python-cairo
 python-gobject
 python-pip
 python2-virtualenv
@@ -156,7 +182,9 @@ silver-searcher-git
 slack-desktop
 sshfs
 sudo
+sux
 sysfsutils
+system-config-printer
 systemd-sysvcompat
 tar
 termite
@@ -172,6 +200,7 @@ ttf-ms-win10-sea
 ttf-ms-win10-thai
 ttf-ms-win10-zh_cn
 ttf-ms-win10-zh_tw
+tuxboot
 unzip
 usbutils
 util-linux
@@ -184,6 +213,7 @@ w3m
 wget
 which
 winusb
+wrk
 xautolock
 xclip
 xfsprogs
