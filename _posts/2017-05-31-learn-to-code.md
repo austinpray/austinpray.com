@@ -34,7 +34,7 @@ The whole thing is very much like learning a spoken language. I took 5 years of 
  
 My little flash animation showcase website was my project that got me into programming. Yours should be something you care about as well. It doesn’t have to be a website, it could be a program that reads a spreadsheet and outputs some helpful text. It could be a program that tracks expirations dates on your groceries. It could be a program that tracks how often you have sex. You could write a program to calculate how much you need to save up month over month to buy something. You could build a goofy chat bot that says funny things when you chat to it. You could even just build your own to-do list app. It doesn’t matter if it’s a novel idea or that there is an existing solution, you are trying to learn.
  
-My recommendation would be to think of a project that deals with numbers or text as data. At least to start with. Dealing with images, audio, and video isn’t rocket science, but introduces concepts that might confuse a truly novice programmer. If you truly aren’t familiar with what a “program” is, use an online tool like https://www.codecademy.com/ and go through the first couple lessons, I recommend starting with JavaScript. This will teach you the very basics of what programming is. Hopefully this will jog your noggin and maybe you will see how you can write programs to crunch numbers or save text or remember dates or display text. But critical to my point: you should never stray far applying your knowledge. As soon as you know enough to be dangerous, you should try your hand at building something.
+My recommendation would be to think of a project that deals with numbers or text as data. At least to start with. Dealing with images, audio, and video isn’t rocket science, but introduces concepts that might confuse a truly novice programmer. If you truly aren’t familiar with what a “program” is, use an online tool like [codeacademy](https://www.codecademy.com/) and go through the first couple lessons, I recommend starting with JavaScript. This will teach you the very basics of what programming is. Hopefully this will jog your noggin and maybe you will see how you can write programs to crunch numbers or save text or remember dates or display text. But critical to my point: you should never stray far applying your knowledge. As soon as you know enough to be dangerous, you should try your hand at building something.
  
 ## “What Language Should I Learn?”
  
@@ -46,14 +46,14 @@ It can get more complicated. For instance: you can build goofy websites using Py
  
 Good resources:
  
-- https://www.codecademy.com/
-- http://codewars.com/
-- https://egghead.io/courses
-- https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+- [https://www.codecademy.com/](https://www.codecademy.com/)
+- [code wars](http://codewars.com/)
+- [egghead.io](https://egghead.io/courses)
+- [mozilla](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
  
 ## “What Should I Do?”
  
-Go to meetups! So you have a basic idea of what programming is and perhaps you have done some reading online. Now it is time to collaborate with other people. If you go to school: see if your school has any coding meetups. Check https://www.meetup.com/ for coding meetups in your area. Be a fly on the wall, listen to pros talk about stuff. Take notes. Ask people about things they have built. Ask people how they would build things you want to build. Talk to other newbies and ask what has been working for them.
+Go to meetups! So you have a basic idea of what programming is and perhaps you have done some reading online. Now it is time to collaborate with other people. If you go to school: see if your school has any coding meetups. Check [Meetup.com](https://www.meetup.com/) for coding meetups in your area. Be a fly on the wall, listen to pros talk about stuff. Take notes. Ask people about things they have built. Ask people how they would build things you want to build. Talk to other newbies and ask what has been working for them.
  
 Maybe take a class! If you need hands on instruction, go for it. You may have heard about coding bootcamps and stuff. I don’t have any recommendations on any specific programs to join but I would definitely recommend at least doing some online courses before paying for a bootcamp. My feeling is if you go in completely ignorant you are not going to get a lot out of it. You want to have an understanding of the basics so you can ask good questions and not fill your time tripping over pedestrian issues.
  
