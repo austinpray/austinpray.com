@@ -32,13 +32,14 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2017-04-25
+Packages list last updated: 2017-07-12
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
 alsa-utils
 anki
 apvlv
+arandr
 autoconf
 autojump
 automake
@@ -55,6 +56,8 @@ chromium
 coreutils
 cower
 cryptsetup
+cuda
+cudnn
 cups-pdf
 device-mapper
 dhcpcd
@@ -73,10 +76,12 @@ ffmpeg
 file
 filesystem
 findutils
+flashplayer-standalone
 flex
 foomatic-db-engine
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
+foxitreader
 gawk
 gcc
 gcc-libs
@@ -107,6 +112,7 @@ iproute2
 iputils
 j4-dmenu-desktop
 jdk8-openjdk
+jetbrains-toolbox
 jfsutils
 jq
 kakasi
@@ -165,6 +171,8 @@ python-beautifulsoup4
 python-cairo
 python-gobject
 python-pip
+python-protobuf
+python-tensorflow
 python2-virtualenv
 qt4
 ranger
@@ -217,6 +225,7 @@ wrk
 xautolock
 xclip
 xfsprogs
+zathura
 zip
 zsh
 ```
