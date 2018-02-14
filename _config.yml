@@ -5,9 +5,7 @@ byline: writes software for the web.
 email: austin@austinpray.com
 description: > # this means to ignore newlines until "baseurl:"
   Austin is a full stack developer focused on pushing the limits of the web as
-  a platform for rich interactive experiences. He is the principal and lead
-  developer at corelaunch.com, a boutique consulting shop that builds software for
-  the web.
+  a platform for rich interactive experiences.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://austinpray.com" # the base hostname & protocol for your site
 twitter_username: austinpray
