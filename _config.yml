@@ -35,4 +35,4 @@ defaults:
 plugins:
   - jekyll-sitemap
 
-exclude: [Dockerfile, docker-compose.yml, .editorconfig, .gitignore, CNAME, Gemfile, Gemfile.lock, README.md, .idea]
+exclude: [vendor, Dockerfile, docker-compose.yml, .editorconfig, .gitignore, CNAME, Gemfile, Gemfile.lock, README.md, .idea]
