@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2017-07-12
+Packages list last updated: 2018-06-26
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -40,24 +40,30 @@ alsa-utils
 anki
 apvlv
 arandr
+at
 autoconf
 autojump
 automake
 avidemux-qt
+aws-cli
 baobab
 bash
+beep
 bind-tools
 binutils
 bison
 brother-brgenml1
 btrfs-progs
 bzip2
+certbot
 chromium
+cli-visualizer
+compton
 coreutils
 cower
+cowsay
+cronie
 cryptsetup
-cuda
-cudnn
 cups-pdf
 device-mapper
 dhcpcd
@@ -65,18 +71,22 @@ diffutils
 dmenu
 docker
 docker-compose
+dolphin
+dolphin-plugins
 dosfstools
 e2fsprogs
+efibootmgr
 emojione-color-font
 escrotum-git
 fakeroot
 fbida
 fbv
+feh
 ffmpeg
 file
 filesystem
 findutils
-flashplayer-standalone
+firefox
 flex
 foomatic-db-engine
 foomatic-db-nonfree-ppds
@@ -86,10 +96,12 @@ gawk
 gcc
 gcc-libs
 gettext
+gifsicle
 gimp
 git
 git-lfs
 glibc
+gnome-keyring
 gnome-system-monitor
 google-chrome
 gparted
@@ -100,6 +112,7 @@ gvim
 gzip
 highlight
 htop
+http-parser
 i3-wm
 i3lock
 i3status
@@ -108,12 +121,14 @@ ibus-mozc
 imlib2
 inetutils
 inkscape
+input-utils
 iproute2
 iputils
 j4-dmenu-desktop
 jdk8-openjdk
 jetbrains-toolbox
 jfsutils
+jpegoptim
 jq
 kakasi
 kanjistrokeorders-ttf
@@ -125,10 +140,9 @@ libmcrypt
 libreoffice-fresh
 libtool
 licenses
-lightdm
-lightdm-gtk-greeter
 linux
 logrotate
+lshw
 lvm2
 lxc
 m4
@@ -146,11 +160,18 @@ mysql-workbench
 nano
 net-tools
 netctl
+network-manager-applet
+networkmanager
 nfs-utils
 ntfs-3g
 nvidia
+nvidia-settings
+ocaml
 openssh
+os-prober
 otf-ipafont
+oxygen
+oxygen-icons
 p7zip
 pacaur
 pacman
@@ -159,9 +180,11 @@ pavucontrol
 pciutils
 pcmciautils
 perl
-pkg-config
+pkgconf
 poppler
 postgresql
+postman
+print-manager
 procps-ng
 psmisc
 pulseaudio
@@ -172,9 +195,9 @@ python-cairo
 python-gobject
 python-pip
 python-protobuf
-python-tensorflow
 python2-virtualenv
 qt4
+qt5ct
 ranger
 redshift
 reiserfsprogs
@@ -185,6 +208,7 @@ s-nail
 sbt
 scala
 sed
+selfspy-git
 shadow
 silver-searcher-git
 slack-desktop
@@ -196,10 +220,13 @@ system-config-printer
 systemd-sysvcompat
 tar
 termite
+testdisk
 texinfo
 tidy
 tree
 ttf-google-fonts-git
+ttf-meslo
+ttf-mplus
 ttf-ms-win10
 ttf-ms-win10-japanese
 ttf-ms-win10-korean
@@ -213,6 +240,7 @@ unzip
 usbutils
 util-linux
 vagrant
+vegeta
 vi
 virtualbox
 virtualbox-ext-oracle
@@ -220,11 +248,15 @@ vlc
 w3m
 wget
 which
-winusb
 wrk
 xautolock
 xclip
+xf86-video-intel
 xfsprogs
+xorg-xinit
+xorg-xsetroot
+xprintidle
+youtube-dl
 zathura
 zip
 zsh

@@ -2,10 +2,9 @@
 layout: default
 ---
 <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-    <p class="post-meta">
+  <header>
+    <h1 itemprop="name">{{ page.title }}</h1>
+    <p style="font-style: italic; font-size: 80%">
       <time itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       {% if page.author %} • <span itemprop="author">{{ page.author }}</span>{% endif %}
       {% if page.path %} • <a href="{{ site.repo_baseurl }}{{ page.path }}">

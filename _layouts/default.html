@@ -5,17 +5,15 @@
 
   <body>
 
-    <div class="layout-default">
+    <div style="margin: 0 auto; max-width: 32em;">
 
       {% include header.html %}
 
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
+      {{ content }}
 
-        {% include footer.html %}
-      </div>
+      {% if page.nofooter != true %}
+          {% include footer.html %}
+      {% endif %}
 
     </div>
 

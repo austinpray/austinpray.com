@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  jekyll:
+    build: .
+    command: ["serve", "-H", "0.0.0.0", "-P", "4000"]
+    volumes:
+     - ./:/site
+    ports:
+      - "4000:4000"

@@ -6,8 +6,25 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.site_title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <style type="text/css">
+    html, body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      line-height: 1.5;
+    }
+
+    @media (min-width: 576px) {
+      body {
+        font-size: 1.2rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
 </head>

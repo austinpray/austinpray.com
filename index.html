@@ -1,26 +1,31 @@
 ---
 layout: default
+nofooter: true
 ---
 
-<div class="page-content">
-  <div class="wrapper">
-    <div class="home">
+<h3>Contact</h3>
+<ul>
+  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  {% if site.github_username %}
+  <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+  {% endif %}
+  {% if site.stackoverflow %}
+  <li><a href="{{ site.stackoverflow }}">Stack Overflow</a></li>
+  {% endif %}
+</ul>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-        <li>
-          <h2>
-            <a class="post-link block-link" href="{{ post.url | prepend: site.baseurl }}">
-              <time class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</time>
-              {{ post.title }}
-            </a>
-          </h2>
-        </li>
-        {% endfor %}
-      </ul>
+<h3>Read</h3>
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+      {{ post.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-    </div>
-  </div>
-</div>
+<p style="text-align: center">
+  <small>subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a></small>
+</p>
