@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-06-26
+Packages list last updated: 2018-07-18
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -46,6 +46,7 @@ autojump
 automake
 avidemux-qt
 aws-cli
+baka-mplayer
 baobab
 bash
 beep
@@ -87,6 +88,7 @@ file
 filesystem
 findutils
 firefox
+flent
 flex
 foomatic-db-engine
 foomatic-db-nonfree-ppds
@@ -181,6 +183,7 @@ pciutils
 pcmciautils
 perl
 pkgconf
+pkgfile
 poppler
 postgresql
 postman
@@ -193,10 +196,13 @@ pwgen
 python-beautifulsoup4
 python-cairo
 python-gobject
+python-html5lib
 python-pip
 python-protobuf
+python-webencodings
 python2-virtualenv
 qt4
+qt5-styleplugins
 qt5ct
 ranger
 redshift
@@ -212,6 +218,7 @@ selfspy-git
 shadow
 silver-searcher-git
 slack-desktop
+smartmontools
 sshfs
 sudo
 sux
@@ -245,6 +252,7 @@ vi
 virtualbox
 virtualbox-ext-oracle
 vlc
+vte3
 w3m
 wget
 which
