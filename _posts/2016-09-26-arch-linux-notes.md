@@ -32,12 +32,11 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-07-18
+Packages list last updated: 2018-08-26
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
 alsa-utils
-anki
 apvlv
 arandr
 at
@@ -77,7 +76,6 @@ dolphin-plugins
 dosfstools
 e2fsprogs
 efibootmgr
-emojione-color-font
 escrotum-git
 fakeroot
 fbida
@@ -88,6 +86,7 @@ file
 filesystem
 findutils
 firefox
+flatpak
 flent
 flex
 foomatic-db-engine
@@ -99,7 +98,6 @@ gcc
 gcc-libs
 gettext
 gifsicle
-gimp
 git
 git-lfs
 glibc
@@ -122,7 +120,6 @@ ibus
 ibus-mozc
 imlib2
 inetutils
-inkscape
 input-utils
 iproute2
 iputils
@@ -134,12 +131,10 @@ jpegoptim
 jq
 kakasi
 kanjistrokeorders-ttf
-keepass
 keychain
 klavaro
 less
 libmcrypt
-libreoffice-fresh
 libtool
 licenses
 linux
@@ -177,16 +172,17 @@ oxygen-icons
 p7zip
 pacaur
 pacman
+pacman-contrib
 patch
 pavucontrol
 pciutils
-pcmciautils
 perl
+perl-rename
 pkgconf
 pkgfile
+plantuml
 poppler
 postgresql
-postman
 print-manager
 procps-ng
 psmisc
@@ -217,7 +213,6 @@ sed
 selfspy-git
 shadow
 silver-searcher-git
-slack-desktop
 smartmontools
 sshfs
 sudo
@@ -242,6 +237,7 @@ ttf-ms-win10-sea
 ttf-ms-win10-thai
 ttf-ms-win10-zh_cn
 ttf-ms-win10-zh_tw
+ttf-twemoji-color
 tuxboot
 unzip
 usbutils
@@ -251,7 +247,6 @@ vegeta
 vi
 virtualbox
 virtualbox-ext-oracle
-vlc
 vte3
 w3m
 wget
@@ -259,12 +254,17 @@ which
 wrk
 xautolock
 xclip
+xdg-desktop-portal-kde
 xf86-video-intel
 xfsprogs
 xorg-xinit
 xorg-xsetroot
+xpdf
 xprintidle
+yay-bin
 youtube-dl
+yubikey-manager
+yubikey-manager-qt
 zathura
 zip
 zsh
