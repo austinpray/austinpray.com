@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-08-26
+Packages list last updated: 2018-09-06
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -113,6 +113,7 @@ gzip
 highlight
 htop
 http-parser
+hub
 i3-wm
 i3lock
 i3status
@@ -131,7 +132,9 @@ jpegoptim
 jq
 kakasi
 kanjistrokeorders-ttf
+keybase-bin
 keychain
+kitty
 klavaro
 less
 libmcrypt
@@ -217,6 +220,7 @@ smartmontools
 sshfs
 sudo
 sux
+sway
 sysfsutils
 system-config-printer
 systemd-sysvcompat
