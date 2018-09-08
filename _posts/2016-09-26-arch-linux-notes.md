@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-09-06
+Packages list last updated: 2018-09-08
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -136,6 +136,7 @@ keybase-bin
 keychain
 kitty
 klavaro
+kompose-bin
 less
 libmcrypt
 libtool
@@ -163,6 +164,7 @@ netctl
 network-manager-applet
 networkmanager
 nfs-utils
+npm
 ntfs-3g
 nvidia
 nvidia-settings
@@ -206,6 +208,7 @@ qt5ct
 ranger
 redshift
 reiserfsprogs
+ripgrep
 rsync
 rxvt
 rxvt-unicode
@@ -265,6 +268,7 @@ xorg-xinit
 xorg-xsetroot
 xpdf
 xprintidle
+yarn
 yay-bin
 youtube-dl
 yubikey-manager
