@@ -6,7 +6,7 @@ categories: coding
 tags: coding
 ---
 
->Hey austin. I have been interested into getting into coding, specifically back end coding. I was just wondering what would be the best way about getting started? And I need to buy a new laptop and was wondering what hardware would be best for me given all that. Also keep in mind all of this is on tha backdrop of zero program experience. Very novice at computers period really. Any advice you got would be much appreciated [sic]
+>Hey austin. I have been interested into getting into coding, specifically back end coding. I was just wondering what would be the best way about getting started? And I need to buy a new laptop and was wondering what hardware would be best for me given all that. Also keep in mind all of this is on tha backdrop of zero program experience. Very novice at computers period really. Any advice you got would be much appreciated
  
 So I get this type of question a lot. I've seen people do well and I've seen people fail. There are a ton of resources out there to help people learn to code and get jobs and such. However, in order to be successful, the deciding factor is whether the person can fundamentally understand how programming can be useful to themselves and to the world at large. 
 
