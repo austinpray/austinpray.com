@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-09-08
+Packages list last updated: 2018-11-01
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -215,6 +215,7 @@ rxvt-unicode
 s-nail
 sbt
 scala
+seahorse
 sed
 selfspy-git
 shadow
@@ -264,6 +265,7 @@ xclip
 xdg-desktop-portal-kde
 xf86-video-intel
 xfsprogs
+xonsh
 xorg-xinit
 xorg-xsetroot
 xpdf
@@ -275,5 +277,6 @@ yubikey-manager
 yubikey-manager-qt
 zathura
 zip
+zoom
 zsh
 ```
