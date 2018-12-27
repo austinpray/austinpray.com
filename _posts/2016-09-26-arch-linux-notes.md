@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-11-01
+Packages list last updated: 2018-12-26
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -198,6 +198,7 @@ python-beautifulsoup4
 python-cairo
 python-gobject
 python-html5lib
+python-pawk
 python-pip
 python-protobuf
 python-webencodings
@@ -214,6 +215,7 @@ rxvt
 rxvt-unicode
 s-nail
 sbt
+sc-im
 scala
 seahorse
 sed
