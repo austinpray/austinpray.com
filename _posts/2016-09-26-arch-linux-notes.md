@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2018-12-26
+Packages list last updated: 2019-07-18
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -40,6 +40,7 @@ alsa-utils
 apvlv
 arandr
 at
+audacity
 autoconf
 autojump
 automake
@@ -58,6 +59,7 @@ bzip2
 certbot
 chromium
 cli-visualizer
+colordiff
 compton
 coreutils
 cower
@@ -65,15 +67,20 @@ cowsay
 cronie
 cryptsetup
 cups-pdf
+deepin-screenshot
 device-mapper
 dhcpcd
+diff-so-fancy
 diffutils
+discord
 dmenu
 docker
 docker-compose
 dolphin
 dolphin-plugins
+dos2unix
 dosfstools
+dunst
 e2fsprogs
 efibootmgr
 escrotum-git
@@ -104,6 +111,7 @@ glibc
 gnome-keyring
 gnome-system-monitor
 google-chrome
+gotty
 gparted
 gradle
 graphviz
@@ -137,12 +145,18 @@ keychain
 kitty
 klavaro
 kompose-bin
+kops
+kubebox
+kubectx
+lazydocker
 less
 libmcrypt
+libreoffice-fresh
 libtool
 licenses
 linux
 logrotate
+losslesscut
 lshw
 lvm2
 lxc
@@ -159,11 +173,13 @@ mplayer
 mupdf
 mysql-workbench
 nano
+neoleo
 net-tools
 netctl
 network-manager-applet
 networkmanager
 nfs-utils
+notification-daemon
 npm
 ntfs-3g
 nvidia
@@ -178,6 +194,7 @@ p7zip
 pacaur
 pacman
 pacman-contrib
+parallel
 patch
 pavucontrol
 pciutils
@@ -193,6 +210,7 @@ procps-ng
 psmisc
 pulseaudio
 pulseaudio-alsa
+pup-git
 pwgen
 python-beautifulsoup4
 python-cairo
@@ -207,6 +225,7 @@ qt4
 qt5-styleplugins
 qt5ct
 ranger
+re2c
 redshift
 reiserfsprogs
 ripgrep
@@ -259,8 +278,10 @@ virtualbox
 virtualbox-ext-oracle
 vte3
 w3m
+wdiff
 wget
 which
+words-insane
 wrk
 xautolock
 xclip
@@ -272,6 +293,7 @@ xorg-xinit
 xorg-xsetroot
 xpdf
 xprintidle
+xsel
 yarn
 yay-bin
 youtube-dl
