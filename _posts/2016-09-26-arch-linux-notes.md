@@ -32,11 +32,12 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2019-07-18
+Packages list last updated: 2019-09-22
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
 alsa-utils
+antibody-bin
 apvlv
 arandr
 at
@@ -96,10 +97,12 @@ firefox
 flatpak
 flent
 flex
+fluxctl-bin
 foomatic-db-engine
 foomatic-db-nonfree-ppds
 foomatic-db-ppds
 foxitreader
+fzf
 gawk
 gcc
 gcc-libs
@@ -145,10 +148,9 @@ keychain
 kitty
 klavaro
 kompose-bin
-kops
 kubebox
+kubectl
 kubectx
-lazydocker
 less
 libmcrypt
 libreoffice-fresh
@@ -165,13 +167,13 @@ make
 man-db
 man-pages
 mariadb-clients
+masterpdfeditor
 mdadm
 mecab-ipadic
 meh-git
 meld
 mplayer
 mupdf
-mysql-workbench
 nano
 neoleo
 net-tools
@@ -192,6 +194,7 @@ oxygen
 oxygen-icons
 p7zip
 pacaur
+pacgraph
 pacman
 pacman-contrib
 parallel
@@ -202,6 +205,7 @@ perl
 perl-rename
 pkgconf
 pkgfile
+pkgtools
 plantuml
 poppler
 postgresql
@@ -254,6 +258,8 @@ termite
 testdisk
 texinfo
 tidy
+toggldesktop-bin
+tokei
 tree
 ttf-google-fonts-git
 ttf-meslo
@@ -301,6 +307,5 @@ yubikey-manager
 yubikey-manager-qt
 zathura
 zip
-zoom
 zsh
 ```
