@@ -89,5 +89,16 @@ map({ (.name|tostring): .url}) | add
 
 ```
 
+# ripgrep to versioned github links
+
+```bash
+export _REPO=your/repo
+export _COMMIT=$(git rev-parse HEAD)
+rg --json 'WHATEVER' |\
+  jq 'select(.type == "match")' |\
+  jq -r "\"https://github.com/$_REPO/blob/$_COMMIT/\(.data.path.text)#L\(.data.line_number)\""
+```
+
+Outputs versioned urls like `https://github.com/austinpray/austinpray.com/blob/4b92ab98d3a858b3916e8177228434ff24f8f1d0/.gitignore`
 
 [jq]: https://stedolan.github.io/jq/
