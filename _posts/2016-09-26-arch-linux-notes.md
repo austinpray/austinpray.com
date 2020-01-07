@@ -32,7 +32,7 @@ I had to install `net-tools` to get nfs working.
 
 ## Installed Packages List
 
-Packages list last updated: 2019-09-22
+Packages list last updated: 2020-01-07
 
 ```arch-packages
 adobe-source-han-sans-jp-fonts
@@ -50,6 +50,7 @@ aws-cli
 baka-mplayer
 baobab
 bash
+bat
 beep
 bind-tools
 binutils
@@ -61,7 +62,6 @@ certbot
 chromium
 cli-visualizer
 colordiff
-compton
 coreutils
 cower
 cowsay
@@ -85,11 +85,13 @@ dunst
 e2fsprogs
 efibootmgr
 escrotum-git
+exa
 fakeroot
 fbida
 fbv
 feh
 ffmpeg
+figlet
 file
 filesystem
 findutils
@@ -111,6 +113,7 @@ gifsicle
 git
 git-lfs
 glibc
+glow
 gnome-keyring
 gnome-system-monitor
 google-chrome
@@ -180,7 +183,9 @@ net-tools
 netctl
 network-manager-applet
 networkmanager
+networkmanager-openvpn
 nfs-utils
+nmap
 notification-daemon
 npm
 ntfs-3g
@@ -188,6 +193,7 @@ nvidia
 nvidia-settings
 ocaml
 openssh
+openvpn
 os-prober
 otf-ipafont
 oxygen
@@ -203,6 +209,7 @@ pavucontrol
 pciutils
 perl
 perl-rename
+picom
 pkgconf
 pkgfile
 pkgtools
@@ -244,6 +251,7 @@ seahorse
 sed
 selfspy-git
 shadow
+shellcheck
 silver-searcher-git
 smartmontools
 sshfs
@@ -255,6 +263,7 @@ system-config-printer
 systemd-sysvcompat
 tar
 termite
+terraform
 testdisk
 texinfo
 tidy
@@ -306,6 +315,8 @@ youtube-dl
 yubikey-manager
 yubikey-manager-qt
 zathura
+zeal
 zip
+zoom
 zsh
 ```
