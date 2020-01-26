@@ -32,7 +32,4 @@ defaults:
       layout: post
       author: "Austin Pray"
 
-plugins:
-  - jekyll-sitemap
-
 exclude: [vendor, Dockerfile, docker-compose.yml, .editorconfig, .gitignore, CNAME, Gemfile, Gemfile.lock, README.md, .idea]
