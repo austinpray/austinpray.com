@@ -4,15 +4,11 @@ layout: default
 <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 itemprop="name">{{ page.title }}</h1>
-    <p style="font-style: italic; font-size: 80%">
+    <p style="font-family: monospace; font-size: 80%">
       <time itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-      {% if page.author %} • <span itemprop="author">{{ page.author }}</span>{% endif %}
-      {% if page.path %} • <a href="{{ site.repo_baseurl }}{{ page.path }}">
-        <i class="ion-social-markdown"></i> View Sauce
-      </a>{% endif %}
-      {% if page.path %} • <a href="{{ site.repo_editurl }}{{ page.path }}">
-        <i class="ion-edit"></i> Edit
-      </a>{% endif %}
+      {% if page.author %} • <a href="https://github.com/{{ site.github_username }}"><span itemprop="author">{{ page.author }}</span></a>{% endif %}
+      {% if page.path %} • <a href="{{ site.repo_baseurl }}{{ page.path }}">View Sauce</a>{% endif %}
+      {% if page.path %} • <a href="{{ site.repo_editurl }}{{ page.path }}">Edit</a>{% endif %}
       {% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
   </header>

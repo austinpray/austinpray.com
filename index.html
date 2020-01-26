@@ -4,22 +4,29 @@ nofooter: true
 ---
 
 <h3>Contact</h3>
-<ul>
-  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-  {% if site.github_username %}
-  <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
-  {% endif %}
-  {% if site.stackoverflow %}
-  <li><a href="{{ site.stackoverflow }}">Stack Overflow</a></li>
-  {% endif %}
-</ul>
+
+<p>
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+</p>
+{% if site.github_username %}
+<p>
+  <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }} on GitHub</a></li>
+</p>
+{% endif %}
+{% if site.stackoverflow %}
+<p>
+  <a href="{{ site.stackoverflow }}">Stack Overflow</a>
+</p>
+{% endif %}
 
 <h3>Read</h3>
 <ul>
   {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url | prepend: site.baseurl }}">
-      <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+  <li style="margin-bottom: 0.75em;">
+    <a style="text-decoration: none" href="{{ post.url | prepend: site.baseurl }}">
+      <small><time style="font-family: monospace">{{ post.date | date: "%b %-d, %Y" }}</time></small>
+    </a>
+    <a href="{{ post.url | prepend: site.baseurl }}" style="display: block; margin-left: 0.5em">
       {{ post.title }}
     </a>
   </li>
