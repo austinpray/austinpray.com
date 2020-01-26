@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://austinpray.com" # the base hostname & protocol for your site
 github_username:  austinpray
-stackoverflow: "https://stackoverflow.com/users/1585343/austin-pray"
+#stackoverflow: "https://stackoverflow.com/users/1585343/austin-pray"
 
 repo_baseurl: "https://github.com/austinpray/austinpray.com/blob/gh-pages/"
 repo_editurl: "https://github.com/austinpray/austinpray.com/edit/gh-pages/"
