@@ -1,3 +1,8 @@
+---
+title: "Arch Linux Notes" 
+date: 2016-09-26
+---
+
 Just some notes from installing Arch Linux. Will come back and clean this article up.
 
 ## Don't Forget

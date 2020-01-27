@@ -1,10 +1,17 @@
-version: "3"
+version: '3.7'
+
+x-hugo: &hugo
+  build: ./build
+  volumes:
+    - .:/src
+    - ./public:/target
+  ports:
+    - 1313:1313
 
 services:
-  jekyll:
-    build: .
-    command: ["serve", "-H", "0.0.0.0", "-P", "4000"]
-    volumes:
-     - ./:/site
-    ports:
-      - "4000:4000"
+  hugo:
+    <<: *hugo
+
+  server:
+    <<: *hugo
+    command: "server"

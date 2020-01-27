@@ -1,6 +1,6 @@
 ---
-layout: post 
 title: "Travis CI: Node Version Management on Non-Node Projects" 
+date: 2015-09-20
 categories: ops
 tags: travis ci node
 math: true
@@ -21,12 +21,12 @@ and tools?
 understand how to set up project where Node is the only dependency. The
 following setup will run your code under Node 4 and 0.12:
 
-{% highlight yaml %}
+```yaml
 language: node_js
 node_js:
   - "0.12"
   - "4.0.0"
-{% endhighlight %}
+```
 
 ## Travis CI + \{\{ Language \}\} + Node
 
@@ -34,7 +34,7 @@ For example, let's say you have a Ruby project that uses Node for your
 front-end build process. You will have to do a little bit of manual labor to
 test a version of Node other than built-in Travis version:
 
-{% highlight yaml %}
+```yaml
 language: ruby
 rvm:
   - 2.2.3
@@ -51,7 +51,7 @@ install:
 script:
   - npm test
   - bundle exec rspec
-{% endhighlight %}
+```
 
 The above setup creates the following build matrix:
 
@@ -62,7 +62,7 @@ The above setup creates the following build matrix:
 
 What is going on in that install script?
 
-{% highlight bash %}
+```bash
 # Define a node version.
 TRAVIS_NODE_VERSION="4"
 
@@ -77,7 +77,7 @@ git clone https://github.com/creationix/nvm.git ~/.nvm
 # Install the desired version of Node
 source ~/.nvm/nvm.sh
 nvm install $TRAVIS_NODE_VERSION
-{%endhighlight %}
+```
 
 ## Watch the Math
 
@@ -98,9 +98,21 @@ So if you have 3 Ruby versions and 2 Node versions you will have 6 Builds.
 Here is a simple Python program to calculate the combinations if we added
 differing versions of NPM to the mix:
 
-{% highlight python %}
-{% include sauce/travis-cartesian-1.py %}
-{% endhighlight %}
+```python
+import itertools
+from string import Template
+product = list(itertools.product(
+  ["Ruby 2.2.3", "Ruby 1.9.3"],
+  ["Node 0.12", "Node 4"],
+  ["NPM 2", "NPM 3"]
+))
+
+combinations = len(product)
+
+print Template("This matrix will cause $c builds").substitute(c=combinations)
+
+for el in product: print el
+```
 
 ```
 This matrix will cause 8 builds

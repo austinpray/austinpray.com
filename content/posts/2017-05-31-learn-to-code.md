@@ -1,5 +1,4 @@
 ---
-layout: post 
 title: "Learn to Code" 
 date: 2017-05-31
 categories: coding

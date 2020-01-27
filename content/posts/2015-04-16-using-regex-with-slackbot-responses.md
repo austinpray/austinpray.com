@@ -1,6 +1,6 @@
 ---
-layout: post 
 title: "Make Slackbot Respond to Regex" 
+date: 2015-04-16
 categories: hacks
 tags: slack slackbot perl
 ---

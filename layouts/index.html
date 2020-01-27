@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<h3>Contact</h3>
+
+<p>
+  <a href="mailto:austin@austinpray.com">austin@austinpray.com</a>
+</p>
+<p>
+  <a href="https://github.com/austinpray">@austinpray on GitHub</a>
+</p>
+
+<h3>Read</h3>
+
+<ul>
+  {{ range .Site.RegularPages }}
+  <li style="margin-bottom: 0.75em;">
+    <a href="{{.Permalink}}">
+      <small><time style="font-family: monospace">{{.Date.Format "2006-01-02"}}</time></small>
+      <div style="display: block; margin-left: 0.5em">
+        {{.Title}}
+      </div>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }}

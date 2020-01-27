@@ -1,6 +1,6 @@
 ---
-layout: post 
 title: "“None of the Above” Checkbox with jQuery" 
+date: 2015-02-14
 categories: javascript
 tags: jquery forms
 math: true
@@ -30,11 +30,12 @@ math: true
 I had a friend last night ask me:
 
 >Anyone good at jQuery want to tell me if the following is a convoluted?
-{% highlight js %}
+
+```js
 $('.gfield_checkbox input[value="none"]').change(function() {
   $(this).parents('.gfield_checkbox').find('input:checkbox').not(this).prop('checked', false).prop('disabled', $(this)[0].checked);
 });
-{% endhighlight %}
+```
 
 He had a group of checkboxes:
 
@@ -69,35 +70,39 @@ Each time a checkbox in the group is checked:
 
 We loop through all of the checked boxes. For each element in the loop we evaluate this statement to determine if we should uncheck it:
 
+<!--
 $$
 A = \text{User checked "none of the above"}\\
 B = \text{Current element in the loop is "none of the above"}\\
 A \oplus B \equiv (A \rightarrow B) \rightarrow (\neg(B \rightarrow A))
 $$
+-->
 
 or:
 
-{% highlight javascript %}
+```js
 if (A^B) {
   // uncheck everything else
 }
-{% endhighlight %}
+```
 
 If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). I highly recommend getting familiar with all your logical operators. In this case an exclusive OR saves us from:
 
+<!--
 $$
 A = \text{User checked "none of the above"}\\
 B = \text{Current element in the loop is "none of the above"}\\
 (\neg A \wedge B) \vee (A \wedge \neg B)
 $$
+-->
 
 or this confusing mess:
 
-{% highlight javascript %}
+```js
 if ((!A && B) || (A && !B)) {
   // uncheck everything else
 }
-{% endhighlight %}
+```
 
 ## Conclusions
 

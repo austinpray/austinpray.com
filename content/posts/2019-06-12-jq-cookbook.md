@@ -1,5 +1,4 @@
 ---
-layout: post 
 title: "jq Cookbook" 
 date: 2019-06-12
 ---
