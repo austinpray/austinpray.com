@@ -32,4 +32,15 @@ defaults:
       layout: post
       author: "Austin Pray"
 
-exclude: [vendor, Dockerfile, docker-compose.yml, .editorconfig, .gitignore, CNAME, Gemfile, Gemfile.lock, README.md, .idea]
+exclude:
+  - .editorconfig
+  - .gitignore
+  - .idea
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docker-compose.yml
+  - _projects
+  - vendor

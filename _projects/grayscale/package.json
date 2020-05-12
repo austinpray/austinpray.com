@@ -1,0 +1,17 @@
+{
+  "name": "grayscale",
+  "version": "1.0.0",
+  "main": "lib.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Austin Pray <austin@austinpray.com>",
+  "license": "MIT",
+  "dependencies": {
+    "d3-color": "^1.4.1",
+    "d3-hsv": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2"
+  }
+}
