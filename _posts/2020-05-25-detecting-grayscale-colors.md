@@ -774,7 +774,9 @@ These colors sit at the threshold of what this function considers "gray".
 
 {% include 2020-05-25-detecting-grayscale-colors/final-table.html %}
 
-Looking pretty good to me! It is notable that this function matches:
+Looking pretty good to me!
+
+### Color palettes classified as gray
 
 #### Bootstrap grays ✅
 
@@ -789,22 +791,6 @@ Looking pretty good to me! It is notable that this function matches:
 <li><code>gray-800: <span data-color>#343a40</span></code></li>
 <li><code>gray-900: <span data-color>#212529</span></code></li>
 </ul>
-
-#### Tailwind CSS "grays" ✅
-
-<ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));">
-<li>100: <code data-color>#F7FAFC</code></li>
-<li>200: <code data-color>#EDF2F7</code></li>
-<li>300: <code data-color>#E2E8F0</code></li>
-<li>400: <code data-color>#CBD5E0</code></li>
-<li>500: <code data-color>#A0AEC0</code></li>
-<li>600: <code data-color>#718096</code></li>
-<li>700: <code data-color>#4A5568</code></li>
-<li>800: <code data-color>#2D3748</code></li>
-<li>900: <code data-color>#1A202C</code></li>
-</ul>
-
-(matching these kinda made my blue hue edgecases kinda bogus looking: whatever.)
 
 #### PANTONE cool grays ✅
 
@@ -838,6 +824,103 @@ Looking pretty good to me! It is notable that this function matches:
 <li>11C: <code data-color>#6e6259</code></li>
 </ul>
 
+#### CSS Colors ✅
+
+<ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));">
+<li><code>black <span data-color>#000000 </span></code></li>
+<li><code>silver <span data-color>#c0c0c0 </span></code></li>
+<li><code>gray <span data-color>#808080 </span></code></li>
+<li><code>white <span data-color>#ffffff </span></code></li>
+<li><code>dimgray <span data-color>#696969 </span></code></li>
+<li><code>dimgrey <span data-color>#696969 </span></code></li>
+<li><code>darkgray <span data-color>#a9a9a9 </span></code></li>
+<li><code>darkgrey <span data-color>#a9a9a9 </span></code></li>
+<li><code>grey <span data-color>#808080 </span></code></li>
+<li><code>lightgray <span data-color>#d3d3d3 </span></code></li>
+<li><code>lightgrey <span data-color>#d3d3d3 </span></code></li>
+<li><code>aliceblue <span data-color>#f0f8ff </span></code></li>
+<li><code>gainsboro <span data-color>#dcdcdc </span></code></li>
+<li><code>ghostwhite <span data-color>#f8f8ff </span></code></li>
+<li><code>snow <span data-color>#fffafa </span></code></li>
+<li><code>whitesmoke <span data-color>#f5f5f5 </span></code></li>
+<li><code>seashell <span data-color>#fff5ee </span></code></li>
+<li><code>linen <span data-color>#faf0e6 </span></code></li>
+</ul>
+
+(I slightly disagree with `aliceblue` but gonna leave it for now)
+
+### Color palettes _not_ classified as gray
+
+A lot of these are blues with chroma values way above what I'm willing to match
+with the current implementation of the function.
+I could treat blues as special, but I'm gonna leave it be for now.
+
+#### CSS "Slate Gray" ❌
+
+I would like to match these guys eventually.
+
+<ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));">
+<li><code>lightslategray: <span data-color>#778899</span></code></li>
+<li><code>lightslategrey: <span data-color>#778899</span></code></li> 
+<li><code>slategray: <span data-color>#708090</span>     </code></li> 
+<li><code>slategrey: <span data-color>#708090</span>     </code></li> 
+</ul>
+
+#### Light CSS Colors ❌
+
+<ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));">
+<li><code>azure <span data-color>#f0ffff </span></code></li>
+<li><code>ivory <span data-color>#fffff0 </span></code></li>
+<li><code>floralwhite <span data-color>#fffaf0 </span></code></li>
+<li><code>honeydew <span data-color>#f0fff0 </span></code></li>
+<li><code>bisque <span data-color>#ffe4c4 </span></code></li>
+<li><code>blanchedalmond <span data-color>#ffebcd </span></code></li>
+<li><code>burlywood <span data-color>#deb887 </span></code></li>
+<li><code>cornsilk <span data-color>#fff8dc </span></code></li>
+<li><code>beige <span data-color>#f5f5dc </span></code></li>
+<li><code>antiquewhite <span data-color>#faebd7 </span></code></li>
+</ul>
+
+#### Tailwind CSS "grays" ❌
+
+Matching these made my blue hue edge cases kinda bogus looking. I tend to agree with my function above.
+These look like blue colors to me: not gray.
+
+<ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(13em, 1fr));">
+<li>100: <code data-color>#F7FAFC</code> ✅</li>
+<li>200: <code data-color>#EDF2F7</code> ✅</li>
+<li>300: <code data-color>#E2E8F0</code> ✅</li>
+<li>400: <code data-color>#CBD5E0</code> ❌</li>
+<li>500: <code data-color>#A0AEC0</code> ❌</li>
+<li>600: <code data-color>#718096</code> ❌</li>
+<li>700: <code data-color>#4A5568</code> ❌</li>
+<li>800: <code data-color>#2D3748</code> ❌</li>
+<li>900: <code data-color>#1A202C</code> ❌</li>
+</ul>
+
+If you wanted to match these guys you would need to lax your tolerances for blue hues.
+
+```js
+const hueToleranceStopsV2 = [
+  [0, 3.1], // red
+  [20, 3.1], // orange
+  [61.8, 8], // orange
+  [66, 7.49], // orange
+  [75, 6.8], // orange
+  [100, 2], // yellow-green
+  [180, 2], // green
+  [240, 5.4], // blue
+  [262, 14], // blue
+  [263, 14], // blue
+  [290, 6.5],
+  [310, 3.1], // red
+  [360, 3.1],
+];
+```
+
+Which looks like a much different curve:
+
+> ![tailwind hue curve](/assets/gray/hue-curve-tw.svg)
 
 ## What is this useful for?
 

@@ -61,8 +61,7 @@ const hueToleranceStopsV1 = [
   [100, 2], // yellow-green
   [180, 2], // green
   [240, 5.4], // blue
-  [262, 14], // blue
-  [263, 14], // blue
+  [250, 6.5], // blue
   [290, 6.5],
   [310, 3.1], // red
   [360, 3.1],
