@@ -935,7 +935,12 @@ version of this technique to automatically sort colors in a color palette picker
 
 ## Further Reading
 
-TODO
+- [David Briggs. "Dimensions of Colour"](http://www.huevaluechroma.com/index.php)
+- [Alexei Boronine. "Color Spaces for Human Beings"](https://www.boronine.com/2012/03/26/Color-Spaces-for-Human-Beings/)
+- [Charlie Loyd. "On Rainbows"](http://basecase.org/env/on-rainbows)
+- [Perceptual Science Group @ MIT](http://persci.mit.edu/)
+  - [Adelson, E.H. "Checkershadow Illusion"](http://persci.mit.edu/gallery/checkershadow)
+  - [Adelson, E.H. Lightness Perception and Lightness Illusions. (2000).](http://persci.mit.edu/pub_pdfs/gazzan.pdf)
 
 [d3-color]: https://github.com/d3/d3-color
 [`d3-color`]: https://github.com/d3/d3-color
