@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "jq Cookbook" 
+title: "Notes: jq Cookbook" 
 date: 2019-06-12
 ---
 
