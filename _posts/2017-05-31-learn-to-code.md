@@ -8,11 +8,11 @@ tags: coding
 
 >Hey austin. I have been interested into getting into coding, specifically back end coding. I was just wondering what would be the best way about getting started? And I need to buy a new laptop and was wondering what hardware would be best for me given all that. Also keep in mind all of this is on tha backdrop of zero program experience. Very novice at computers period really. Any advice you got would be much appreciated
  
-When learning to code you should be working backwards from some kind of understanding of what programming can do. Otherwise, you will quickly lose interest. Perhaps you won't lose interest, but the journey will be extremely boring. The best way to bridge this gap is to come up with something to build. Find a problem that interests you and try to build a piece of software to solve it.
+In order to make learning to code fun and rewarding, I recommend first finding a problem that interests you. Learn how to code until you can solve your problem.
  
 I began learning how to build websites in 2005. I was learning how to make basic flash animations and wanted to upload them to my own website like some of the other animators were doing. My success was measured by: “can people watch my little animations yet?” I learned how to successfully code and publish a website purely by trying to answer my own questions.
  
-- “How do people get a .com and how does that work?”
+- “How do people get a domain name and how does that work?”
 - “A website needs hosting, where do I get hosting?”
 - “How do I make text show up on a web page?”
 - “How do I change the color of the text on the page?”
