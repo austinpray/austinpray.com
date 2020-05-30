@@ -5,11 +5,11 @@ categories: hacks
 tags: slack slackbot perl
 ---
 
-I love [Slack][] and [Slackbot][]. As far as [Slackbot][] goes: I mostly use it to inject a bit of humor into the chat via the automatic responses feature.
+I love [Slack][] and [Slackbot][].
 
 ![Ridwan getting upset](/assets/slackbotridupset.png)
 
-## Basic Usage
+## Automatic responses
 
 There are a couple tricks you need to know about to get the most out of the
 automatic responses:
@@ -74,13 +74,13 @@ Will yield:
 ```
 How good is Ridwan at perl?,
 How good is Ridwan at python?,
-How good is Ridwan at golang?,
+How good is Ridwan at go?,
 How good is Austin at perl?,
 How good is Austin at python?,
-How good is Austin at golang?,
+How good is Austin at go?,
 How good is Darren at perl?,
 How good is Darren at python?,
-How good is Darren at golang?
+How good is Darren at go?
 ```
 
 ### example “aww yiss”
