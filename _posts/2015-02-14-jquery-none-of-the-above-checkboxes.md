@@ -54,7 +54,7 @@ There is nothing really wrong with the jquery one-liner my friend came up with. 
 1. When "none of the above" is checked: all of the other options become unchecked.
 2. When an option other than "none of the above" is selected and "none of the above" is already checked: "none of the above" should be automatically unchecked.
 
-## Over-engineered Solution
+## Solution
 
 ![gif of checkboxes](/assets/checkbox.gif)
 
@@ -83,7 +83,7 @@ if (A^B) {
 }
 {% endhighlight %}
 
-If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). I highly recommend getting familiar with all your logical operators. In this case an exclusive OR saves us from:
+If you are unfamiliar with logical operators: [XOR](https://en.wikipedia.org/wiki/Exclusive_or). In this case an exclusive OR saves us from:
 
 $$
 A = \text{User checked "none of the above"}\\
