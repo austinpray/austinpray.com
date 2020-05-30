@@ -17,12 +17,10 @@ compiled assets and each method's respective gotchas.
 
 ## General Rules of Thumb
 
-- __Never commit compiled files to source control.__ Believe it or not, *source*
-    control is for *source* files. 
-    1. Compiled files in a repo make it difficult to use the merge and rebase
-    features in git.
-    2. Compiled files muddy the history and increase the size of the repo.
-    3. It just doesn't make sense to put "binaries" in your *source* control.
+- __Never commit compiled files to source control.__
+    1. Compiled files in a repo make it difficult to merge and rebase branches.
+    2. Compiled files muddy the history and increase the file size of the repo.
+    3. It just doesn't make sense to put "binaries" in your *source* control unless you have some kind of specific vendoring strategy in mind.
 - __Deployments are completely automated and driven by your version control
     repository.__ Whether you are using something like
     [Capistrano](http://capistranorb.com/), a [hand-rolled git deploy
@@ -172,8 +170,6 @@ Automatically build and update your docs.
 There are lots of ways to skin this cat. The right solution depends heavily on
 the context of the project. The good news is: if you are doing _something_
 resembling any of the above you are probably on the right track.
-
-How do you run your builds?
 
 [gulp]: http://gulpjs.com/
 [grunt]: http://gruntjs.com/
