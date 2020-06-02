@@ -2,6 +2,7 @@
 layout: post 
 title: "Detecting Grayscale Colors" 
 date: 2020-05-25
+redirect_from: "/gray"
 ---
 
 <style>

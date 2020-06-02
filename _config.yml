@@ -44,3 +44,6 @@ exclude:
   - docker-compose.yml
   - _projects
   - vendor
+
+plugins:
+  - jekyll-redirect-from
