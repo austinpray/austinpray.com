@@ -1,5 +1,9 @@
-_site
-.sass-cache
-
-node_modules
+.bundle/
+.claude-user
 .idea
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+_site/
+node_modules/
+vendor/
