@@ -21,7 +21,7 @@ RUN apt-get update \
 
 # Create the user
 RUN groupadd --gid $USER_GID $USERNAME \
- && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME --shell /usr/bin/zsh
+
 
 USER $USERNAME
 

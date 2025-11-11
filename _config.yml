@@ -1,16 +1,15 @@
 # Site settings
 title: Austin Pray
-site_title: Austin Pray · Engineering Manager
-byline: writes software for the web.
+site_title: Austin Pray · Engineering Manager @ Mixpanel
 email: austin@austinpray.com
 description: >
-  Austin is a full stack developer focused on pushing the limits of the web as
-  a platform for rich interactive experiences.
+  Austin loves building teams, tools, and platforms that empower others to do
+  their best work.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://austinpray.com" # the base hostname & protocol for your site
 github_username:  austinpray
 work_github_username:  austinpray-mixpanel
-#stackoverflow: "https://stackoverflow.com/users/1585343/austin-pray"
+linkedin: "https://linkedin.com/in/austin-pray"
 
 repo_baseurl: "https://github.com/austinpray/austinpray.com/blob/gh-pages/"
 repo_editurl: "https://github.com/austinpray/austinpray.com/edit/gh-pages/"

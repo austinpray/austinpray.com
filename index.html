@@ -10,12 +10,16 @@ nofooter: true
 </p>
 {% if site.github_username %}
 <p>
-  <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }} on GitHub</a>
+  GitHub: 
+  <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>
+  {% if site.github_username %}
+  or <a href="https://github.com/{{ site.work_github_username }}">@{{ site.work_github_username }}</a>
+  {% endif %}
 </p>
 {% endif %}
-{% if site.stackoverflow %}
+{% if site.linkedin %}
 <p>
-  <a href="{{ site.stackoverflow }}">Stack Overflow</a>
+  <a href="{{ site.linkedin }}">LinkedIn</a>
 </p>
 {% endif %}
 
