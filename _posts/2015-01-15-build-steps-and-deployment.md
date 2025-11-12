@@ -1,9 +1,10 @@
 ---
-layout: post 
-title: "Build Steps and Deployment" 
+layout: post
+title: "Build Steps and Deployment"
 date: 2015-01-15
 categories: ops
-tags: gulp 
+tags: devops
+lead: "Pretty antiquated now, but a fun snapshot of how I used to think about deployment patterns. Some wisdom still holds up."
 ---
 
 _Based on the discussion over here:

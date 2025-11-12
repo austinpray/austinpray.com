@@ -1,8 +1,10 @@
 ---
-layout: post 
-title: "Detecting Grayscale Colors" 
+layout: post
+title: "Detecting Grayscale Colors"
 date: 2020-05-25
 redirect_from: "/gray"
+tags: algorithms
+lead: "How do you detect gray colors in code? Starts simple, gets complicated fast when you consider human color perception."
 ---
 
 <style>

@@ -1,8 +1,9 @@
 ---
-layout: post 
-title: "Make Slackbot Respond to Regex" 
+layout: post
+title: "Make Slackbot Respond to Regex"
 categories: hacks
-tags: slack slackbot perl
+tags: slack hacks
+lead: "Quick hack: generate all regex permutations and make Slackbot respond to flexible patterns."
 ---
 
 I love [Slack][] and [Slackbot][].

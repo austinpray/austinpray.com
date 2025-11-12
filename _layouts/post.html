@@ -10,6 +10,12 @@ layout: default
       {% if page.path %} • <a href="{{ site.repo_baseurl }}{{ page.path }}">View Sauce</a>{% endif %}
       {% if page.path %} • <a href="{{ site.repo_editurl }}{{ page.path }}">Edit</a>{% endif %}
       {% if page.meta %} • {{ page.meta }}{% endif %}
+      {% if page.tags and page.tags.size > 0 %}
+        •
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      {% endif %}
     </p>
   </header>
 

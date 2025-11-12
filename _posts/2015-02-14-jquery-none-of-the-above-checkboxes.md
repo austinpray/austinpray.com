@@ -2,8 +2,9 @@
 layout: post 
 title: "“None of the Above” Checkbox with jQuery" 
 categories: javascript
-tags: jquery forms
+tags: ui
 math: true
+lead: "A common pattern that's often overcomplicated. Here's a simple solution using XOR logic."
 ---
 
 ## Demo

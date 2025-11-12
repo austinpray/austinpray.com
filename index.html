@@ -3,14 +3,13 @@ layout: default
 nofooter: true
 ---
 
-<h3>Contact</h3>
-
+<h2>Contact</h2>
 <p>
   <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 </p>
 {% if site.github_username %}
 <p>
-  GitHub: 
+  GitHub:
   <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>
   {% if site.github_username %}
   or <a href="https://github.com/{{ site.work_github_username }}">@{{ site.work_github_username }}</a>
@@ -23,16 +22,29 @@ nofooter: true
 </p>
 {% endif %}
 
-<h3>Read</h3>
-<ul>
+<h2>Read</h2>
+<ul class="posts">
   {% for post in site.posts %}
-  <li style="margin-bottom: 0.75em;">
-    <a style="text-decoration: none" href="{{ post.url | prepend: site.baseurl }}">
-      <small><time style="font-family: monospace">{{ post.date | date: "%b %-d, %Y" }}</time></small>
-    </a>
-    <a href="{{ post.url | prepend: site.baseurl }}" style="display: block; margin-left: 0.5em">
-      {{ post.title }}
-    </a>
+  <li class="post">
+      <h3>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+        </a>
+      </h3>
+      {% if post.lead %}
+      <p style="margin: 0 0 10px;">
+        {{ post.lead }}
+      </p>
+      {% endif %}
+      <small>
+        <time style="font-family: monospace">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% if post.tags and post.tags.size > 0 %}
+          ·
+          {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}
+      </small>
   </li>
   {% endfor %}
 </ul>

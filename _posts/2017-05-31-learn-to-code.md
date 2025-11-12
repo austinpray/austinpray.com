@@ -1,9 +1,10 @@
 ---
-layout: post 
-title: "Learn to Code" 
+layout: post
+title: "Learn to Code"
 date: 2017-05-31
 categories: coding
-tags: coding
+tags: career
+lead: "Evergreen advice for absolute beginners on learning to code, what languages to pick, and what equipment you need."
 ---
 
 >Hey austin. I have been interested into getting into coding, specifically back end coding. I was just wondering what would be the best way about getting started? And I need to buy a new laptop and was wondering what hardware would be best for me given all that. Also keep in mind all of this is on tha backdrop of zero program experience. Very novice at computers period really. Any advice you got would be much appreciated
