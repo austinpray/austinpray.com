@@ -1,0 +1,7 @@
+- title: Enforcing required checks on conditional CI jobs in a GitHub monorepo
+  date: 2023-04-28 00:00:00 +0000
+  external_url: https://medium.com/mixpaneleng/enforcing-required-checks-on-conditional-ci-jobs-in-a-github-monorepo-8d4949694340
+  lead: GitHub's required status checks branch protection rule doesn't work with conditional CI jobs. At Mixpanel we built a GitHub App to plug this gap. I'm assuming everyone using GitHub Actions in a monorepo on GitHub at scale has run into this problem at some point.
+  tags:
+    - devops
+    - mixpanel

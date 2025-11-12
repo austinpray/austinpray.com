@@ -24,10 +24,15 @@ nofooter: true
 
 <h2>Read</h2>
 <ul class="posts">
-  {% for post in site.posts %}
+  {% assign posts = site.posts | concat: site.data.external_posts | sort: "date" | reverse %}
+  {% for post in posts %}
   <li class="post">
       <h3>
+        {% if post.external_url %}
+        <a href="{{ post.external_url }}">
+        {% else %}
         <a href="{{ post.url | prepend: site.baseurl }}">
+        {% endif %}
         {{ post.title }}
         </a>
       </h3>
