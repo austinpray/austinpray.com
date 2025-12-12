@@ -1,6 +1,8 @@
 <hr/>
 <footer style="font-size: 80%">
   <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-  {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">@austinpray on GitHub</a>{% endif %}
-  {% if site.stackoverflow %}<a href="{{ site.stackoverflow }}">Stack Overflow</a>{% endif %}
+  {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>{% endif %}
+  {% if site.work_github_username %}<a href="https://github.com/{{ site.work_github_username }}">@{{ site.work_github_username }}</a>{% endif %}
+  {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+  <a href="{{ "/feed.xml" | relative_url }}">RSS Feed</a>
 </footer>
